@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Patron;
+  src: url("/Fonts/PatronTRIAL-Regular.otf") format("opentype");
+  src: url("/Fonts/PatronTRIAL-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+h1 {
+  font-family: Patron;
+  font-size: 24px; }
+
+h2 {
+  font-size: 20px; }
+
+/*# sourceMappingURL=Fonts.css.map */
