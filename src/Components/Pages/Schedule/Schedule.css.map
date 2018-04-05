@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,SAAU;EACR,KAAK,EAAE,OAAO",
+"sources": ["Schedule.scss"],
 "names": [],
 "file": "Schedule.css"
 }

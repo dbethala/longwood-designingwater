@@ -8,7 +8,9 @@ class Venue extends React.Component {
         return (
             <div class="venuePageWrapper">
                 <Header />
-                <Title title="Venue"/>
+                <div className="page-title">
+                    <h1 className="page-title venue">Venue</h1>
+                </div>
                 <Footer />
             </div>
         );

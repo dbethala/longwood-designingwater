@@ -1,0 +1,85 @@
+body {
+	font: Patron, Helvetica, sans-serif;
+	font-weight: normal;
+	}
+	
+p {
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	margin-top: 24px;
+	}
+	
+.schedule {
+	color: #37E7FD;
+	}
+	
+.speakers {
+	color: #B2E52D;
+	}
+	
+.venue {
+	color: #35F4CF;
+	}
+	
+.register {
+	color: #C6C026;
+	}
+
+/* for page titles */
+h1 {
+	font-size: 124px;
+	line-height: 124px; 
+	}
+	
+/* for large sections, such as days on the schedule */
+h2 {
+	font-size: 30px;
+	line-height: 30px;
+	letter-spacing: -0.015em;	
+	}
+
+/* for smaller sections, menu, and intro */
+h3 {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0;
+	}	
+
+/* for in-page nav */	
+h4 {
+	font-size: 18px;
+	line-height: 22px;	
+	}
+	
+	
+	
+/* IPHONE */
+
+p {
+	font-size: 16px;
+	line-height: 23px;
+	margin-top: 23px;
+	}
+
+h1 {
+	font-size: 56px;
+	line-height: 66px; 
+	}
+	
+h2 {
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: 0;
+	}
+	
+h3 {
+	font-size: 20px;
+	line-height: 26px;
+	}
+	
+h4 {
+	font-size: 14px; 
+	}
+	
+

@@ -1,4 +1,9 @@
-.welcome-banner {
+.homeDivWrapper {
   background-image: url("../../Assets/homepage-background.jpg"); }
+
+#home-intro-1 {
+  position: relative;
+  align-content: right;
+  margin-bottom: 80px; }
 
 /*# sourceMappingURL=Home.css.map */
