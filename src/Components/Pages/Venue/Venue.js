@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
+import Title from '../../Title';
 
 class Venue extends React.Component {
     render() {
         return (
-            <div class="registerPage">
+            <div class="venuePageWrapper">
                 <Header />
-                <h1>Venue</h1>
+                <Title title="Venue"/>
                 <Footer />
-                </div>
+            </div>
         );
     }
 }

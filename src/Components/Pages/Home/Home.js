@@ -2,31 +2,26 @@ import React, { Component } from 'react';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 import './Home.css';
-import '../../../Global Stylesheets/Global.css'
-import '../../../Global Stylesheets/Fonts.css'
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import '../../../Global Stylesheets/Global.css';
+import '../../../Global Stylesheets/Fonts.css';
+import { Responseive as ResponsiveGridLayout } from 'react-grid-layout';
 
-class Home extends React.Component {
+class Home extends React.Component{
     render() {
         return (
-            <div className="homeDivWrapper">
-                <Header />
-            <Grid fluid>
-                <Row>
-                    <div> <Col xs={6} md={8} lg={18} />a
-                    b
-                    c
-                    d</div>
-                    <div> <Col xs={6} md={8} lg={18} />a
-                        b
-                        c
-                        d</div>
-                </Row>
-            </Grid>
-            <Footer/>
-            </div>
+            <ResponsiveGridLayout className="layout" layouts={layouts}>
+                <div className="homeDivWrapper">
+                    <Header />
+                    <div className="body" id="homeBody">
+                        <body>
+                            <div className="welcome-banner">
+                            </div>
+                        </body>
+                    </div>
+                    <Footer />
+                </div>
+            </ResponsiveGridLayout>
         );
     }
 }
-
 export default Home;
