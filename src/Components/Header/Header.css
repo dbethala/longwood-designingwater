@@ -1,12 +1,24 @@
 #designing-water-header-text {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .header-link {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 ul {
-  list-style-type: none; }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+li {
+  display: inline;
+}
+
+nav {
+  float: right;
+}
 /*# sourceMappingURL=Header.css.map */

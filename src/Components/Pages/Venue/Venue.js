@@ -2,15 +2,14 @@ import React, { Component } from 'react';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 import Title from '../../Title';
+import '../../../Global Stylesheets/lw01_css_032818mm.css'
 
 class Venue extends React.Component {
     render() {
         return (
-            <div class="venuePageWrapper">
+            <div className="venuePageWrapper">
                 <Header />
-                <div className="page-title">
-                    <h1 className="page-title venue">Venue</h1>
-                </div>
+                <Title title="Venue" className="venue"/>
                 <Footer />
             </div>
         );

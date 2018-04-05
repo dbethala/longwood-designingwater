@@ -10,9 +10,7 @@ class Schedule extends React.Component {
         return (
             <div class="schedulePageWrapper">
                 <Header />
-                <div className="site-title-schedule">
-                    <h1 className="schedule"> Schedule</h1>
-                </div>
+                <Title title="Schedule" className="schedule" />
                 <Footer />
             </div>
         );
