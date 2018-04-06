@@ -16,8 +16,15 @@ ul {
 
 li {
   display: inline;
+  margin: 10px;
 }
 
 nav {
-  float: right
+  float: right;
+  position: relative;
+  bottom:80px;
+}
+
+.site-header {
+  display: inline;
 }

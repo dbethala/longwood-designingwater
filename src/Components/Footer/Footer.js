@@ -8,10 +8,7 @@ export class Footer extends Component{
         return (
             <div className="site-footer">
                 <div className="longwood-footer-logo-region">
-                    <img id="longwood-footer-logo" src={ LongwoodLogo } alt="Longwood Gardens"/>
-                </div>
-                <div className="aar-footer-logo-region">
-                    <img id="aar-footer-logo" src={ AARLogo } alt="American Academy in Rome"/>
+                    <img id="longwood-footer-logo" src={ LongwoodLogo } alt="Longwood Gardens"/> <img id="aar-footer-logo" src={ AARLogo } alt="American Academy in Rome"/>
                 </div>
             </div>
         )

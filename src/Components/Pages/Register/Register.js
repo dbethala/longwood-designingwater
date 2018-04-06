@@ -9,9 +9,7 @@ class Register extends React.Component {
         return (
             <div class="registerPage">
                 <Header />
-                <div className="page-title">
-                    <h1 className="page-title register">Register</h1>
-                </div>
+                <Title title="Register" className="register" />
                 <Footer />
                 </div>
         );
