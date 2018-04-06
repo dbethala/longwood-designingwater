@@ -8,9 +8,12 @@ import './Schedule.css'
 class Schedule extends React.Component {
     render() {
         return (
-            <div class="schedulePageWrapper">
+            <div className="schedulePageWrapper">
                 <Header />
-                <Title title="Schedule" className="schedule" />
+                <div className="scheduleDateRange">
+                <h4 className="schedule" id="date-range">Wednesday, October 17-Thursday, October 18</h4>
+                </div>
+                <Title title="schedule" className="schedule" />
                 <Footer />
             </div>
         );

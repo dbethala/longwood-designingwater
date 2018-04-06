@@ -1,21 +1,38 @@
 @font-face {
-  font-family: Patron;
-  src: url("/Fonts/PatronTRIAL-Regular.otf") format("opentype");
-  src: url("/Fonts/PatronTRIAL-Regular.woff") format("woff");
+  font-family: 'Patron Regular';
+  src: url("./Fonts/Patron MG [WEB]/PatronWEB-Regular.woff") format("woff");
+  src: url("./Fonts/Patron MG [WEB]/PatronWEB-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Patron Italic';
+  src: url("./Fonts/Patron MG [WEB]/PatronWEB-Italic.woff") format("woff");
+  src: url("./Fonts/Patron MG [WEB]/PatronWEB-Italic.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 h1 {
-  font-family: 'Patron';
+  font-family: 'Patron Regular';
   font-size: 24px;
 }
 
 h2 {
   font-size: 20px;
+  font-family: 'Patron Regular';
+}
+
+h3 {
+  font-family: 'Patron Regular';
+}
+
+h4 {
+  font-family: 'Patron Regular';
 }
 
 p {
-  font-family: 'Patron';
+  font-family: 'Patron Regular';
 }
 /*# sourceMappingURL=Fonts.css.map */

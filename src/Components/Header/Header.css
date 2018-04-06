@@ -28,4 +28,8 @@ nav {
 .site-header {
   display: inline;
 }
+
+.row {
+  display: flex;
+}
 /*# sourceMappingURL=Header.css.map */

@@ -10,9 +10,7 @@ class Speaker extends React.Component {
         return (
             <div id="speakersPageWrapper">
                 <Header />
-                <div className="page-title">
-                    <h1 className="page-title speakers">Speakers</h1>
-                </div>
+                <Title title='speakers' className='speakers' />
                 <Footer />
             </div>
         )
