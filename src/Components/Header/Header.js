@@ -11,26 +11,28 @@ class Header extends React.Component {
             <div className="site-header">
                 <title>Designing Water</title>
                 <div className="row">
-                    <div className="col-1"></div>
+                    <div className="col-1">
                         <h3 className="site-title">
-                            <Link id="designing-water-header-text" to="/">Designing Water</Link>
+                            <Link id="designing-water-header-text" to="/" style= {{whiteSpace: 'nowrap'}}>Designing Water</Link>
                         </h3>
+                    </div>
                     <div className="col-2"></div>
                     <div className="col-3"></div>
                     <div className="col-4"></div>
                     <div className="col-5"></div>
                     <div className="col-6">
-                    <nav>
-                    <ul>
-                        <h3>
+                        <nav>
+                            <ul>
+                                <h3>
 
-                            <li><Link className="header-link" to="/schedule">Schedule</Link></li>
-                            <li><Link className="header-link" to="/speakers">Speakers</Link></li>
-                            <li><Link className="header-link" to="/venue">Venue</Link></li>
-                            <li><Link className="header-link" to="/register">Register</Link></li>
-                        </h3>
-                    </ul>
-                </nav></div>
+                                    <li><Link className="header-link" to="/schedule">Schedule</Link></li>
+                                    <li><Link className="header-link" to="/speakers">Speakers</Link></li>
+                                    <li><Link className="header-link" to="/venue">Venue</Link></li>
+                                    <li><Link className="header-link" to="/register">Register</Link></li>
+                                </h3>
+                            </ul>
+                        </nav>
+                    </div>
                     <div className="col-7"></div>
                     <div className="col-8"></div>
                     <div className="col-9"></div>

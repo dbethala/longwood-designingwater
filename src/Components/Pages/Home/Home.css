@@ -1,6 +1,6 @@
 .homepage-banner {
   background-image: url("../../Assets/homepage-background.jpg");
-  background-size: 100vw 100vh;
+  background-size: 100vw 1200px;
   background-repeat: no-repeat;
 }
 
@@ -12,10 +12,25 @@
 
 #designing {
   color: white;
+  float: left;
 }
 
 #water {
   color: white;
-  text-align: right;
+  float: right;
+  right: 0px;
+  left: 150px;
+  margin-bottom: 220px;
+  padding-bottom: 170px;
+  position: relative;
+}
+
+.heading-date {
+  color: white;
+  font-weight: normal;
+  position: relative;
+  margin-bottom: 90px;
+  padding-bottom: 90px;
+  top: 800px;
 }
 /*# sourceMappingURL=Home.css.map */

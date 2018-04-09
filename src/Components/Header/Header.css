@@ -21,8 +21,9 @@ li {
 
 nav {
   float: right;
-  position: relative;
-  bottom: 80px;
+  right: 0px;
+  top: 20px;
+  position: absolute;
 }
 
 .site-header {
