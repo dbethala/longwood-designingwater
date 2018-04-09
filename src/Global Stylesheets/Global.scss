@@ -1,33 +1,9 @@
+.w3-row {
+    margin-left: 28px;
+    border: 1px solid #00b388;
+  }
 
-* {
-    box-sizing: border-box;
-}
-
-.row {
-    display: flex;
-}
-
-[class*="col-"] {
-    float: left;
-    padding: 20px;
-    border: 1px solid red;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.col-1 {width: 8.33%; margin-left:28px; margin-right:20px;}
-.col-2 {width: 8.33%; margin-right:20px;}
-.col-3 {width: 8.33%; margin-right:20px;}
-.col-4 {width: 8.33%; margin-right:20px;}
-.col-5 {width: 8.33%; margin-right:20px;}
-.col-6 {width: 8.33%; margin-right:20px;}
-.col-7 {width: 8.33%; margin-right:20px;}
-.col-8 {width: 8.33%; margin-right:20px;}
-.col-9 {width: 8.33%; margin-right:20px;}
-.col-10 {width: 8.33%;margin-right:20px;}
-.col-11 {width: 8.33%; margin-right:20px;}
-.col-12 {width: 8.33%; margin-right:20px;}
+.w3-col {
+    margin-right: 20px;
+    border: 1px solid #00b388;
+  }
