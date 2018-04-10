@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Navigation from '../Navigation';
 import '../../Global Stylesheets/w3.css';
 import '../../Global Stylesheets/Fonts.css';
 import { Link } from 'react-router-dom';
@@ -14,7 +15,7 @@ class Header extends React.Component {
                 <div className=" w3-row">
                     <div className="w3-col l1 col1">
                         <h3 className="site-title">
-                            <Link id="designing-water-header-text" to="/" style= {{whiteSpace: 'nowrap'}}>Designing Water</Link>
+                            <Link id="designing-water-header-text" to="/" style= {{whiteSpace: 'nowrap', color: this.props.navTextColor}}>Designing Water</Link>
                         </h3>
                     </div>
                     <div className="w3-col l1 col2"></div>
@@ -22,17 +23,7 @@ class Header extends React.Component {
                     <div className="w3-col l1 col4"></div>
                     <div className="w3-col l1 col5"></div>
                     <div className="w3-col l1 col6">
-                        <nav>
-                            <ul>
-                                <h3>
-
-                                    <li><Link className="header-link" to="/schedule">Schedule</Link></li>
-                                    <li><Link className="header-link" to="/speakers">Speakers</Link></li>
-                                    <li><Link className="header-link" to="/venue">Venue</Link></li>
-                                    <li><Link className="header-link" to="/register">Register</Link></li>
-                                </h3>
-                            </ul>
-                        </nav>
+                        <Navigation navTextColor={this.props.navTextColor}/>
                     </div>
                     <div className="w3-col l1 col7"></div>
                     <div className="w3-col l1 col8"></div>

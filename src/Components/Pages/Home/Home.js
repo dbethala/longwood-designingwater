@@ -24,11 +24,11 @@ class Home extends React.Component {
             <div className="homePage">
                 <div className="homepage-banner">
                     <div className="header-region">
-                        <Header/>
+                        <Header navTextColor="white"/>
                     </div>
                     <div className="w3-row">
                         <div className="w3-col m1">
-                            <h1 className="welcome-banner-text" id="designing">designing <br /></h1>
+                            <h1 className="welcome-banner-text" id="designing">designing<br /></h1>
                         </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
@@ -83,8 +83,7 @@ class Home extends React.Component {
                         <div className="w3-col l1 col1"></div>
                         <div className="w3-col l1 col2"></div>
                         <div className="w3-col l1 col3"></div>
-                        <div className="w3-col l1 col4"></div>
-                        <div className="w3-col l1 col5">
+                        <div className="w3-col l1 col4">
                             <h3 className="body-paragraphs" id="home-intro-1" >
                                 Water is the most compelling and consquential design matter of<br/>
                                 the 21st century. Not just a life source of, water<br/>
@@ -99,6 +98,7 @@ class Home extends React.Component {
                                 regional systems.
                             </h3>
                         </div>
+                        <div className="w3-col l1 col5"></div>
                         <div className="w3-col l1 col6"></div>
                         <div className="w3-col l1 col7"></div>
                         <div className="w3-col l1 col8"></div>
@@ -108,30 +108,30 @@ class Home extends React.Component {
                         <div className="w3-col l1 col12"></div>
                     </div>
                 <div className="w3-row body-section-2">
-                        <div className="w3-col col1">
+                        <div className="w3-col l1 col1">
                             <h2 className="subheading" style={{whiteSpace: 'nowrap'}}>From the Curator</h2>
                             <p className="body-paragraphs" id="home-intro-2">
                             </p>
                         </div>
-                        <div className="w3-col col2"></div>
-                        <div className="w3-col col3"></div>
-                        <div className="w3-col col4"></div>
-                        <div className="w3-col col5"></div>
-                        <div className="w3-col col6"></div>
-                        <div className="w3-col col7"></div>
-                        <div className="w3-col col8"></div>
-                        <div className="w3-col col9"></div>
-                        <div className="w3-col col10"></div>
-                        <div className="w3-col col11"></div>
-                        <div className="w3-col col12"></div>
+                        <div className="w3-col l1 col2"></div>
+                        <div className="w3-col l1 col3"></div>
+                        <div className="w3-col l1 col4"></div>
+                        <div className="w3-col l1 col5"></div>
+                        <div className="w3-col l1 col6"></div>
+                        <div className="w3-col l1 col7"></div>
+                        <div className="w3-col l1 col8"></div>
+                        <div className="w3-col l1 col9"></div>
+                        <div className="w3-col l1 col10"></div>
+                        <div className="w3-col l1 col11"></div>
+                        <div className="w3-col l1 col12"></div>
                     </div>
 
                     <div className="w3-row organizer-section">
-                        <div className="w3-col col1"></div>
-                        <div className="w3-col col2"></div>
-                        <div className="w3-col col3"></div>
-                        <div className="w3-col col4"></div>
-                        <div className="w3-col col5">
+                        <div className="w3-col l1 col1"></div>
+                        <div className="w3-col l1 col2"></div>
+                        <div className="w3-col l1 col3"></div>
+                        <div className="w3-col l1 col4"></div>
+                        <div className="w3-col l1 col5">
                             <h2 className="subheading" id="orgaznizerHeading">Organizers</h2>
                             <div className="longwood-description">
                                 <img src={LongwoodLogoForBody} className="logo" id="homePageOrganizerLongwoodLogo" alt="Longwood Gardens" />    
@@ -145,13 +145,13 @@ class Home extends React.Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="w3-col col6"></div>
-                        <div className="w3-col col7"></div>
-                        <div className="w3-col col8"></div>
-                        <div className="w3-col col9"></div>
-                        <div className="w3-col col10"></div>
-                        <div className="w3-col col11"></div>
-                        <div className="w3-col col12"></div>
+                        <div className="w3-col l1 col6"></div>
+                        <div className="w3-col l1 col7"></div>
+                        <div className="w3-col l1 col8"></div>
+                        <div className="w3-col l1 col9"></div>
+                        <div className="w3-col l1 col10"></div>
+                        <div className="w3-col l1 col11"></div>
+                        <div className="w3-col l1 col12"></div>
                     </div>
                 <div className="footer-region">
                     <Footer/>

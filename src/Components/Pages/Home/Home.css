@@ -1,3 +1,8 @@
+#designing-water-header-text {
+  color: white;
+  text-decoration: none;
+}
+
 .homepage-banner {
   background-image: url("../../Assets/homepage-background.jpg");
   background-size: 100vw 1280px;
@@ -14,11 +19,17 @@
   color: white;
   float: left;
   position: relative;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  font-weight: normal;
 }
 
 #water {
   color: white;
   float: right;
+  position: relative;
+  margin-bottom: 200px;
+  font-weight: normal;
 }
 
 .heading-date {
@@ -26,11 +37,17 @@
   font-weight: normal;
   position: relative;
   margin-bottom: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
+  top: 70px;
 }
 
 .logo {
   width: 280px;
+}
+
+#home-intro-1 {
+  position: relative;
+  margin-top: 100px;
 }
 
 h2 {

@@ -12,7 +12,7 @@ export class Footer extends Component{
                     <div className="w3-row footer-section">
                         <div className="w3-col l1 col1">
                             <div className="longwood-footer-logo-region" style={{whiteSpace: 'nowrap'}}>
-                                <img id="longwood-footer-logo" src={ LongwoodLogo } alt="Longwood Gardens"/>  <img id="aar-footer-logo" src={ AARLogo } alt="American Academy in Rome"/>
+                                <img id="longwood-footer-logo" src={ LongwoodLogo } alt="Longwood Gardens"/> 
                             </div>
                         </div>
                         <div className="w3-col l1 col2"></div>
