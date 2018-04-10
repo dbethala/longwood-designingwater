@@ -80,32 +80,32 @@ class Home extends React.Component {
                     </div>       
                     </div>     
                 <div className="w3-row body-section-1">
-                        <div className="w3-col col1"></div>
-                        <div className="w3-col col2"></div>
-                        <div className="w3-col col3"></div>
-                        <div className="w3-col col4">
-                        <h3 className="body-paragraphs" id="home-intro-1" style={{whiteSpace: 'nowrap'}}>
-                            Water is the most compelling and consquential design matter of<br/>
-                            the 21st century. Not just a life source of, water<br/>
-                            has crucial social, cultural and symbiotic functions and plays an<br/>
-                            essential role in all living systems.<br/>
-                            <br/>
-                            <br/>
-                            International scholars and practitioners in garden design, landscape<br/>
-                            architecture, urban design, and ecology convene to<br/>
-                            discuss and advance concepts of and strategies for designing<br/>
-                            water from the scale of singular garden feature to integrated<br/>
-                            regional systems.
-                        </h3>
+                        <div className="w3-col l1 col1"></div>
+                        <div className="w3-col l1 col2"></div>
+                        <div className="w3-col l1 col3"></div>
+                        <div className="w3-col l1 col4"></div>
+                        <div className="w3-col l1 col5">
+                            <h3 className="body-paragraphs" id="home-intro-1" >
+                                Water is the most compelling and consquential design matter of<br/>
+                                the 21st century. Not just a life source of, water<br/>
+                                has crucial social, cultural and symbiotic functions and plays an<br/>
+                                essential role in all living systems.<br/>
+                                <br/>
+                                <br/>
+                                International scholars and practitioners in garden design, landscape<br/>
+                                architecture, urban design, and ecology convene to<br/>
+                                discuss and advance concepts of and strategies for designing<br/>
+                                water from the scale of singular garden feature to integrated<br/>
+                                regional systems.
+                            </h3>
                         </div>
-                        <div className="w3-col col5"></div>
-                        <div className="w3-col col6"></div>
-                        <div className="w3-col col7"></div>
-                        <div className="w3-col col8"></div>
-                        <div className="w3-col col9"></div>
-                        <div className="w3-col col10"></div>
-                        <div className="w3-col col11"></div>
-                        <div className="w3-col col12"></div>
+                        <div className="w3-col l1 col6"></div>
+                        <div className="w3-col l1 col7"></div>
+                        <div className="w3-col l1 col8"></div>
+                        <div className="w3-col l1 col9"></div>
+                        <div className="w3-col l1 col10"></div>
+                        <div className="w3-col l1 col11"></div>
+                        <div className="w3-col l1 col12"></div>
                     </div>
                 <div className="w3-row body-section-2">
                         <div className="w3-col col1">
