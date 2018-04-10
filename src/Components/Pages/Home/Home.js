@@ -21,7 +21,7 @@ import LongwoodLogoForBody from '../../Assets/LG-Logo-lockup_forweb.png';
 class Home extends React.Component {
     render() {
         return (
-            <div className="homePage">
+            <div className="homePage" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <div className="homepage-banner">
                     <div className="header-region">
                         <Header navTextColor="white"/>
