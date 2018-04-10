@@ -25,53 +25,60 @@ class Home extends React.Component {
                 <div className="homepage-banner">
                     <div className="header-region">
                         <Header/>
-                    </div>                
-                    <div className="w3-row welcome-banner">
-                        <div className="w3-col col1">
+                    </div>
+                    <div className="w3-row">
+                        <div className="w3-col m1">
                             <h1 className="welcome-banner-text" id="designing">designing <br /></h1>
                         </div>
-                        <div className="w3-col col2"></div>
-                        <div className="w3-col col3"></div>
-                        <div className="w3-col col4">
-                            <h2 className="heading-date" style={{whiteSpace: 'nowrap'}}>October 17-18, 2018</h2>
-                        </div>
-                        <div className="w3-col col5"></div>
-                        <div className="w3-col col6"></div>
-                        <div className="w3-col col7"></div>
-                        <div className="w3-col col8">
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                            <h1 className="welcome-banner-text" id="water">water
-                            </h1></div>
-                        <div className="w3-col col9"></div>
-                        <div className="w3-col col10"></div>
-                        <div className="w3-col col11"></div>
-                        <div className="w3-col col12"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
                     </div>
-                </div>
-                <div className="w3-row">
-                    <div className="w3-col m2 w3-green w3-center"><p>m2</p></div>
-                    <div className="w3-col m2 w3-red w3-center"><p>m2</p></div>
-                    <div className="w3-col m2 w3-blue w3-center"><p>m2</p></div>
-                    <div className="w3-col m2 w3-dark-grey w3-center"><p>m2</p></div>
-                    <div className="w3-col m2 w3-black w3-center"><p>m2</p></div>
-                    <div className="w3-col m2 w3-purple w3-center"><p>m2</p></div>
-                    </div> 
+
+                    <div className="w3-row">
+                        <div className="w3-col m1">
+                        </div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1">
+
+                            <h1 className="welcome-banner-text" id="water">water</h1>
+                        </div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                    </div>  
+
+                    <div className="w3-row">
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1">
+                            <h2 className="heading-date" style={{whiteSpace:'nowrap'}}>October 17-18, 2018</h2>
+                        </div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                    </div>       
+                    </div>     
                 <div className="w3-row body-section-1">
                         <div className="w3-col col1"></div>
                         <div className="w3-col col2"></div>
