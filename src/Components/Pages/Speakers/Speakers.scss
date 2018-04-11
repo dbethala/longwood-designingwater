@@ -10,6 +10,13 @@
     #speakerShortcuts {
         display: none;
     }
+
+    .pageTitle.speakers {
+        position: absolute;
+        top: 144px;
+        left: 0;
+        margin-left: 28px;
+    }
 }
 
 @media (min-width: 993px) and (max-width:1280px) {

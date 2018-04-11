@@ -5,10 +5,9 @@ import './Navigation.css';
 class Navigation extends React.Component {
     render () {
         return (
-            <nav>
+            <nav className="nav-large-screen">
                 <ul>
                     <h3>
-
                         <li><Link className="header-link to-schedule" to="/schedule" style={{color: this.props.navTextColor}}>Schedule</Link></li>
                         <li><Link className="header-link to-speakers" to="/speakers" style={{color: this.props.navTextColor}}>Speakers</Link></li>
                         <li><Link className="header-link to-venue" to="/venue" style={{color: this.props.navTextColor}}>Venue</Link></li>

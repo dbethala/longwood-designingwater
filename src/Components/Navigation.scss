@@ -3,3 +3,9 @@
     color: white;
     padding: 5px 5px
 }
+
+@media(max-width: 992px) {
+    .nav-large-screen {
+        display: none;
+    }
+}

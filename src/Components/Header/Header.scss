@@ -28,6 +28,15 @@ nav {
   display: flex;
 }
 
+@media(max-width: 992px){
+  .nav-large-screen {
+    display: none;
+  }
+  #navLarge {
+    display: none;
+  }
+}
+
 @media(min-width: 1280px) {
   nav {
     position: relative;

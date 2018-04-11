@@ -15,6 +15,7 @@ class Speaker extends React.Component {
                             <div className="speaker-alphabet-listing">
                                 <h4 className="speakers" id="alphaShortcuts"> <a href="#af">A-F</a> - <a href="#gm">G-M</a> - <a href="#nz">N-Z</a></h4>
                         </div>
+                        </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
@@ -35,7 +36,6 @@ class Speaker extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 col12"></div>
                         </div>
-                    </div>
                 <Title title='speakers' className='speakers' />
                 <Footer />
             </div>
