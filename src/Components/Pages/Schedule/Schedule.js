@@ -9,7 +9,7 @@ import Event from './Event';
 class Schedule extends React.Component {
     render() {
         return (
-            <div className="schedulePageWrapper">
+            <div className="schedulePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <Header navTextColor="black"/>
                 <div className="w3-row">
                         <div className="w3-col l1">
@@ -22,10 +22,10 @@ class Schedule extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
-                        <div className="w3-col l1"></div>
                         <div className="w3-col l1">
-                            <Title title="schedule" className="schedule" style={{marginRight: '20px'}}/>
+                        <Title title="schedule" className="schedule" style={{marginRight: '20px'}}/>
                         </div>
+                        <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
@@ -59,8 +59,11 @@ class Schedule extends React.Component {
                         <Event timestamp="5:00-6:30 pm" eventHeading="Longwood Gardens Fountain Tour" />
                         <Event timestamp="6:30-8:00 pm" eventHeading="Opening Dinner" />
                         <Event timestamp="8:00-9:00 pm" eventHeading="Fountain Show" /> 
+                        
 
                 </div>
+
+                <Footer />
             </div>
         );
     }

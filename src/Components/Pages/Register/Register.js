@@ -9,7 +9,7 @@ import '../../../Global Stylesheets/Global.css'
 class Register extends React.Component {
     render() {
         return (
-            <div className="registerPage">
+            <div className="registerPage" style={{maxWidth: '1280px', margin: '0 auto'}}>
             <div className="header-region">
                 <Header />
                 </div>

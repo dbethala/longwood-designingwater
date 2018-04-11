@@ -8,7 +8,7 @@ import '../../../Global Stylesheets/lw01_css_032818mm.css'
 class Speaker extends React.Component {
     render() {
         return (
-            <div id="speakersPageWrapper">
+            <div id="speakersPageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <Header />
                 <Title title='speakers' className='speakers' />
                 <Footer />

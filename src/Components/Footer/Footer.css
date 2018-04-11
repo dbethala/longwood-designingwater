@@ -2,9 +2,8 @@
   background-color: #000;
   position: relative;
   left: 0;
-  bottom: 0;
   width: 100%;
-  height: 184px;
+  margin-top: 300px;
 }
 
 #longwood-footer-logo {

@@ -7,7 +7,7 @@ import '../../../Global Stylesheets/lw01_css_032818mm.css'
 class Venue extends React.Component {
     render() {
         return (
-            <div className="venuePageWrapper">
+            <div className="venuePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <Header />
                 <Title title="Venue" className="venue"/>
                 <Footer />
