@@ -1,0 +1,49 @@
+.speakers {
+    color: #B2E52D;
+}
+
+#speakerShortcuts a,  #alphaShortcuts a{
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    #speakerShortcuts {
+        display: none;
+    }
+}
+
+@media (min-width: 993px) and (max-width:1280px) {
+
+    .speaker-alphabet-listing {
+        display: none;
+    }
+
+    #speakerShortcuts {
+        position: absolute;
+        margin-right: 20px;
+        right: 0;
+    }
+
+    .pageTitle.speakers {
+        position: fixed;
+        top: 260px;
+        left: 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .pageTitle.speakers {
+        position: fixed;
+        top: 260px;
+    }
+
+    .speaker-alphabet-listing {
+        display: none;
+    }
+
+    #speakerShortcuts {
+        position: relative;
+        margin-right: 20px;
+        right: 0;
+    }
+}

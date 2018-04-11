@@ -54,7 +54,6 @@ class Home extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1">
-
                             <h1 className="welcome-banner-text" id="water">water</h1>
                         </div>
                         <div className="w3-col l1"></div>

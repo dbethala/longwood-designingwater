@@ -1,3 +1,5 @@
+$breakpoint: 992px;
+
 .schedule {
   color: #37E7FD;
 }
@@ -6,9 +8,7 @@ nav {
   color: black;
 }
 
-
-
-@media screen and (max-width: 980px) {
+@media screen and (max-width: $breakpoint) {
   .pageTitle.schedule {
     position: absolute;
     top: 144px;
@@ -32,8 +32,8 @@ nav {
   
 }
 
-@media (min-width: 981px) {
-  h1, h2, h3, h4,  p {
+@media (min-width: $breakpoint) {
+  h1, h2, h3, h4, p {
     white-space: nowrap;
   }
 
@@ -52,5 +52,12 @@ nav {
     position: fixed;
     top: 260px;
     margin-right: 20px;
+  }
+}
+
+@media (min-width: $breakpoint) and (max-width: 1280px) {
+
+  .pageTitle.schedule {
+    right: 0;
   }
 }

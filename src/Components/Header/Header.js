@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 import './Header.css'
 import '../../Global Stylesheets/lw01_css_032818mm.css';
 import '../../Global Stylesheets/Global.css';
+import { menuCollapsed } from'../Assets/menu-black.png';
+import { menuOpen } from '../Assets/menu-white.png';
+import TitleText from './TitleText'
 
 class Header extends React.Component {
     render() {
@@ -14,9 +17,7 @@ class Header extends React.Component {
                 <title>Designing Water</title>
                 <div className=" w3-row">
                     <div className="w3-col l1 col1">
-                        <h3 className="site-title">
-                            <Link id="designing-water-header-text" to="/" style= {{whiteSpace: 'nowrap', color: this.props.navTextColor}}>Designing Water</Link>
-                        </h3>
+                        <TitleText navTextColor={this.props.navTextColor}/>
                     </div>
                     <div className="w3-col l1 col2"></div>
                     <div className="w3-col l1 col3"></div>
@@ -24,8 +25,9 @@ class Header extends React.Component {
                     <div className="w3-col l1 col5"></div>
                     <div className="w3-col l1 col6"></div>
                     <div className="w3-col l1 col7"></div>
-                    <div className="w3-col l1 col8">
+                    <div className="w3-col l1 col8">                   
                         <Navigation navTextColor={this.props.navTextColor}/>
+                        <img src='../Assets/menu-black.png' />
                     </div>
                     <div className="w3-col l1 col9"></div>
                     <div className="w3-col l1 col10"></div>

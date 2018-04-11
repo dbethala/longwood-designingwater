@@ -16,7 +16,7 @@ li {
 nav {
   float: left;
   right: 0px;
-  position: relative;
+  position: absolute;
 }
 
 .site-header {
@@ -25,5 +25,11 @@ nav {
 
 .row {
   display: flex;
+}
+
+@media (min-width: 1280px) {
+  nav {
+    position: relative;
+  }
 }
 /*# sourceMappingURL=Header.css.map */

@@ -6,7 +6,7 @@ nav {
   color: black;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 992px) {
   .pageTitle.schedule {
     position: absolute;
     top: 144px;
@@ -26,7 +26,7 @@ nav {
   }
 }
 
-@media (min-width: 981px) {
+@media (min-width: 992px) {
   h1, h2, h3, h4, p {
     white-space: nowrap;
   }
@@ -43,6 +43,12 @@ nav {
     position: fixed;
     top: 260px;
     margin-right: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+  .pageTitle.schedule {
+    right: 0;
   }
 }
 /*# sourceMappingURL=Schedule.css.map */
