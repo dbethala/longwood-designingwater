@@ -8,6 +8,10 @@ nav {
   color: black;
 }
 
+.event {
+  position: relative;
+}
+
 @media screen and (max-width: $breakpoint) {
   .pageTitle.schedule {
     position: absolute;
@@ -44,7 +48,7 @@ nav {
 
   #scheduleBody {
     position: relative;
-    top: 390px;
+    margin-top: 390px;
     margin-bottom: 100px;
   }
 
