@@ -14,7 +14,7 @@ class Schedule extends React.Component {
                 <div className="w3-row">
                         <div className="w3-col l1">
                             <div className="scheduleDateRange">
-                                <h4 className="schedule" id="date-range" style={{whiteSpace: 'nowrap'}} >Wednesday, October 17-Thursday, October 18</h4>
+                                <h4 className="schedule" id="date-range" style={{whiteSpace: 'nowrap'}} >Wednesday, October 17 &mdash; Thursday, October 18</h4>
                             </div>
                         </div>
                         <div className="w3-col l1"></div>

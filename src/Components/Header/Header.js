@@ -7,7 +7,7 @@ import './Header.css'
 import '../../Global Stylesheets/lw01_css_032818mm.css';
 import '../../Global Stylesheets/Global.css';
 import { menuCollapsed } from'../Assets/menu-black.png';
-import { menuOpen } from '../Assets/menu-white.png';
+import { menuOpen } from '../Assets/menu-black.png';
 import TitleText from './TitleText'
 
 class Header extends React.Component {
@@ -26,7 +26,7 @@ class Header extends React.Component {
                     <div className="w3-col l1 col6"></div>
                     <div className="w3-col l1 col7"></div>
                     <div className="w3-col l1 col8">                   
-                        <Navigation navTextColor={this.props.navTextColor}/>
+                        <Navigation navTextColor={this.props.navTextColor} className="nav-large-screen" id="navLarge"/>
                         <img src='../Assets/menu-black.png' />
                     </div>
                     <div className="w3-col l1 col9"></div>
