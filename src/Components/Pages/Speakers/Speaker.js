@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './Speakers.css';
-import Title from '../../Title'
-import Header from '../../Header/Header'
-import Footer from '../../Footer/Footer'
-import '../../../Global Stylesheets/lw01_css_032818mm.css'
+import Title from '../../Title';
+import Header from '../../Header/Header';
+import Footer from '../../Footer/Footer';
+import SpeakerBio from './SpeakerBio';
+import '../../../Global Stylesheets/lw01_css_032818mm.css';
 
 class Speaker extends React.Component {
     render() {
@@ -37,6 +38,10 @@ class Speaker extends React.Component {
                         <div className="w3-col l1 col12"></div>
                         </div>
                 <Title title='speakers' className='speakers' />
+
+                <div className="speakerBodySection">
+                    <SpeakerBio photoURL="'../Assets/menu-background.jpg'" altText="Latz" speakerName="Latz" speakerDesc="some text goes here" />
+                </div>
                 <Footer />
             </div>
         )

@@ -50,8 +50,6 @@ class Schedule extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 col12"></div>
                         </div>
-
-
                         <Event timestamp="3:00-3:30 pm" eventHeading="Welcome & Introductory Remarks" eventDesc={["Paul B. Redman, President and CEO of Longwood Gardens, ",<br/>,"and Mark Robbins, President and CEO of the American ",<br/>,"Academy in Rome"]} />
                         <Event timestamp="3:30-3:45 pm" eventHeading="Symposium Organization & Conceptual Framework" eventDesc={[<i>Julia Czerniak</i>,", Associate Dean and Professor, Syracuse Architecture"]} />
                         <Event timestamp="3:45-4:45 pm" eventHeading="Keynote Designing WATER: from Delphi to Disney" eventDesc={["Christophe Girot, Professor and Chair of Landscape Architecture at the Architecture",<br />," Department of the ETH, Zurich"]} />
@@ -59,10 +57,7 @@ class Schedule extends React.Component {
                         <Event timestamp="5:00-6:30 pm" eventHeading="Longwood Gardens Fountain Tour" />
                         <Event timestamp="6:30-8:00 pm" eventHeading="Opening Dinner" />
                         <Event timestamp="8:00-9:00 pm" eventHeading="Fountain Show" /> 
-                        
-
                 </div>
-
                 <Footer />
             </div>
         );

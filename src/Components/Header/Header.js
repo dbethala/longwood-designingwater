@@ -27,7 +27,7 @@ class Header extends React.Component {
                     <div className="w3-col l1 col7"></div>
                     <div className="w3-col l1 col8">                   
                         <Navigation navTextColor={this.props.navTextColor} className="nav-large-screen" id="navLarge"/>
-                        <img src='../Assets/menu-black.png' />
+                        <img src={require('../Assets/menu-black.png')} />
                     </div>
                     <div className="w3-col l1 col9"></div>
                     <div className="w3-col l1 col10"></div>
