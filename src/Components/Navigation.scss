@@ -9,3 +9,9 @@
         display: none;
     }
 }
+
+@media(min-width: 992px) {
+    .nav-large-screen {
+        margin-right: 28px;
+    }
+}

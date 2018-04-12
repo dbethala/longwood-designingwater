@@ -9,7 +9,7 @@ class Venue extends React.Component {
         return (
             <div className="venuePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <Header />
-                <Title title="Venue" className="venue"/>
+                <Title title="venue" className="venue"/>
                 <Footer />
             </div>
         );
