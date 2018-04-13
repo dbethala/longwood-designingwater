@@ -14,5 +14,8 @@
   .nav-large-screen {
     margin-right: 28px;
   }
+  .mobile-nav-closed-black {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Navigation.css.map */

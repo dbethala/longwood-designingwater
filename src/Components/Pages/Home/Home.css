@@ -91,5 +91,8 @@ h2 {
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
   }
+  .mobile-nav-closed-black {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Home.css.map */

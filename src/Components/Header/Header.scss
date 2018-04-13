@@ -28,17 +28,59 @@ nav {
   display: flex;
 }
 
-@media(max-width: 992px){
+@media (min-width: 992px) {
+  .mobile-nav-closed-black {
+    display: none;
+  }
+
+  .mobile-nav-closed-white {
+    display: none;
+  }
+
+  .overlay {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px){
   .nav-large-screen {
     display: none;
   }
   #navLarge {
     display: none;
   }
+  .mobile-nav-closed-black {
+    right: 0;
+    position: absolute;
+    display: inline;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .mobile-nav-closed-white {
+    right: 0;
+    position: absolute;
+    display: inline;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
 }
+
 
 @media(min-width: 1280px) {
   nav {
     position: relative;
   }
+}
+
+.overlay {
+  background-image: url('../Assets/menu-background.jpg');
+  width: 0%;
+  height: 100%;
+}
+
+.overlay li {
+  display: block;
 }

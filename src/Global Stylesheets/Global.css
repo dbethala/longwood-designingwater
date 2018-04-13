@@ -6,4 +6,10 @@
 .w3-col {
   border: 1px solid #00b388;
 }
+
+@media (min-width: 992px) {
+  .w3-row {
+    margin-right: 20px;
+  }
+}
 /*# sourceMappingURL=Global.css.map */

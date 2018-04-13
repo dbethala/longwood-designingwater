@@ -31,7 +31,16 @@ nav {
 }
 
 @media (min-width: 992px) {
-  h1, h2, h3, h4, p {
+  /*h1, h2, h3, h4, p {
+    white-space: nowrap; 
+  }*/
+  .timestamp {
+    white-space: nowrap;
+  }
+  .event-title {
+    white-space: nowrap;
+  }
+  .event-desc {
     white-space: nowrap;
   }
   p {

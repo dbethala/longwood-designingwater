@@ -9,17 +9,41 @@
 #longwood-footer-logo {
   width: 210px;
   height: auto;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 #aar-footer-logo {
   width: 175px;
   height: auto;
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
 }
 
 .footer-logo-region {
   margin-bottom: 82px;
   margin-top: 82px;
+  width: auto;
+  display: -webkit-inline-box;
+}
+
+.vl {
+  height: 80px;
+  width: 1px;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  #longwood-footer-logo {
+    width: 105px;
+    margin-top: 15px;
+  }
+  #aar-footer-logo {
+    width: 86px;
+    margin-top: 25px;
+  }
+  .footer-logo-region {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }
 /*# sourceMappingURL=Footer.css.map */

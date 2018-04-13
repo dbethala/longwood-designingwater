@@ -2,4 +2,61 @@
   color: black;
   text-decoration: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  .registerBody {
+    position: relative;
+    margin-top: 100px;
+  }
+  .pageTitle.register {
+    position: absolute;
+    top: 144px;
+    left: 0;
+    margin-left: 28px;
+  }
+  .register-links-region {
+    position: relative;
+    bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pageTitle.register {
+    position: fixed;
+    top: 260px;
+  }
+  .registerBody {
+    margin-top: 390px;
+    margin-bottom: 300px;
+  }
+  .register-links-region {
+    width: auto;
+  }
+  .register-links {
+    white-space: nowrap;
+  }
+  .tickets-region {
+    margin-left: 640px;
+  }
+  .conted-region {
+    margin-left: 640px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+  .pageTitle.register {
+    left: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .pageTitle.register {
+    position: fixed;
+    top: 260px;
+  }
+}
 /*# sourceMappingURL=Register.css.map */

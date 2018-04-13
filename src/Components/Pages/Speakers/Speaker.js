@@ -36,11 +36,70 @@ class Speaker extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 col12"></div>
-                        </div>
-                <Title title='speakers' className='speakers' />
+                    </div>
 
-                <div className="speakerBodySection">
-                    <SpeakerBio photoURL="'../Assets/menu-background.jpg'" altText="Latz" speakerName="Latz" speakerDesc="some text goes here" />
+
+
+                    <div className="w3-row">
+                        <div className="w3-col l1">
+                            <Title title='speakers' className='speakers' style={{marginLeft: '28px;'}}/>
+                        </div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1 col12"></div>
+                    </div>
+                        
+
+                <div className="speaker-body" id="speakerBody">
+                        <div className="individual-speaker name-column" >
+                        <div className="w3-row">
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1">
+                                <div className="sp-name">
+                                    <h3>Firstname Lastname</h3>
+                                </div>
+                            </div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1 col12"></div>
+                        </div>
+
+                        <div className="w3-row">
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1 speaker-img-region">
+                                <img className="speaker-image" src={require("../../Assets/Speaker Images/Corner.jpg")} alt="some speaker" />
+                            </div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1">
+                                <div className="speaker-desc">
+                                    <p>Some text goes here</p>
+                                </div>
+                            </div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1 col12"></div>
+                        </div>
+                    </div>
                 </div>
                 <Footer />
             </div>
