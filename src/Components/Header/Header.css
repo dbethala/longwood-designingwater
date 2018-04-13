@@ -13,54 +13,39 @@ li {
   margin: 10px;
 }
 
-nav {
-  float: left;
-  right: 0px;
-  position: absolute;
-}
-
 .site-header {
   display: inline;
+  z-index: 5;
 }
 
 .row {
   display: flex;
 }
 
-@media (min-width: 992px) {
-  .mobile-nav-closed-black {
-    display: none;
-  }
-  .mobile-nav-closed-white {
-    display: none;
-  }
-  .overlay {
-    display: none;
-  }
+.site-title {
+  float: left;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0;
+  z-index: 5;
 }
 
-@media screen and (max-width: 992px) {
-  .nav-large-screen {
-    display: none;
-  }
-  #navLarge {
-    display: none;
-  }
+@media screen and (min-width: 992px) {
   .mobile-nav-closed-black {
-    right: 0;
-    position: absolute;
-    display: inline;
-    top: 0;
-    margin-top: 20px;
-    margin-right: 20px;
+    display: none;
   }
   .mobile-nav-closed-white {
-    right: 0;
-    position: absolute;
-    display: inline;
-    top: 0;
+    display: none;
+  }
+  .site-header {
     margin-top: 20px;
-    margin-right: 20px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .site-title {
+    float: left;
+    font-size: 20px;
+    line-height: 26px;
   }
 }
 

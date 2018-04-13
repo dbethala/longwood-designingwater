@@ -9,7 +9,7 @@ import Home from '../src/Components/Pages/Home/Home';
 import Register from '../src/Components/Pages/Register/Register';
 import Schedule from '../src/Components/Pages/Schedule/Schedule';
 import Venue from '../src/Components/Pages/Venue/Venue';
-import Speaker from './Components/Pages/Speakers/Speaker'
+import Speaker from './Components/Pages/Speakers/Speaker';
 
 ReactDOM.render((
     <BrowserRouter>

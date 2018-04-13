@@ -7,9 +7,21 @@
   border: 1px solid #00b388;
 }
 
+@media screen and (max-width: 992px) {
+  .header-region {
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+}
+
 @media (min-width: 992px) {
   .w3-row {
     margin-right: 20px;
+  }
+  .header-region {
+    margin-left: 28px;
+    padding-top: 20px;
+    z-index: 3;
   }
 }
 /*# sourceMappingURL=Global.css.map */

@@ -10,7 +10,9 @@ class Venue extends React.Component {
     render() {
         return (
             <div className="venuePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
-                <Header navTextColor="black"/>
+               <div className="header-region">
+                    <Header navTextColor="black"/>
+                </div>
                 <div className="w3-row">
                         <div className="w3-col l1 venue-links">
                             <h4 className="venue venue-links"><a href="#directions">Directions</a> &mdash; <a href="#parking">Parking</a> &mdash; <a href="#accommodations">Accommodations</a> &mdash; <a href="#meals">Meals</a></h4>

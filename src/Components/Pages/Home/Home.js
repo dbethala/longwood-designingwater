@@ -25,6 +25,7 @@ class Home extends React.Component {
                 <div className="homepage-banner">
                     <div className="header-region">
                         <Header navTextColor="white"/>
+                        <div style={{clear: 'both'}} />
                     </div>
                     <div className="w3-row">
                         <div className="w3-col m1">

@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 import Title from '../../Title'
-import '../../../Global Stylesheets/lw01_css_032818mm.css'
-import './Schedule.css'
+import '../../../Global Stylesheets/lw01_css_032818mm.css';
 import Event from './Event';
+import './Schedule.css'
 
 class Schedule extends React.Component {
     render() {
         return (
             <div className="schedulePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
-                <Header navTextColor="black"/>
+                <div className="header-region">
+                    <Header navTextColor="black"/>
+                </div>
                 <div className="w3-row">
                         <div className="w3-col l1">
                             <div className="scheduleDateRange">
@@ -23,7 +25,7 @@ class Schedule extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1">
-                        <Title title="schedule" className="schedule" style={{marginRight: '20px'}}/>
+                            <Title title="schedule" className="schedule" style={{marginRight: '20px'}}/>
                         </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>

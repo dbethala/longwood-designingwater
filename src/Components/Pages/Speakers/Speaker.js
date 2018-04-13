@@ -10,7 +10,9 @@ class Speaker extends React.Component {
     render() {
         return (
             <div id="speakersPageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
-                <Header />
+                <div className="header-region">
+                    <Header />
+                </div>
                 <div className="w3-row">
                         <div className="w3-col l1">
                             <div className="speaker-alphabet-listing">

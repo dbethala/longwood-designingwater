@@ -28,6 +28,9 @@ nav {
   .timestamp {
     margin-top: 0px;
   }
+  #designing-water-header-text {
+    margin-left: 28px;
+  }
 }
 
 @media (min-width: 992px) {
