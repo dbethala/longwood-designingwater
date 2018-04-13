@@ -62,19 +62,20 @@
     margin-right: 20px;
     z-index: 3;
   }
-  .menu-hidden {
+  .menuhidden {
     background-image: url("./Assets/menu-background.jpg");
+    position: absolute;
     width: 100vw;
     height: 100vh;
     z-index: 3;
     top: 0;
     left: 0;
   }
-  .menu-hidden ul {
+  .menuhidden ul {
     position: relative;
     top: 400px;
   }
-  .menu-hidden ul li {
+  .menuhidden ul li {
     display: block;
     font-size: 56px;
     line-height: 66px;
