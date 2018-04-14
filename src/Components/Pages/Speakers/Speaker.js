@@ -11,7 +11,7 @@ class Speaker extends React.Component {
         return (
             <div id="speakersPageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <div className="header-region">
-                    <Header />
+                    <Header navTextColor="black" pageClass="speakers"/>
                 </div>
                 <div className="w3-row">
                         <div className="w3-col l1">

@@ -11,7 +11,7 @@ class Venue extends React.Component {
         return (
             <div className="venuePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                <div className="header-region">
-                    <Header navTextColor="black"/>
+                    <Header navTextColor="black" pageClass="venue"/>
                 </div>
                 <div className="w3-row">
                         <div className="w3-col l1 venue-links">
@@ -31,7 +31,10 @@ class Venue extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 col12"></div>
                     </div>
+        
+        
                 <div id="venueBody">
+            
                 <div className="venue-section-1">
                     <div className="w3-row venue-body-section-1">
                         <div className="w3-col l1 paragraph-cols"  style={{width: 'auto'}}>
@@ -59,7 +62,7 @@ class Venue extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 col12"></div>
-                    </div>
+                    </div> 
 
                     <div className="w3-row venue-body-section-1">
                         <div className="w3-col l1"></div>
@@ -78,8 +81,8 @@ class Venue extends React.Component {
                         <div className="w3-col l1 col12"></div>
                     </div>
                     </div>
-
-
+        
+        
                     <div className="venue-section-2">
                     <div className="w3-row venue-body-section-2">
                         <div className="w3-col l1">
@@ -164,6 +167,8 @@ class Venue extends React.Component {
                         <div className="w3-col l1 col12"></div>
                     </div>
                     </div>
+
+                                 
                         <div className="venue-body-section-3">
                         <div className="w3-row venue-body-section-3">
                             <div className="w3-col l1"></div>
@@ -193,7 +198,7 @@ class Venue extends React.Component {
                             <div className="w3-col l1 col12"></div>
                         </div>
                         </div>
-
+                                
                     <div className="venue-body-section-4">
                         <div className="w3-row venue-body-section-4">
                             <div className="w3-col l1 venue-body-accommodations" style={{width: 'auto'}}>
@@ -249,7 +254,9 @@ class Venue extends React.Component {
                             <div className="w3-col l1 col12"></div>
                         </div>
                         </div>
+                                
                     </div>
+                                     
                     <Footer />
             </div>
         );

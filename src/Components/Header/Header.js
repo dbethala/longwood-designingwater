@@ -15,7 +15,7 @@ class Header extends React.Component {
         return (
             <div className="site-header">
                 <TitleText navTextColor={this.props.navTextColor} />
-                <Navigation navTextColor={this.props.navTextColor} className="nav-large-screen" id="navLarge"/>
+                <Navigation navTextColor={this.props.navTextColor} pageClass={this.props.pageClass} className="nav-large-screen" id="navLarge"/>
             </div>
         )
     }

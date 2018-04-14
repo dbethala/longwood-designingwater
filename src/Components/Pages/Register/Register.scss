@@ -25,8 +25,12 @@ $pagewidth: 1280px;
 
     .register-links-region {
         position: relative;
-        bottom: 30px;
+        margin-top: 20px;
     }
+
+    .to-schedule-register, .to-venue-register, .to-speakers-register, .to-register-register {
+        color: white;
+      }
   }
 
   @media (min-width: $breakpoint) {
@@ -34,6 +38,7 @@ $pagewidth: 1280px;
     .pageTitle.register {
         position:fixed;
         top: 260px;
+        margin-left: 28px;
     }
 
     .registerBody {
@@ -53,7 +58,14 @@ $pagewidth: 1280px;
       .conted-region {
           margin-left: 640px;
       }
-
+      .to-schedule-register, .to-venue-register, .to-speakers-register {
+        color: black;
+      }
+      .to-register-register {
+        background-color: black;
+        color: white;
+        padding: 5px 5px
+    }
   }
 
     @media (min-width: $breakpoint) and (max-width: $pagewidth) {

@@ -11,7 +11,7 @@ class Schedule extends React.Component {
         return (
             <div className="schedulePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <div className="header-region">
-                    <Header navTextColor="black"/>
+                    <Header navTextColor="black" pageClass="schedule"/>
                 </div>
                 <div className="w3-row">
                         <div className="w3-col l1">

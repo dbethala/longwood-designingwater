@@ -12,7 +12,7 @@ class Register extends React.Component {
         return (
             <div className="registerPage" style={{maxWidth: '1280px', margin: '0 auto'}}>
             <div className="header-region">
-                <Header navTextColor="black"/>
+                <Header navTextColor="black" pageClass="register"/>
                 </div>
 
                 <div className="w3-row register-links-row">

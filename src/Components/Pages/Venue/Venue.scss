@@ -46,8 +46,12 @@ a {
 
     .venue-links {
         position: relative;
-        bottom: 30px;
+        margin-top: 20px;
     }
+
+    .to-schedule-venue, .to-venue-venue, .to-speakers-venue, .to-register-venue {
+        color: white;
+      }
 }
 
 @media (min-width: $breakpoint) {
@@ -119,6 +123,15 @@ a {
         white-space: nowrap;
     }
 
+    .to-schedule-venue, .to-venue-venue, .to-speakers-venue {
+        color: black;
+      }
+
+      .to-register-venue {
+        background-color: black;
+        color: white;
+        padding: 5px 5px
+    }
 }
 
 @media (min-width: $breakpoint) and (max-width: $pagewidth) {

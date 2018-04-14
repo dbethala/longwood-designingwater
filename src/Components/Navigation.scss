@@ -1,11 +1,4 @@
 //Navigation.scss
-
-.to-register {
-    background-color: black;
-    color: white;
-    padding: 5px 5px
-}
-
 .mobile-nav-open {
     display: none;
 }
@@ -14,6 +7,10 @@
     nav{
         display: block;
         float: right;
+    }
+
+    .mobile-nav-header {
+        display: none;
     }
 
     nav ul {
@@ -38,6 +35,16 @@
       .mobile-nav-closed {
           display: none;
       }
+
+      .to-register {
+        background-color: black;
+        color: white;
+        padding: 5px 5px
+    }
+
+    .nav-large-screen {
+        display: inline;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -88,12 +95,31 @@
 
     .menuhidden ul {
         position: relative;
-        top: 400px;
+        margin-top: 50%;
     }
 
     .menuhidden ul li {
         display: block;
         font-size: 56px;
         line-height: 66px; 
+        text-transform: lowercase;
+    }
+
+    .menuhidden ul li a {
+        color: white;
+        background-color: none;
+    }
+
+    #mobileNavClose {
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    #designing-water-header-text-mobile-nav {
+        position: absolute;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
     }
   }

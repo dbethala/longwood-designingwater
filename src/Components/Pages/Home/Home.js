@@ -24,7 +24,7 @@ class Home extends React.Component {
             <div className="homePage" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <div className="homepage-banner">
                     <div className="header-region">
-                        <Header navTextColor="white"/>
+                        <Header navTextColor="white" pageClass="home"/>
                         <div style={{clear: 'both'}} />
                     </div>
                     <div className="w3-row">

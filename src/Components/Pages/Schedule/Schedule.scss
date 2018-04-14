@@ -27,7 +27,7 @@ nav {
 
   #date-range {
     position: relative;
-    bottom: 30px;
+    margin-top: 20px;
   }
 
   .timestamp {
@@ -35,7 +35,11 @@ nav {
   }
   
   #designing-water-header-text {
-    margin-left: 28px;
+    margin-left: 20px;
+  }
+
+  .to-schedule-schedule, .to-venue-schedule, .to-speakers-schedule, .to-register-register {
+    color: white;
   }
 }
 
@@ -72,6 +76,15 @@ nav {
     top: 260px;
     margin-right: 20px;
   }
+
+  .to-schedule-schedule, .to-venue-schedule, .to-speakers-schedule {
+    color: black;
+  }
+  .to-register-schedule {
+    background-color: black;
+    color: white;
+    padding: 5px 5px
+}
 }
 
 @media (min-width: $breakpoint) and (max-width: 1280px) {

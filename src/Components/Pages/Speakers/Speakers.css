@@ -31,12 +31,23 @@
   #speakerBody {
     margin-top: 100px;
   }
+  .speaker-alphabet-listing {
+    margin-top: 20px;
+  }
+  .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers, .to-register-speakers {
+    color: white;
+  }
 }
 
 @media (min-width: 992px) {
   /* h1, h2, h3, h4, p {
         white-space: nowrap;
    }*/
+  .pageTitle.speakers {
+    position: fixed;
+    top: 260px;
+    margin-left: 28px;
+  }
   .speaker-desc {
     white-space: nowrap;
   }
@@ -51,6 +62,14 @@
   .speaker-image {
     height: 150px;
     width: auto;
+  }
+  .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers {
+    color: black;
+  }
+  .to-register-speakers {
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
   }
 }
 

@@ -44,6 +44,10 @@
   margin-top: 100px;
 }
 
+.to-schedule-home, .to-venue-home, .to-speakers-home, .to-register-home {
+  color: white;
+}
+
 h2 {
   font-weight: normal;
 }
@@ -69,6 +73,11 @@ h2 {
   }
   .header-region {
     padding-top: 20px;
+  }
+  .to-register-home {
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
   }
 }
 

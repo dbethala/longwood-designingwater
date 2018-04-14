@@ -20,7 +20,10 @@ a {
   }
   .register-links-region {
     position: relative;
-    bottom: 30px;
+    margin-top: 20px;
+  }
+  .to-schedule-register, .to-venue-register, .to-speakers-register, .to-register-register {
+    color: white;
   }
 }
 
@@ -28,6 +31,7 @@ a {
   .pageTitle.register {
     position: fixed;
     top: 260px;
+    margin-left: 28px;
   }
   .registerBody {
     margin-top: 390px;
@@ -44,6 +48,14 @@ a {
   }
   .conted-region {
     margin-left: 640px;
+  }
+  .to-schedule-register, .to-venue-register, .to-speakers-register {
+    color: black;
+  }
+  .to-register-register {
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
   }
 }
 

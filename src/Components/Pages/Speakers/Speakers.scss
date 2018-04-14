@@ -37,6 +37,14 @@ $pagewidth: 1280px;
     #speakerBody {
         margin-top: 100px;
     }
+
+    .speaker-alphabet-listing {
+        margin-top: 20px;
+    }
+
+    .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers, .to-register-speakers {
+        color: white;
+      }
 }
 
 @media (min-width: $breakpoint) {
@@ -44,11 +52,16 @@ $pagewidth: 1280px;
         white-space: nowrap;
    }*/
 
+   .pageTitle.speakers {
+    position: fixed;
+    top: 260px;
+    margin-left: 28px;
+   }
    .speaker-desc {
        white-space: nowrap;
    }
     #speakerShortcuts {
-        white-space: nowrap
+        white-space: nowrap;
     }
       #speakerBody {
         position: relative;
@@ -58,6 +71,15 @@ $pagewidth: 1280px;
       .speaker-image {
         height: 150px;
         width: auto;
+    }
+    .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers {
+        color: black;
+      }
+
+      .to-register-speakers {
+        background-color: black;
+        color: white;
+        padding: 5px 5px
     }
 }
 
