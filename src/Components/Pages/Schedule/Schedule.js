@@ -85,14 +85,49 @@ class Schedule extends React.Component {
                             <br />,
                             "Case studies presented by:",<br/>,
                             <br />,
-                            <ul className="case-studies" style={{marginLeft: '20px'}}> 
-                                <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Kate Orff, founder and design director of SCAPE Landscape Architects, Associate Professor and Director, Urban Design Program, at Columbia GSAPP</li> 
-                                <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Mary Margaret Jones, President and Sr. Principal, Hargreaves Associates</li> 
-                                <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Georges Descombes, Professor of Architecture, University of Geneva; practicing architect, Geneva</li>
-                            </ul>,
+                                <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Kate Orff, founder and design director of SCAPE Landscape Architects, Associate Professor and Director, Urban Design Program, at Columbia GSAPP</li>,
+                                <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Mary Margaret Jones, President and Sr. Principal, Hargreaves Associates</li>,
+                                <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Georges Descombes, Professor of Architecture, University of Geneva; practicing architect, Geneva</li>,
                         <br />,
                         <br />,
                         "Response by Nina-Marie Lister Associate Professor. Questions and Answers to follow."]} />
+                        <Event day="Thursday" timestamp="11:30 am–1:00 pm" eventHeading="Lunch Presentation: History of A Garden" eventDesc={["Adriaan Geuze, Founding Partner, Design Director, West 8",<br />, "Colvin Randall, P.S. du Pont Fellow, Longwood Gardens", <br />, <br />, "From its first water feature—a single fountain jet in a simple round basin—to its highly engineered and manicured Main Fountain Garden, Longwood Gardens is an extraordinary showcase for the use of water in the landscape. ", <i>A buffet lunch will be served.</i> ]} />
+                        <Event day="Thursday" timestamp="1:15– 3:15 pm" eventHeading="Shaping Civic Space: Challenges of the Anthropocene" eventDesc={[
+                            <i>Shaping Civic Space: Challenges of the Anthropocene</i>," foregrounds issues of climate change that impact design, such as flooding and storm surge (too much water), drought (too little) and contamination (water affected by industry, waste and aging infrastructure). This session demonstrates how addressing these concerns can be coupled with water features and systems that are beautiful, celebratory and meaningful.",
+                            <br />,
+                            <br />,
+                            "Join Anita Berrizbeitia, Professor of Landscape Architecture and Chair of the Department of Landscape Architecture, Harvard Graduate School of Design as she sets the framework for a discussion of these opportunities and challenges, which are illuminated by remarkable case studies of built work.",
+                            <br />,
+                            <br />,
+                            "With case studies presented by:",<br />,
+                            <br />,
+                                <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Kongjian Yu, Dean of the School of Landscape Architecture at PKU, founding partner, Turenscape </li>, 
+                                <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Kristian Koreman and Elma van Boxel, ZUS, (Zones Urbaines Sensibles) </li>,
+                                <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Tilman Latz, Partner & Design Director, LATZ & Partner</li>,
+                            <br />,
+                            <br />,
+                            "Response by Mason White Associate Professor, University of Toronto. Questions and Answers to follow"
+                        ]}/>
+                    <Event day="Thursday" timestamp="3:30–5:30 pm" eventHeading="Technology, Innovation and the Future" eventDesc={[
+                        <i>Technology, Innovation, and the Future</i>, " accounts and expands on the relationship of designing water to technological advances.  From the aqueducts of Rome that enabled the water features of Tivoli, to the equipment and digital advances that sponsor high-tech fountains in Dubai, Las Vegas and Macau, to advanced thinking about the promise  of soft infrastructure to promote more resilient cities, this sessions focuses on imagining ways to build features and infrastructural systems that expand the aesthetics of water while innovatively addressing programmatic needs, client wishes and the urban concerns of the 21st century.",
+                        <br />,
+                        <br />,
+                        "Join Michael Lee, Professor in the History of Landscape Architecture; University of Virginia as he frames a discussion on the future of water in design",
+                        <br />,
+                        <br />,
+                        "With case studies presented by:",
+                        <br />,
+                        <br />,
+                        <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>James Corner, Principal, James Corner Field Operations</li>, 
+                        <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>Catherine Seavitt Nordenson, Associate Professor, Landscape Architecture Program, City College of NY</li>, 
+                        <li className="case-studies-list-item" style={{display: "list-item", listStyleType: "disc"}}>James A Garland, AIA NCARB, Founder & President, Fluidity Design Consultants</li>,
+                    <br />,
+                    <br />,
+                    "Response by Charles Waldheim, Professor and Director, Office for Urbanization, Harvard Graduate School of Design. Questions and Answers to follow."
+                    ]} />
+                <Event day="Thursday" timestamp="5:30-6:15 pm" eventHeading="Roundtable Discussion: The Potentials of Water" eventDesc={["Moderated by Julia Czerniak, Associate Dean and Professor, Syracuse Architecture",<br/>,<br/>,"Conclude the event with an insightful synopsis of Designing Water with a discussion to include insight with thoughts on how the two days of presentations collectively have outlined the role of water in our past, in it is current application, and the future innovations.  The panel will include each of the keynote presenters: Christophe Girot, Dorothée Imbert, Anita Berrizbeitia, and Michael Lee; as well as Paul B. Redman and Mark Robbins."]} /> 
+                <Event day="Thursday" timestamp="6:15-6:30 pm" eventHeading="Closing Remarks" eventDesc={["Paul B. Redman, President and CEO of Longwood Gardens",<br/>, "Mark Robbins, President and CEO of the American Academy in Rome"]} />
+                <Event day="Thursday" timestamp="6:30-9:00 pm" eventHeading="Self-Guided Garden Tour" eventDesc={["Following the event’s close, Longwood Gardens will remain open until 9:00 pm for symposium guests to explore on their own.",<br/>,<br/>, "Complementary transportation to downtown Philadelphia following the conclusion of the symposium will be available on a limited basis. To secure a spot, please email Director of Continuing Education Matthew Ross mross@longwoodgardens.org or call 610.388.5247."]} />
                 </div>
                 <Footer />
             </div>
