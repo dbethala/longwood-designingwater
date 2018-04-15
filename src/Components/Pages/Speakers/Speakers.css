@@ -14,6 +14,25 @@
   white-space: nowrap;
 }
 
+.speaker-image {
+  position: relative;
+}
+
+.speaker-image:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 75%;
+}
+
+.speaker-image > .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 @media screen and (max-width: 992px) {
   #speakerShortcuts {
     display: none;
@@ -59,10 +78,10 @@
     margin-top: 390px;
     margin-bottom: 100px;
   }
-  .speaker-image {
-    height: 150px;
-    width: auto;
-  }
+  /*.speaker-image {
+        height: 150px;
+        width: auto;
+        */
   .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers {
     color: black;
   }

@@ -17,6 +17,28 @@ $pagewidth: 1280px;
     white-space: nowrap;
 }
 
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: ($height / $width) * 100%;
+    }
+
+    > .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.speaker-image {
+    @include aspect-ratio(4,3);
+}
+
 @media screen and (max-width: $breakpoint) {
     #speakerShortcuts {
         display: none;
@@ -68,10 +90,11 @@ $pagewidth: 1280px;
         margin-top: 390px;
         margin-bottom: 100px;
       }
-      .speaker-image {
+      /*.speaker-image {
         height: 150px;
         width: auto;
-    }
+        */
+    //}
     .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers {
         color: black;
       }

@@ -67,11 +67,10 @@ class Venue extends React.Component {
                     <div className="w3-row venue-body-section-1">
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
-                        <div className="w3-col l1">
-                        <img className="venue-iwg-img" src={require("../../Assets/262248_Italian-Water-Garden-_Albee_-Larry.jpg")}/>
-                        </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                            <img className="venue-iwg-img" src={require("../../Assets/262242_Italian-Water-Garden-_Albee_-Larry.jpg")}/>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>

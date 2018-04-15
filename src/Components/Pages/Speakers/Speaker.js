@@ -85,7 +85,7 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 speaker-img-region">
-                                <img className="speaker-image" src={require("../../Assets/Speaker Images/Corner.jpg")} alt="some speaker" />
+                                {/*<img className="speaker-image" src={require("../../Assets/Speaker Images/Corner.jpg")} alt="some speaker" />*/}
                             </div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>

@@ -79,6 +79,19 @@ h2 {
     color: white;
     padding: 5px 5px;
   }
+  #from-the-curator-col {
+    width: 65%;
+  }
+  #descriptions {
+    width: 65%;
+  }
+  #home-intro-2 {
+    white-space: normal;
+    margin-right: 20%;
+  }
+  #organizerHeading {
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -105,6 +118,9 @@ h2 {
   }
   .mobile-nav-closed-black {
     display: none;
+  }
+  .body-paragraphs {
+    margin-right: 20px;
   }
 }
 /*# sourceMappingURL=Home.css.map */

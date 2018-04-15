@@ -47,7 +47,7 @@ nav {
     white-space: nowrap;
   }
   .event-desc {
-    white-space: nowrap;
+    white-space: normal;
   }
   p {
     margin-top: 12px;

@@ -61,7 +61,7 @@ h2 {
       margin-bottom: 200px;
       margin-top: 200px;
     }
-    
+
     #water {
       margin-bottom: 200px;
     }
@@ -85,10 +85,27 @@ h2 {
       color: white;
       padding: 5px 5px
   }
+
+  #from-the-curator-col {
+    width: 65%;
+  }
+
+  #descriptions {
+    width: 65%;
+  }
+
+  #home-intro-2 {
+    white-space: normal;
+    margin-right: 20%
+  }
+
+  #organizerHeading {
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (max-width: 992px){
-  
+
   #desinging {
     margin-bottom: 100px;
     margin-top: 100px;
@@ -108,7 +125,7 @@ h2 {
   .heading-date {
     margin-bottom: 100px;
     padding-bottom: 50px;
-    
+
   }
 
   .homepage-banner {
@@ -118,5 +135,9 @@ h2 {
 
   .mobile-nav-closed-black {
     display: none;
+  }
+
+  .body-paragraphs {
+    margin-right: 20px
   }
 }

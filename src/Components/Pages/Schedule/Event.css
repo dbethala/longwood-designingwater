@@ -1,0 +1,9 @@
+@media (min-width: 992px) {
+  .event-col {
+    width: 45%;
+  }
+  .event-desc {
+    white-space: normal;
+  }
+}
+/*# sourceMappingURL=Event.css.map */

@@ -1,0 +1,11 @@
+$breakpoint: 992px;
+
+@media (min-width: $breakpoint) {
+    .event-col {
+        width: 45%;
+    }
+
+    .event-desc {
+        white-space: normal;
+    }
+}
