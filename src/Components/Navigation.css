@@ -102,4 +102,11 @@
     margin-left: 20px;
   }
 }
+
+@media only screen and (orientation: landscape) {
+  .menuhidden ul {
+    position: relative;
+    margin-top: 7%;
+  }
+}
 /*# sourceMappingURL=Navigation.css.map */
