@@ -6,4 +6,10 @@
     white-space: normal;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .event-desc {
+    margin-right: 20px;
+  }
+}
 /*# sourceMappingURL=Event.css.map */

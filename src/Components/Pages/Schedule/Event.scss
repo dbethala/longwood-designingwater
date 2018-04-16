@@ -9,3 +9,9 @@ $breakpoint: 992px;
         white-space: normal;
     }
 }
+
+@media screen and (max-width: $breakpoint) {
+    .event-desc {
+        margin-right: 20px;
+    }
+}

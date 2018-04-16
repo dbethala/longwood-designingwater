@@ -67,9 +67,8 @@ class Register extends React.Component {
 Student rate: $99 <br /> <br/>
 Registration opens May 1
                             </p>
-                            <br/>
-                            <br/>
                             <h4 className="register link-out">Register here.</h4>
+                            <br />
                         </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>

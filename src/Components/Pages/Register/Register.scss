@@ -38,7 +38,7 @@ a {
   .pageTitle.register {
     position: fixed;
     top: 260px;
-    margin-left: 28px;
+    margin-left: 20px;
   }
 
   .registerBody {
@@ -47,6 +47,7 @@ a {
   }
   .register-links-region {
     width: auto;
+    float: right;
   }
   .register-links {
     white-space: nowrap;

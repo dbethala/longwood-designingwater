@@ -1,22 +1,27 @@
 .w3-row {
   margin-left: 28px;
-  border: 1px solid red;
+  border: 1px solid transparent;
 }
 
 .w3-col {
-  border: 1px solid #00b388;
+  margin-right: 20px;
+  border: 1px solid transparent;
 }
 
 @media screen and (max-width: 992px) {
   .header-region {
-    margin-left: 20px;
     padding-top: 20px;
+  }
+  .w3-row {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
 @media (min-width: 992px) {
   .w3-row {
     margin-right: 20px;
+    margin-left: 28px;
   }
   .header-region {
     margin-left: 28px;

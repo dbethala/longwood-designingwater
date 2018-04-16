@@ -20,7 +20,7 @@ a {
   }
   .venue-iwg-img {
     height: 100%;
-    width: 100%;
+    width: 90%;
     margin-right: 20px;
   }
   .venue-map-large {
@@ -28,7 +28,7 @@ a {
   }
   .venue-map-mobile {
     height: auto;
-    width: 100%;
+    width: 90%;
     margin-right: 20px;
     position: relative;
   }

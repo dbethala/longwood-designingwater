@@ -14,10 +14,10 @@ class Schedule extends React.Component {
                     <Header navTextColor="black" pageClass="schedule"/>
                 </div>
                 <div className="w3-row">
-                    <div className="w3-col l1">
+                    <div className="w3-col l1 date-range-col" style={{width: 'auto'}}>
                         <div className="scheduleDateRange">
-                            <h4 className="schedule" id="date-range" style={{whiteSpace: 'nowrap'}}>Wednesday, October
-                                17 &mdash; Thursday, October 18</h4>
+                            <h4 className="schedule" id="date-range"><a href="#wednesday">Wednesday, October
+                                17</a> &mdash; <a href="#thursday">Thursday, October 18</a></h4>
                         </div>
                     </div>
                     <div className="w3-col l1"></div>
@@ -39,8 +39,8 @@ class Schedule extends React.Component {
                 <div className="schedule-body" id="scheduleBody">
                     <div className="w3-row">
                         <div className="w3-col l1">
-                            <h2 className="subheading" id="schedule-date-1" style={{whiteSpace: 'nowrap'}}>Wednesday,
-                                October 17</h2>
+                            <h2 className="subheading" id="schedule-date-1" style={{whiteSpace: 'nowrap'}}><a name="wednesday">Wednesday,
+                                October 17</a></h2>
                         </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
@@ -79,8 +79,8 @@ class Schedule extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1">
-                            <h2 className="subheading" id="schedule-date-2" style={{whiteSpace: 'nowrap'}}>Thursday,
-                                October 18</h2>
+                            <h2 className="subheading" id="schedule-date-2" style={{whiteSpace: 'nowrap'}}><a name="thursday">Thursday,
+                                October 18</a></h2>
                         </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
