@@ -5,6 +5,14 @@
   .event-desc {
     white-space: normal;
   }
+  .thursday {
+    position: relative;
+    right: 70px;
+  }
+  #schedule-date-2 {
+    position: relative;
+    right: 73px;
+  }
 }
 
 @media screen and (max-width: 992px) {

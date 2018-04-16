@@ -72,7 +72,7 @@ class Schedule extends React.Component {
                     <Event day="Wednesday" timestamp="8:80-9:00 pm" eventHeading="Illuminated Fountain Performance "/>
                     <Event day="Wednesday" timestamp="8:00-9:00 pm" eventHeading="Fountain Show"
                            eventDesc={"Sit back in awe as water in all shapes, sizes, and heights combines with music and infinite colors. This narrated presentation of the new and innovative features of the Main Fountain Garden will be followed by a private viewing of a full-length illuminated fountain performance."}/>
-
+                    <div className="thursday-section">
                     <div className="w3-row">
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
@@ -185,6 +185,7 @@ class Schedule extends React.Component {
                            eventDesc={["Following the event’s close, Longwood Gardens will remain open until 9:00 pm for symposium guests to explore on their own.",
                                <br/>,
                                <br/>, "Complementary transportation to downtown Philadelphia following the conclusion of the symposium will be available on a limited basis. To secure a spot, please email Director of Continuing Education Matthew Ross mross@longwoodgardens.org or call 610.388.5247."]}/>
+                </div>
                 </div>
                 <Footer/>
             </div>

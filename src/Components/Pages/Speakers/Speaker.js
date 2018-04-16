@@ -8,6 +8,7 @@ import '../../../Global Stylesheets/lw01_css_032818mm.css';
 
 //Images
 
+import Czerniak from '../../Assets/Speaker Images/Czerniak2.jpg';
 import Berrizheitia from '../../Assets/Speaker Images/Berrizbeitia.jpg';
 import VanBoxelKoreman from '../../Assets/Speaker Images/vanBoxel.jpg';
 import Corner from '../../Assets/Speaker Images/Corner2.jpg';
@@ -51,7 +52,8 @@ class Speaker extends React.Component {
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1">
                         <div className="speaker-shortcuts-region">
-                            <h4 className="speakers" id="speakerShortcuts"><a href="#berrizheitia">Berrizheitia</a> - <a
+                            <h4 className="speakers" id="speakerShortcuts"><a href="#czerniak>">Czerniak</a> - <a
+                                href="#berrizheitia">Berrizheitia</a> - <a
                                 href="#vanboxel">van Boxel</a> - <a href="#corner">Corner</a> - <a
                                 href="#descombes">Descombes</a> - <a href="#garland">Garland</a> - <a
                                 href="#geuze">Geuze</a> - <br/>
@@ -93,6 +95,64 @@ class Speaker extends React.Component {
 
 
                 <div className="speaker-body" id="speakerBody">
+                    <div className="individual-speaker name-column czerniak">
+                        <div className="w3-row">
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1 speaker-name-col">
+                                <div className="sp-name">
+                                    <h3 className="speakerName"><a name="czerniak"><a name="af">Julia Czerniak</a></a>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1 col12"></div>
+                        </div>
+
+                        <div className="w3-row">
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1 speaker-img-region">
+                                <img className="speaker-image czerniak" src={Czerniak} alt="Czerniak"/>
+                            </div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1 speaker-desc-col">
+                                <div className="speaker-desc">
+                                    <p className="speakerTitle">Professor & Associate Dean, Syracuse Architecture</p>
+                                    <p>
+                                        Julia Czerniak is Associate Dean and Professor of Architecture at Syracuse
+                                        University where she teaches studios as well as seminars on landscape theory and
+                                        criticism. Czerniak is educated both as an architect (Princeton University, M.
+                                        Arch 1992) and landscape architect (Pennsylvania State University, BA 1984) and
+                                        her research and practice draws on the intersection of these disciplines.
+                                        Although the techniques, scales and products of her research vary, Czerniak’s
+                                        work focuses on the physical and cultural potentials of urban landscapes. Recent
+                                        design research advances landscape as a protagonist in the remaking of Rust-Belt
+                                        cities, from a series of public space interventions along a derelict creek to
+                                        ecologically and spatially rich streetscapes for a newly planned campus of
+                                        Syracuse University. Czerniak’s work as a designer is complemented by her work
+                                        as educator and writer, which in all cases advances design as a way to enable
+                                        new ways of seeing, imagining, valuing and acting within our challenged
+                                        anthropocentric environment.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1 col12"></div>
+                        </div>
+                    </div>
                     <div className="individual-speaker name-column berrizheitia">
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
@@ -103,8 +163,8 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 speaker-name-col">
                                 <div className="sp-name">
-                                    <h3 className="speakerName"><a name="berrizheitia"><a name="af">Anita Berrizheitia,
-                                        ASLA</a></a></h3>
+                                    <h3 className="speakerName"><a name="berrizheitia">Anita Berrizheitia,
+                                        ASLA</a></h3>
                                 </div>
                             </div>
                             <div className="w3-col l1"></div>
