@@ -15,8 +15,8 @@
   margin-bottom: 80px;
 }
 
-#designing  {
-  color:white;
+#designing {
+  color: white;
   float: left;
   position: relative;
   font-weight: normal;
@@ -53,37 +53,38 @@ h2 {
   font-weight: normal
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .body-paragraphs {
-    white-space: nowrap;}
+    white-space: nowrap;
+  }
 
-    #designing  {
-      margin-bottom: 200px;
-      margin-top: 200px;
-    }
+  #designing {
+    margin-bottom: 200px;
+    margin-top: 200px;
+  }
 
-    #water {
-      margin-bottom: 200px;
-    }
+  #water {
+    margin-bottom: 200px;
+  }
 
-    .heading-date {
-      margin-bottom: 100px;
-      padding-bottom: 200px;
-      top: 70px;
-    }
+  .heading-date {
+    margin-bottom: 100px;
+    padding-bottom: 200px;
+    top: 70px;
+  }
 
-    .homepage-banner {
-      background-size: 1280px 1280px;
-    }
+  .homepage-banner {
+    background-size: 1280px 1280px;
+  }
 
-    .header-region {
-      padding-top: 20px;
-    }
+  .header-region {
+    padding-top: 20px;
+  }
 
-    .to-register-home {
-      background-color: black;
-      color: white;
-      padding: 5px 5px
+  .to-register-home {
+    background-color: black;
+    color: white;
+    padding: 5px 5px
   }
 
   #from-the-curator-col {
@@ -104,7 +105,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
 
   #desinging {
     margin-bottom: 100px;

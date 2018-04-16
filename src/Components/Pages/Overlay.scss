@@ -1,21 +1,20 @@
 .overlay-wrapper {
-    background-image: url('../Assets/menu-background.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    margin: auto;
+  background-image: url('../Assets/menu-background.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
 }
 
 nav {
-    display: block;
-    font-size: 124px;
-	line-height: 124px; 
+  display: block;
+  font-size: 124px;
+  line-height: 124px;
 }
 
-
 nav ul li {
-    display: block;
+  display: block;
 }
 
 

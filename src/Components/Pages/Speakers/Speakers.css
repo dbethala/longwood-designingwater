@@ -56,6 +56,12 @@
   .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers, .to-register-speakers {
     color: white;
   }
+  .sp-name {
+    white-space: normal;
+  }
+  .speaker-image .berrizheitia-img {
+    width: 150px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -68,7 +74,10 @@
     margin-left: 28px;
   }
   .speaker-desc {
-    white-space: nowrap;
+    white-space: normal;
+  }
+  .sp-name {
+    white-space: normal;
   }
   #speakerShortcuts {
     white-space: nowrap;
@@ -89,6 +98,11 @@
     background-color: black;
     color: white;
     padding: 5px 5px;
+  }
+  .berrizheitia-img {
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 12px;
   }
 }
 
