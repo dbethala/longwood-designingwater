@@ -1,0 +1,112 @@
+$breakpoint: 992px;
+
+.schedule {
+  color: #37E7FD;
+}
+
+nav {
+  color: black;
+}
+
+.event {
+  position: relative;
+}
+
+@media screen and (max-width: $breakpoint) {
+  .pageTitle.schedule {
+    position: absolute;
+    top: 144px;
+    left: 0px;
+    margin-left: 20px;
+  }
+
+  #scheduleBody {
+    position: relative;
+    margin-top: 100px;
+  }
+
+  #date-range {
+    position: relative;
+    margin-top: 20px;
+    white-space: normal;
+  }
+
+  .timestamp {
+    margin-top: 0px;
+  }
+
+  #designing-water-header-text {
+    margin-left: 20px;
+  }
+
+  .to-schedule-schedule, .to-venue-schedule, .to-speakers-schedule, .to-register-register {
+    color: white;
+  }
+}
+
+@media (min-width: $breakpoint) {
+  /*h1, h2, h3, h4, p {
+    white-space: nowrap; 
+  }*/
+
+  .timestamp {
+    white-space: nowrap;
+  }
+
+  .event-title {
+    white-space: nowrap;
+  }
+
+  .event-desc {
+    white-space: normal;
+  }
+
+  p {
+    margin-top: 12px;
+    margin-bottom: 42px;
+  }
+
+  #scheduleBody {
+    position: relative;
+    margin-top: 390px;
+    margin-bottom: 100px;
+  }
+
+  .pageTitle.schedule {
+    position: fixed;
+    top: 260px;
+    margin-right: 18%;
+  }
+
+  .to-schedule-schedule, .to-venue-schedule, .to-speakers-schedule {
+    color: black;
+  }
+  .to-register-schedule {
+    background-color: black;
+    color: white;
+    padding: 5px 5px
+  }
+  #thursday-section {
+    margin-top: 100px;
+  }
+}
+@media (min-width: $breakpoint) and (max-width: 1280px) {
+  .pageTitle.schedule {
+    right: 0;
+    margin-right: 20px;
+  }
+}
+
+/*@media (min-width: $breakpoint) and (max-width: 1280px) {
+  .pageTitle.schedule {
+    right: 0;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .pageTitle.schedule {
+    float: right;
+    right: 9%; 
+  }
+}*/

@@ -1,0 +1,150 @@
+$breakpoint: 992px;
+$pagewidth: 1280px;
+
+a {
+  text-decoration: none;
+}
+
+.venuePageWrapper {
+  margin-right: 20px;
+  margin-left: 28px;
+}
+
+#venueBody {
+  position: relative;
+}
+
+@media screen and (max-width: $breakpoint) {
+
+  .pageTitle.venue {
+    position: absolute;
+    top: 144px;
+    left: 0;
+    margin-left: 20px;
+  }
+
+  .venue-iwg-img {
+    height: 100%;
+    width: 90%;
+    margin-right: 20px;
+  }
+
+  .venue-map-large {
+    display: none;
+  }
+
+  .venue-map-mobile {
+    height: auto;
+    width: 90%;
+    margin-right: 20px;
+    position: relative;
+  }
+
+  #venueBody {
+    margin-top: 100px;
+  }
+
+  .venue-links {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .to-schedule-venue, .to-venue-venue, .to-speakers-venue, .to-register-venue {
+    color: white;
+  }
+}
+
+@media (min-width: $breakpoint) {
+  .pageTitle.venue {
+    position: fixed;
+    top: 260px;
+    margin-right: 20px;
+  }
+
+  #venueBody {
+    position: relative;
+    margin-top: 390px;
+    margin-bottom: 100px;
+  }
+
+  .venue-body-paragraph-1, .venue-body-paragraph-2, .venue-body-paragraph-3, .venue-body-paragraph-4 {
+    margin-bottom: 42px;
+    white-space: normal;
+  }
+
+  .venue-iwg-img {
+    position: relative;
+    float: left;
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+  }
+
+  .venue-section-1 {
+    margin-bottom: 70px;
+  }
+
+  .venue-map-mobile {
+    display: none;
+  }
+
+  .venue-map-large {
+    position: relative;
+    float: right;
+    height: auto;
+    width: 500px;
+  }
+
+  .venue-parking-paragraph {
+    text-align: left;
+    white-space: normal;
+  }
+
+  .venue-body-parking {
+    float: right;
+    margin-left: 500px;
+  }
+
+  .venue-body-accommodations {
+    margin-right: 500px;
+  }
+
+  .venue-body-paragraph {
+    text-align: left;
+    white-space: normal;
+  }
+
+  .venue-body-meals {
+    margin-left: 500px;
+    white-space: normal;
+  }
+
+  .venue-links {
+    white-space: nowrap;
+  }
+
+  .to-schedule-venue, .to-venue-venue, .to-speakers-venue {
+    color: black;
+  }
+
+  .to-register-venue {
+    background-color: black;
+    color: white;
+    padding: 5px 5px
+  }
+}
+
+@media (min-width: $breakpoint) and (max-width: $pagewidth) {
+  .pageTitle.venue {
+    right: 0;
+    margin-right: 20px;
+  }
+}
+
+/*
+@media (min-width: 1280px) {
+    .pageTitle.venue {
+        right: 0;
+        margin-right: 33%;
+    }
+}*/

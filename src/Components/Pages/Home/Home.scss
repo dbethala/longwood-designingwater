@@ -1,0 +1,145 @@
+#designing-water-header-text {
+  color: white;
+  text-decoration: none;
+}
+
+.homepage-banner {
+  background-image: url('../../Assets/homepage-background.jpg');
+  background-size: 100vw 1280px;
+  background-repeat: no-repeat;
+}
+
+#home-intro-1 {
+  position: relative;
+  align-content: right;
+  margin-bottom: 80px;
+}
+
+#designing {
+  color: white;
+  float: left;
+  position: relative;
+  font-weight: normal;
+}
+
+#water {
+  color: white;
+  float: right;
+  position: relative;
+  font-weight: normal;
+}
+
+.heading-date {
+  color: white;
+  font-weight: normal;
+  position: relative;
+}
+
+.logo {
+  width: 280px;
+}
+
+#home-intro-1 {
+  position: relative;
+  margin-top: 100px;
+}
+
+.to-schedule-home, .to-venue-home, .to-speakers-home, .to-register-home {
+  color: white;
+}
+
+//Text
+h2 {
+  font-weight: normal
+}
+
+@media (min-width: 992px) {
+  .body-paragraphs {
+    white-space: nowrap;
+  }
+
+  #designing {
+    margin-bottom: 200px;
+    margin-top: 200px;
+  }
+
+  #water {
+    margin-bottom: 200px;
+  }
+
+  .heading-date {
+    margin-bottom: 100px;
+    padding-bottom: 200px;
+    top: 70px;
+  }
+
+  .homepage-banner {
+    background-size: 1280px 1280px;
+  }
+
+  .header-region {
+    padding-top: 20px;
+  }
+
+  .to-register-home {
+    background-color: black;
+    color: white;
+    padding: 5px 5px
+  }
+
+  #from-the-curator-col {
+    width: 65%;
+  }
+
+  #descriptions {
+    width: 50%;
+    margin-left: 45%;
+  }
+
+  #home-intro-2 {
+    white-space: normal;
+    margin-right: 20%
+  }
+
+  #organizerHeading {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  #desinging {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  #water {
+    margin-bottom: 100px;
+    bottom: 50px;
+    margin-right: 20px;
+  }
+
+  .welcome-banner-text {
+    position: relative;
+    top: 50px;
+  }
+
+  .heading-date {
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+
+  }
+
+  .homepage-banner {
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+  }
+
+  .mobile-nav-closed-black {
+    display: none;
+  }
+
+  .body-paragraphs {
+    margin-right: 20px
+  }
+}

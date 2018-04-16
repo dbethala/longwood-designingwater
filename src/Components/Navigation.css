@@ -1,0 +1,105 @@
+.mobile-nav-open {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  nav {
+    display: block;
+    float: right;
+  }
+  .mobile-nav-header {
+    display: none;
+  }
+  nav ul {
+    float: right;
+  }
+  nav ul li {
+    display: inline;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0;
+  }
+  .mobile-nav-closed-black {
+    display: none;
+  }
+  .mobile-nav-closed-white {
+    display: none;
+  }
+  .mobile-nav-closed {
+    display: none;
+  }
+  .to-register {
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+  }
+  .nav-large-screen {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-large-screen {
+    display: none;
+  }
+  nav ul li {
+    font-size: 56px;
+    line-height: 66px;
+  }
+  .mobile-nav-closed-black {
+    right: 0;
+    position: absolute;
+    display: inline;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .mobile-nav-closed-white {
+    right: 0;
+    position: absolute;
+    display: inline;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .mobile-nav-closed {
+    float: right;
+    margin-right: 20px;
+    z-index: 3;
+  }
+  .menuhidden {
+    background-image: url("./Assets/menu-background.jpg");
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    top: 0;
+    left: 0;
+  }
+  .menuhidden ul {
+    position: relative;
+    margin-top: 50%;
+  }
+  .menuhidden ul li {
+    display: block;
+    font-size: 56px;
+    line-height: 66px;
+    text-transform: lowercase;
+  }
+  .menuhidden ul li a {
+    color: white;
+    background-color: none;
+  }
+  #mobileNavClose {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  #designing-water-header-text-mobile-nav {
+    position: absolute;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+/*# sourceMappingURL=Navigation.css.map */

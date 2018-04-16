@@ -1,0 +1,165 @@
+$breakpoint: 992px;
+$pagewidth: 1280px;
+
+.speakers {
+  color: #B2E52D;
+}
+
+#speakerShortcuts a, #alphaShortcuts a {
+  text-decoration: none;
+}
+
+#speakerBody {
+  position: relative
+}
+
+.sp-name {
+  white-space: nowrap;
+}
+
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.speaker-image {
+  @include aspect-ratio(4, 3);
+}
+
+@media screen and (max-width: $breakpoint) {
+  #speakerShortcuts {
+    display: none;
+  }
+
+  .pageTitle.speakers {
+    position: absolute;
+    top: 144px;
+    left: 0;
+    margin-left: 20px;
+  }
+
+  .speaker-image {
+    height: 200px;
+    width: auto;
+  }
+
+  #speakerBody {
+    margin-top: 100px;
+  }
+
+  .speaker-alphabet-listing {
+    margin-top: 20px;
+  }
+
+  .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers, .to-register-speakers {
+    color: white;
+  }
+
+  .sp-name {
+    white-space: normal;
+  }
+
+  .speaker-image .berrizheitia-img {
+    width: 150px
+  }
+  .speaker-desc {
+      margin-right: 20px;
+  }
+}
+
+@media (min-width: $breakpoint) {
+  /* h1, h2, h3, h4, p {
+       white-space: nowrap;
+  }*/
+
+  .pageTitle.speakers {
+    position: fixed;
+    top: 260px;
+    margin-left: 28px;
+  }
+  .speaker-desc {
+    white-space: normal;
+  }
+
+  .sp-name {
+    white-space: normal
+  }
+
+  #speakerShortcuts {
+    white-space: nowrap;
+  }
+  #speakerBody {
+    position: relative;
+    margin-top: 390px;
+    margin-bottom: 100px;
+  }
+  /*.speaker-image {
+    height: 150px;
+    width: auto;
+    */
+  //}
+  .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers {
+    color: black;
+  }
+
+  .to-register-speakers {
+    background-color: black;
+    color: white;
+    padding: 5px 5px
+  }
+
+  .speaker-image {
+    height: 300px;
+    width: 400px;
+    right: 150px;
+}
+}
+
+@media (min-width: $breakpoint) and (max-width: $pagewidth) {
+  .speaker-alphabet-listing {
+    display: none;
+  }
+
+  #speakerShortcuts {
+    position: absolute;
+    margin-right: 20px;
+    right: 0;
+  }
+
+  .pageTitle.speakers {
+    position: fixed;
+    top: 260px;
+    left: 0;
+  }
+}
+
+@media (min-width: $pagewidth) {
+  .pageTitle.speakers {
+    position: fixed;
+    top: 260px;
+  }
+
+  .speaker-alphabet-listing {
+    display: none;
+  }
+
+  #speakerShortcuts {
+    position: relative;
+    margin-right: 20px;
+    right: 0;
+  }
+}

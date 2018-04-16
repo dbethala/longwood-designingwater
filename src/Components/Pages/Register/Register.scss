@@ -1,0 +1,83 @@
+$breakpoint: 992px;
+$pagewidth: 1280px;
+
+#designing-water-header-text {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: $breakpoint) {
+  .registerBody {
+    position: relative;
+    margin-top: 100px;
+  }
+
+  .pageTitle.register {
+    position: absolute;
+    top: 144px;
+    left: 0;
+    margin-left: 20px;
+  }
+
+  .register-links-region {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .to-schedule-register, .to-venue-register, .to-speakers-register, .to-register-register {
+    color: white;
+  }
+}
+
+@media (min-width: $breakpoint) {
+
+  .pageTitle.register {
+    position: fixed;
+    top: 260px;
+    margin-left: 20px;
+  }
+
+  .registerBody {
+    margin-top: 390px;
+    margin-bottom: 300px;
+  }
+  .register-links-region {
+    width: auto;
+    float: right;
+  }
+  .register-links {
+    white-space: nowrap;
+  }
+
+  .tickets-region {
+    margin-left: 640px;
+  }
+  .conted-region {
+    margin-left: 640px;
+  }
+  .to-schedule-register, .to-venue-register, .to-speakers-register {
+    color: black;
+  }
+  .to-register-register {
+    background-color: black;
+    color: white;
+    padding: 5px 5px
+  }
+}
+
+@media (min-width: $breakpoint) and (max-width: $pagewidth) {
+  .pageTitle.register {
+    left: 0;
+  }
+}
+
+@media (min-width: $pagewidth) {
+  .pageTitle.register {
+    position: fixed;
+    top: 260px;
+  }
+}

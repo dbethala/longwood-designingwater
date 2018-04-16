@@ -1,0 +1,28 @@
+$breakpoint: 992px;
+
+@media (min-width: $breakpoint) {
+    .event-col {
+        width: 45%;
+    }
+
+    .event-desc {
+        white-space: normal;
+    }
+    
+    .thursday {
+        position: relative;
+        right: 70px;
+    }
+
+    #schedule-date-2 {
+        position: relative;
+        right: 73px;
+    }
+    
+}
+
+@media screen and (max-width: $breakpoint) {
+    .event-desc {
+        margin-right: 20px;
+    }
+}
