@@ -62,12 +62,15 @@
   .speaker-image .berrizheitia-img {
     width: 150px;
   }
+  .speaker-desc {
+    margin-right: 20px;
+  }
 }
 
 @media (min-width: 992px) {
   /* h1, h2, h3, h4, p {
-        white-space: nowrap;
-   }*/
+       white-space: nowrap;
+  }*/
   .pageTitle.speakers {
     position: fixed;
     top: 260px;
@@ -88,9 +91,9 @@
     margin-bottom: 100px;
   }
   /*.speaker-image {
-        height: 150px;
-        width: auto;
-        */
+    height: 150px;
+    width: auto;
+    */
   .to-schedule-speakers, .to-venue-speakers, .to-speakers-speakers {
     color: black;
   }
@@ -99,10 +102,9 @@
     color: white;
     padding: 5px 5px;
   }
-  .berrizheitia-img {
-    width: 250px;
-    margin-left: 150px;
-    margin-top: 12px;
+  .speaker-image {
+    height: 300px;
+    width: 400px;
   }
 }
 

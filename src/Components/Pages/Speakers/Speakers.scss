@@ -17,6 +17,7 @@ $pagewidth: 1280px;
   white-space: nowrap;
 }
 
+
 @mixin aspect-ratio($width, $height) {
   position: relative;
   &:before {
@@ -75,6 +76,9 @@ $pagewidth: 1280px;
   .speaker-image .berrizheitia-img {
     width: 150px
   }
+  .speaker-desc {
+      margin-right: 20px;
+  }
 }
 
 @media (min-width: $breakpoint) {
@@ -118,11 +122,10 @@ $pagewidth: 1280px;
     padding: 5px 5px
   }
 
-  .berrizheitia-img {
-    width: 250px;
-    margin-left: 150px;
-    margin-top: 12px;
-  }
+  .speaker-image {
+    height: 300px;
+    width: 400px;
+}
 }
 
 @media (min-width: $breakpoint) and (max-width: $pagewidth) {

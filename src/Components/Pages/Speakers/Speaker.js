@@ -8,26 +8,26 @@ import '../../../Global Stylesheets/lw01_css_032818mm.css';
 
 //Images
 
-import Berrizheitia from '../../Assets/Speaker Images/Anita_Berrizbeitia.jpeg';
-import VanBoxelKoreman from '../../Assets/Speaker Images/Koreman and van Boxel.jpg';
-import Corner from '../../Assets/Speaker Images/Corner.jpg';
+import Berrizheitia from '../../Assets/Speaker Images/Berrizbeitia.jpg';
+import VanBoxelKoreman from '../../Assets/Speaker Images/vanBoxel.jpg';
+import Corner from '../../Assets/Speaker Images/Corner2.jpg';
 //No photo for Descombes
-import Garland from '../../Assets/Speaker Images/Garland.jpg';
+import Garland from '../../Assets/Speaker Images/Garland2.jpg';
 //No photo for Geuze
-import Girot from '../../Assets/Speaker Images/Girot.jpg';
-import Imbert from '../../Assets/Speaker Images/Imbert.jpg';
-import Jones from '../../Assets/Speaker Images/Margaret Jones.jpg';
-import Latz from '../../Assets/Speaker Images/Latz.jpg';
-import Lee from '../../Assets/Speaker Images/Lee.jpg';
+import Girot from '../../Assets/Speaker Images/Girot2.jpg';
+import Imbert from '../../Assets/Speaker Images/Imbert2.jpg';
+import Jones from '../../Assets/Speaker Images/Margaret Jones2.jpg';
+import Latz from '../../Assets/Speaker Images/Latz2.jpg';
+import Lee from '../../Assets/Speaker Images/Lee2.jpg';
 //No photo for Lister
-import Orff from '../../Assets/Speaker Images/Orff.jpg';
-import Randall from '../../Assets/Speaker Images/randall.jpg';
-import Redman from '../../Assets/Speaker Images/Redman.jpg';
-import Robbins from '../../Assets/Speaker Images/Robbins.jpg';
-import Seavitt from '../../Assets/Speaker Images/Seavitt Nordenson.jpg';
-import Waldheim from '../../Assets/Speaker Images/waldheim_headshot.jpg';
-import White from '../../Assets/Speaker Images/White.jpg';
-import Yu from '../../Assets/Speaker Images/Yu.jpg';
+import Orff from '../../Assets/Speaker Images/Orff2.jpg';
+import Randall from '../../Assets/Speaker Images/randall2.jpg';
+import Redman from '../../Assets/Speaker Images/Redman2.jpg';
+import Robbins from '../../Assets/Speaker Images/Robbins2.jpg';
+import Seavitt from '../../Assets/Speaker Images/Seavitt Nordenson2.jpg';
+import Waldheim from '../../Assets/Speaker Images/waldheim_headshot2.jpg';
+import White from '../../Assets/Speaker Images/White2.jpg';
+import Yu from '../../Assets/Speaker Images/Yu2.jpg';
 
 
 class Speaker extends React.Component {

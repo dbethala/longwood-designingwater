@@ -21,13 +21,13 @@ class Register extends React.Component {
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
+                    <div className="w3-col l1"></div>
+                    <div className="w3-col l1"></div>
+                    <div className="w3-col l1"></div>
                     <div className="w3-col l1 register-links-region" style={{width: 'auto'}}>
                         <h4 className="register register-links"><a href="#tickets">Tickets</a> &mdash; <a
                             href="#conted">Continuing Education Units</a></h4>
                     </div>
-                    <div className="w3-col l1"></div>
-                    <div className="w3-col l1"></div>
-                    <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1 col12"></div>
@@ -62,13 +62,10 @@ class Register extends React.Component {
                         <div className="w3-col l1 tickets-region" style={{width: 'auto'}}>
                             <h3 className="tickets-title"><a name="tickets">Tickets</a></h3>
                             <p className="tickets-paragraph">
-                                <i>Placeholder Text </i>
-                                Longwood offers free on-site parking in a tree-lined lot. Reserved handicapped parking
-                                is available near the entrance.
-                                Two charging stations for plug-in electric/hybrid cars are available. Charging stations
-                                have the industry standard “J1772”
-                                plug and operate with a 240 volt, 30 amp AC circuit. They are available to guests free
-                                of charge.
+                            Two-day symposium: $199<br />
+                            <br />
+Student rate: $99 <br /> <br/>
+Registration opens May 1
                             </p>
                             <br/>
                             <br/>
@@ -91,13 +88,7 @@ class Register extends React.Component {
                         <div className="w3-col l1 conted-region" style={{width: 'auto'}}>
                             <h3 className="conted-title"><a name="conted">Coninuing Education Units</a></h3>
                             <p className="conted-paragraph">
-                                <i>Placeholder Text </i>
-                                Longwood offers free on-site parking in a tree-lined lot. Reserved handicapped parking
-                                is available near the entrance.
-                                Two charging stations for plug-in electric/hybrid cars are available. Charging stations
-                                have the industry standard “J1772”
-                                plug and operate with a 240 volt, 30 amp AC circuit. They are available to guests free
-                                of charge.
+                            CEUs for LACES and APLD are being evaluated at this time.
                             </p>
                         </div>
                         <div className="w3-col l1"></div>

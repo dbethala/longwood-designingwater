@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fbda038-7784-4d75-8f7f-859c7f308034" name="Default" comment="Added react-grid-layout dependency">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/TitleText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/TitleText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Home/Home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Overlay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Overlay.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Register/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Register/Register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Register/Register.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Schedule/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Schedule/Event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Schedule/Schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Schedule/Schedule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Schedule/Schedule.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Schedule/Schedule.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Speakers/Speaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Speakers/Speaker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Speakers/SpeakerBio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Speakers/SpeakerBio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Speakers/Speakers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Speakers/Speakers.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Speakers/Speakers.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Speakers/Speakers.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Speakers/Speakers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Speakers/Speakers.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/Venue/Venue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Venue/Venue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Venue/Venue.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Venue/Venue.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Global Stylesheets/w3.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Global Stylesheets/w3.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Speaker.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Speaker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/Speakers/Speaker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="1340" column="63" selection-start-line="1340" selection-start-column="63" selection-end-line="1340" selection-end-column="63" />
+            <state relative-caret-position="437">
+              <caret line="1355" column="5" lean-forward="true" selection-start-line="1355" selection-start-column="5" selection-end-line="1355" selection-end-column="5" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#949#1005#0" expanded="true" />
@@ -65,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Venue.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Venue.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/Venue/Venue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="27" selection-end-line="301" selection-end-column="21" />
+            <state relative-caret-position="268">
+              <caret line="224" column="24" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -108,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/Speakers/Speakers.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="3" selection-end-line="160" selection-end-column="1" />
+              <caret line="26" column="3" selection-end-line="163" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -152,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/Components/Pages/Schedule/Schedule.scss" />
         <option value="$PROJECT_DIR$/src/Components/Pages/Speakers/SpeakerBio.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/Speakers/Speakers.scss" />
-        <option value="$PROJECT_DIR$/src/Components/Pages/Venue/Venue.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/Venue/Venue.scss" />
         <option value="$PROJECT_DIR$/src/Components/Navigation.js" />
         <option value="$PROJECT_DIR$/src/Components/Navigation.scss" />
@@ -160,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/Components/Pages/Overlay.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/Overlay.scss" />
         <option value="$PROJECT_DIR$/src/Components/Pages/Speakers/Speaker.js" />
+        <option value="$PROJECT_DIR$/src/Components/Pages/Venue/Venue.js" />
       </list>
     </option>
   </component>
@@ -344,25 +323,25 @@
       <workItem from="1523728848014" duration="79000" />
       <workItem from="1523728981452" duration="668000" />
       <workItem from="1523827018549" duration="162000" />
-      <workItem from="1523843140448" duration="3937000" />
+      <workItem from="1523843140448" duration="4261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39615000" />
+    <option name="totallyTimeSpent" value="39939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -673,8 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/Speakers/Speaker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="1340" column="63" selection-start-line="1340" selection-start-column="63" selection-end-line="1340" selection-end-column="63" />
+        <state relative-caret-position="437">
+          <caret line="1355" column="5" lean-forward="true" selection-start-line="1355" selection-start-column="5" selection-end-line="1355" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#949#1005#0" expanded="true" />
@@ -695,14 +674,7 @@
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/Speakers/Speakers.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="3" selection-end-line="160" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Pages/Venue/Venue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="27" selection-end-line="301" selection-end-column="21" />
+          <caret line="26" column="3" selection-end-line="163" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -727,6 +699,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Pages/Venue/Venue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="224" column="24" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
         </state>
       </provider>
     </entry>

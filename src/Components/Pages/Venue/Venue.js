@@ -41,16 +41,13 @@ class Venue extends React.Component {
                         <div className="w3-row venue-body-section-1">
                             <div className="w3-col l1 paragraph-cols" style={{width: 'auto'}}>
                                 <p className="venue-body-paragraph-1">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex
-                                    ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum
-                                    dolore eu fugiat nulla pariatur. Excepteur
-                                    sint occaecat cupidatat non proident, sunt
-                                    in culpa qui officia deserunt mollit anim
-                                    id est laborum
+                                    Exquisite flowers, majestic trees, dazzling fountains, opulent Conservatory, starlit
+                                    theatre, thunderous organ—all describe the magic of Longwood Gardens. All
+                                    presentations and sessions will be held in the 4.5-acre Conservatory’s Ballroom. As
+                                    a guest to the Gardens for Designing Water, you’ll have access to all indoor and
+                                    outdoor gardens, places, and spaces. Anticipate walking the Gardens at your leisure
+                                    amid fall weather conditions, so comfortable shoes and attire are recommended. We
+                                    may experience cooler temperatures for the evening fountain performance as well.
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
@@ -157,6 +154,15 @@ class Venue extends React.Component {
                                     You may also enter the coordinates for the Longwood Gardens Visitor Center:<br/>
                                     39d52’10.25”N (latitude)
                                     75d40’15.67”W (longitude)
+                                    <br/>
+                                    <br/>
+
+                                    Symposium attendees should check in at the registration table, located in the
+                                    Visitor Center as you enter Longwood Gardens. <br/> <br/>
+                                    Complimentary transportation to downtown Philadelphia following the conclusion of
+                                    the symposium will be available on a limited basis. To secure a spot, please email
+                                    Director of Continuing Education Matthew Ross mross@longwoodgardens.org or call
+                                    610.388.5247.
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
@@ -189,22 +195,11 @@ class Venue extends React.Component {
                                     <a name="parking">Parking</a>
                                 </h2>
                                 <p className="venue-parking-paragraph">
-                                    We offer free on-site parking in our tree-lined lot. During peak visitation times,
-                                    free off-site parking may be used if our on-site lot is full. Transportation is
-                                    provided between the off-site parking and the Visitor Center entrance. Please follow
-                                    the signage and note the Longwood staff members directing traffic on peak visitation
-                                    days.
-                                    <br/>
-                                    <br/>
-                                    Reserved handicapped parking is available near the entrance. Guests may drop off
-                                    passengers at the entrance using the double traffic lane in front of the Visitor
-                                    Center.
-                                    <br/>
-                                    <br/>
-                                    Two charging stations for plug-in electric/hybrid cars are available in our Visitor
-                                    Center Parking Lot. Charging stations have the industry standard “J1772” plug and
-                                    operate with a 240 volt, 30 amp AC circuit. They are available to guests free of
-                                    charge.
+                                    Longwood offers free on-site parking in a tree-lined lot. Reserved handicapped
+                                    parking is available near the entrance. Two charging stations for plug-in
+                                    electric/hybrid cars are available. Charging stations have the industry standard
+                                    “J1772” plug and operate with a 240 volt, 30 amp AC circuit. They are available to
+                                    guests free of charge.
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
@@ -222,22 +217,24 @@ class Venue extends React.Component {
                                 <h2 className="venue-body-paragraph-4-title"><a name="accommodations">Accommodations</a>
                                 </h2>
                                 <p className="venue-body-paragraph-4">
-                                    We offer free on-site parking in our tree-lined lot. During peak visitation times,
-                                    free off-site parking may be used if our on-site lot is full. Transportation is
-                                    provided between the off-site parking and the Visitor Center entrance. Please follow
-                                    the signage and note the Longwood staff members directing traffic on peak visitation
-                                    days.
+                                    The preferred hotels for Designing Water, in closest proximity to Longwood Gardens,
+                                    are the: <br/>
                                     <br/>
-                                    <br/>
-                                    Reserved handicapped parking is available near the entrance. Guests may drop off
-                                    passengers at the entrance using the double traffic lane in front of the Visitor
-                                    Center.
-                                    <br/>
-                                    <br/>
-                                    Two charging stations for plug-in electric/hybrid cars are available in our Visitor
-                                    Center Parking Lot. Charging stations have the industry standard “J1772” plug and
-                                    operate with a 240 volt, 30 amp AC circuit. They are available to guests free of
-                                    charge.
+                                    Hilton Garden Inn<br/>
+                                    815 E Baltimore Pike, <br/>Kennett Square, PA<br/>
+                                    610.444.9100
+                                    <br />
+                                    <br />
+                                    and the
+                                    <br />
+                                    <br />
+                                    Fairfield Inn and Suites by Marriot Kennett Square Brandywine Valley<br/>
+                                    719 E Baltimore Pike, <br/>Kennett Square, PA 19348<br/>
+                                    610.444.8995
+                                    <br />
+                                    <br />
+                                    There are also several nearby bed and breakfast and other hotels which can be
+                                    accessed through the Brandywine Valley Website at (www.brandywinevalley.com)
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
@@ -264,22 +261,8 @@ class Venue extends React.Component {
                             <div className="w3-col l1 venue-body-meals" style={{width: 'auto'}}>
                                 <h2 className="venue-body-paragraph-5-title"><a name="meals">Meals</a></h2>
                                 <p className="venue-meals-paragraph">
-                                    We offer free on-site parking in our tree-lined lot. During peak visitation times,
-                                    free off-site parking may be used if our on-site lot is full. Transportation is
-                                    provided between the off-site parking and the Visitor Center entrance. Please follow
-                                    the signage and note the Longwood staff members directing traffic on peak visitation
-                                    days.
-                                    <br/>
-                                    <br/>
-                                    Reserved handicapped parking is available near the entrance. Guests may drop off
-                                    passengers at the entrance using the double traffic lane in front of the Visitor
-                                    Center.
-                                    <br/>
-                                    <br/>
-                                    Two charging stations for plug-in electric/hybrid cars are available in our Visitor
-                                    Center Parking Lot. Charging stations have the industry standard “J1772” plug and
-                                    operate with a 240 volt, 30 amp AC circuit. They are available to guests free of
-                                    charge.
+                                Registration includes a four-course dinner in Longwood's Conservatory on the evening of October 17, continental breakfast on the morning of October 18, and a buffet lunch on October 18. <br/> <br/>Please alert us to any food allergies or dietary restrictions as you register. 
+If you have any special accommodations we should be aware of to ensure you have a wonderful experience during Designing Water, please note these as you register. 
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
