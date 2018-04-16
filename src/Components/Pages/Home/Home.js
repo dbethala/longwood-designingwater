@@ -26,6 +26,7 @@ class Home extends React.Component {
                         <div style={{clear: 'both'}}/>
                     </div>
                     <div className="w3-row">
+                    <div className="forefront-element">
                         <div className="homepage-title-region">
                             <div className="w3-col m1">
                                 <h1 className="welcome-banner-text" id="designing">designing<br/></h1>
@@ -61,7 +62,7 @@ class Home extends React.Component {
                             <div className="w3-col l1"></div>
                         </div>
                     </div>
-
+                    </div>
                     <div className="w3-row">
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>

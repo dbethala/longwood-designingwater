@@ -85,7 +85,7 @@ Registration opens May 1
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 conted-region" style={{width: 'auto'}}>
-                            <h3 className="conted-title"><a name="conted">Coninuing Education Units</a></h3>
+                            <h3 className="conted-title"><a name="conted">Continuing Education Units</a></h3>
                             <p className="conted-paragraph">
                             CEUs for LACES and APLD are being evaluated at this time.
                             </p>

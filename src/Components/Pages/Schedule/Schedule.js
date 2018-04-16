@@ -23,10 +23,11 @@ class Schedule extends React.Component {
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
-                    <div className="w3-col l1"></div>
+                    <div className="w3-col l1">
+                    <Title title="schedule" className="schedule"/></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1">
-                        <Title title="schedule" className="schedule" style={{marginRight: '20px'}}/>
+                     
                     </div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>

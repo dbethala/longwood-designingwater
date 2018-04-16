@@ -17,7 +17,7 @@ nav {
     position: absolute;
     top: 144px;
     left: 0px;
-    margin-left: 28px;
+    margin-left: 20px;
   }
 
   #scheduleBody {
@@ -43,12 +43,7 @@ nav {
     color: white;
   }
 }
-@media (min-width: $breakpoint) and (max-width: 1280px) {
 
-  .pageTitle.schedule {
-    right: 0;
-  }
-}
 @media (min-width: $breakpoint) {
   /*h1, h2, h3, h4, p {
     white-space: nowrap; 
@@ -80,7 +75,7 @@ nav {
   .pageTitle.schedule {
     position: fixed;
     top: 260px;
-    margin-right: 20px;
+    margin-right: 18%;
   }
 
   .to-schedule-schedule, .to-venue-schedule, .to-speakers-schedule {
@@ -95,3 +90,23 @@ nav {
     margin-top: 100px;
   }
 }
+@media (min-width: $breakpoint) and (max-width: 1280px) {
+  .pageTitle.schedule {
+    right: 0;
+    margin-right: 20px;
+  }
+}
+
+/*@media (min-width: $breakpoint) and (max-width: 1280px) {
+  .pageTitle.schedule {
+    right: 0;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .pageTitle.schedule {
+    float: right;
+    right: 9%; 
+  }
+}*/

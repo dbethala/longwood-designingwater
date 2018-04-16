@@ -24,6 +24,7 @@
   margin-top: 82px;
   width: auto;
   display: -webkit-inline-box;
+  display: -ms-flexbox;
 }
 
 .vl {
