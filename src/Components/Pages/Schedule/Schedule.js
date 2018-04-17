@@ -27,7 +27,7 @@ class Schedule extends React.Component {
                     <Title title="schedule" className="schedule"/></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1">
-                     
+
                     </div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
@@ -70,8 +70,8 @@ class Schedule extends React.Component {
                            eventDesc={"Nowhere else in the world is there a setting that marries fountains, theater, and garden, establishing Longwood Gardens’ Main Fountain Garden as the finest performance fountain in the world. Explore this garden that combines classic landscape design with art, innovation, technology, and extraordinary fountains. Discover more than 1,700 fountain jets, a stunning grotto, and the latest technology for lighting and design, and get a behind-the-scenes look at the infrastructure that supports this engineering marvel. Thanks to the dream team of Beyer Blender Belle, West 8, Fluidity, LePore & Sons, La Observatoire, and Bancroft Construction, this garden recently underwent a $94 million revitalization opening last summer to record crowds and critic acclaim. "}/>
                     <Event day="Wednesday" timestamp="6:30-8:00 pm" eventHeading="Welcome Reception and Dinner"
                            eventDesc={"Dine amid thousands of blooms in Longwood’s grand 4.5-acre Conservatory with new friends and long-standing colleagues. A truly magical experience, the opening dinner promises to deliver culinary excellence akin to the horticulture that you are surrounded by. "}/>
-                    <Event day="Wednesday" timestamp="8:80-9:00 pm" eventHeading="Illuminated Fountain Performance "/>
-                    <Event day="Wednesday" timestamp="8:00-9:00 pm" eventHeading="Fountain Show"
+                         {/*<Event day="Wednesday" timestamp="8:80-9:00 pm" eventHeading="Illuminated Fountain Performance "/> */}
+                    <Event day="Wednesday" timestamp="8:00-9:00 pm" eventHeading="Illuminated Fountain Performance"
                            eventDesc={"Sit back in awe as water in all shapes, sizes, and heights combines with music and infinite colors. This narrated presentation of the new and innovative features of the Main Fountain Garden will be followed by a private viewing of a full-length illuminated fountain performance."}/>
                     <div className="thursday-section">
                     <div className="w3-row">
