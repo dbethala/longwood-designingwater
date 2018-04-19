@@ -86,17 +86,17 @@ class Home extends React.Component {
                     <div className="w3-col l1 col3"></div>
                     <div className="w3-col l1 col4 intro-paragraph" style={{width: 'auto'}}>
                         <h3 className="body-paragraphs" id="home-intro-1">
-                            Water is the most compelling and consquential design matter of
+                            <div id="intro-paragraph-1">Water is the most compelling and consequential design matter of
                             the 21st century. Not just a life source of, water
                             has crucial social, cultural and symbiotic functions and plays an
-                            essential role in all living systems.
+                            essential role in all living systems. </div>
                             <br/>
-                            <br/>
+                            <div id="intro-paragraph-2">
                             International scholars and practitioners in garden design, landscape
                             architecture, urban design, and ecology convene to
                             discuss and advance concepts of and strategies for designing
                             water from the scale of singular garden feature to integrated
-                            regional systems.
+                            regional systems. </div>
                         </h3>
                     </div>
                     <div className="w3-col l1 col5"></div>
@@ -128,7 +128,7 @@ class Home extends React.Component {
                             change.
                             <br/>
                             <br/>
-                            In doing so, Designing Water intends to project future potentials for our disciplines while
+                            In doing so, <i>Designing Water</i> intends to project future potentials for our disciplines while
                             educating us all about the crucial role design plays in shaping this resource. The event’s
                             diverse sessions set the coordinates for a thoughtful and lively discussion of issues that
                             confront those involved in designing, planning and managing water, as well as all of us that
@@ -138,8 +138,8 @@ class Home extends React.Component {
                             I look forward to meeting you in October!
                             <br/>
                             <br/>
-                            <div className="speakers">Julia Czeniak</div>
-                            Chief Curator, Designing Water
+                            <div className="speakers">Julia Czerniak</div>
+                            Chief Curator, <i>Designing Water</i><br />
                             Associate Dean and Professor, Syracuse Architecture
                         </p>
                     </div>

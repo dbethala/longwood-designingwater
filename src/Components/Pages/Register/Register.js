@@ -60,7 +60,7 @@ class Register extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 tickets-region" style={{width: 'auto'}}>
-                            <h3 className="tickets-title"><a name="tickets">Tickets</a></h3>
+                            <h2 className="tickets-title"><a name="tickets">Tickets</a></h2>
                             <p className="tickets-paragraph">
                             Two-day symposium: $199<br />
                             <br />
@@ -85,7 +85,7 @@ Registration opens May 1
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 conted-region" style={{width: 'auto'}}>
-                            <h3 className="conted-title"><a name="conted">Continuing Education Units</a></h3>
+                            <h2 className="conted-title"><a name="conted">Continuing Education Units</a></h2>
                             <p className="conted-paragraph">
                             CEUs for LACES and APLD are being evaluated at this time.
                             </p>

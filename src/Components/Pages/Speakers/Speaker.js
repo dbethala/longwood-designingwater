@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react';
 import './Speakers.css';
 import Title from '../../Title';
@@ -23,7 +24,7 @@ import Lee from '../../Assets/Speaker Images/Lee2.jpg';
 //No photo for Lister
 import Orff from '../../Assets/Speaker Images/Orff2.jpg';
 import Randall from '../../Assets/Speaker Images/randall2.jpg';
-import Redman from '../../Assets/Speaker Images/Redman2.jpg';
+import Redman from '../../Assets/Speaker Images/Redman3.jpg';
 import Robbins from '../../Assets/Speaker Images/Robbins2.jpg';
 import Seavitt from '../../Assets/Speaker Images/Seavitt Nordenson2.jpg';
 import Waldheim from '../../Assets/Speaker Images/waldheim_headshot2.jpg';
@@ -54,11 +55,11 @@ class Speaker extends React.Component {
                         <div className="speaker-shortcuts-region">
                             <h4 className="speakers" id="speakerShortcuts"><a href="#czerniak>">Czerniak</a> - <a
                                 href="#berrizheitia">Berrizheitia</a> - <a
-                                href="#vanboxel">van Boxel</a> - <a href="#corner">Corner</a> - <a
+                                href="#vanBoxelKoreman">van Boxel</a> - <a href="#corner">Corner</a> - <a
                                 href="#descombes">Descombes</a> - <a href="#garland">Garland</a> - <a
                                 href="#geuze">Geuze</a> - <br/>
                                 <a href="#girot">Girot</a> - <a href="#imbert">Imbert</a> - <a
-                                    href="#jones">Jones</a> - <a href="#koreman">Koreman</a> - <a
+                                    href="#jones">Jones</a> - <a href="#vanBoxelKoreman">Koreman</a> - <a
                                     href="#latz">Latz</a> - <a href="#lee">Lee</a> - <a href="#lister">Lister</a> - <a
                                     href="#orff">Orff</a> -<br/>
                                 <a href="#randall">Randall</a> - <a href="#redman">Redman</a> - <a
@@ -227,7 +228,7 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 speaker-name-col">
                                 <div className="sp-name">
-                                    <h3 className="speakerName"><a name="vanBoxel">Elma van Boxel and Krisitan
+                                    <h3 className="speakerName"><a name="vanBoxelKoreman">Elma van Boxel and Krisitan
                                         Koreman</a></h3>
                                 </div>
                             </div>
@@ -520,7 +521,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1 col12"></div>
                         </div>
                     </div>
-
                     <div className="individual-speaker name-column girot">
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
@@ -541,7 +541,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 col12"></div>
                         </div>
-
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -583,7 +582,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1 col12"></div>
                         </div>
                     </div>
-
                     <div className="individual-speaker name-column imbert">
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
@@ -604,7 +602,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 col12"></div>
                         </div>
-
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -647,7 +644,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1 col12"></div>
                         </div>
                     </div>
-
                     <div className="individual-speaker name-column jones">
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
@@ -668,7 +664,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 col12"></div>
                         </div>
-
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -1026,8 +1021,8 @@ class Speaker extends React.Component {
                                         about Longwood Gardens, its history, magnificent garden features, the evolution
                                         of its bucolic landscape, and the performing arts in the Gardens that take place
                                         throughout the year. He is also the author of three books on Longwood Gardens
-                                        including the centennial publication, Longwood Gardens: 100 Years of Garden
-                                        Splendor. Randall became interested in the history of Longwood Gardens in 1973
+                                        including the centennial publication, <i>Longwood Gardens: 100 Years of Garden
+                                        Splendor</i>. Randall became interested in the history of Longwood Gardens in 1973
                                         as a Longwood Graduate Fellow researching the story of the garden’s fountains.
                                         Currently, Randall oversees Longwood’s fireworks displays, the world’s largest
                                         resident 10,010-pipe organ as well as the 62-bell carillon in the Chimes Tower.
@@ -1161,7 +1156,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1 col12"></div>
                         </div>
                     </div>
-
                     <div className="individual-speaker name-column seavitt">
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
@@ -1184,7 +1178,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 col12"></div>
                         </div>
-
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -1228,7 +1221,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1 col12"></div>
                         </div>
                     </div>
-
                     <div className="individual-speaker name-column waldheim">
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
@@ -1249,7 +1241,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 col12"></div>
                         </div>
-
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -1310,7 +1301,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 col12"></div>
                         </div>
-
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -1348,7 +1338,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1 col12"></div>
                         </div>
                     </div>
-
                     <div className="individual-speaker name-column yu">
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
@@ -1369,7 +1358,6 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 col12"></div>
                         </div>
-
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -1415,5 +1403,4 @@ class Speaker extends React.Component {
         )
     }
 }
-
 export default Speaker;

@@ -183,7 +183,7 @@ class Schedule extends React.Component {
                     <Event day="Thursday" timestamp="6:30-9:00 pm" eventHeading="Self-Guided Garden Tour"
                            eventDesc={["Following the event’s close, Longwood Gardens will remain open until 9:00 pm for symposium guests to explore on their own.",
                                <br/>,
-                               <br/>, "Complementary transportation to downtown Philadelphia following the conclusion of the symposium will be available on a limited basis. To secure a spot, please email Director of Continuing Education Matthew Ross mross@longwoodgardens.org or call 610.388.5247."]}/>
+                               <br/>, "Complementary transportation to downtown Philadelphia following the conclusion of the symposium will be available on a limited basis. To secure a spot, please email Director of Continuing Education Matthew Ross ", <a class="schedule" href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a>," or call 610.388.5247."]}/>
                 </div>
                 </div>
                 <Footer/>
