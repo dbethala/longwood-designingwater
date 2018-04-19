@@ -22,6 +22,8 @@
     font-size: 24px;
     line-height: 34px;
     letter-spacing: 0;
+    margin-right: 40px;
+    font-family: 'Patron Regular';
   }
 
   .mobile-nav-closed-black {
@@ -45,6 +47,7 @@
   .nav-large-screen {
     display: inline;
   }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -122,14 +125,12 @@
     margin-top: 20px;
     margin-left: 20px;
   }
-}
-<<<<<<< HEAD
 
-@media only screen and (orientation: landscape) {
-  .menuhidden ul {
-    position: relative;
-    margin-top: 7%;
+  .mobile-nav-closed {
+    width: 50px;
+  }
+
+  .mobile-nav-close {
+    width: 50px;
   }
 }
-=======
->>>>>>> 9325b137f18e7e1a73979c5a4557ededef7dea6f

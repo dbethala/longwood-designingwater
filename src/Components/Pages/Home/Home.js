@@ -84,18 +84,18 @@ class Home extends React.Component {
                     <div className="w3-col l1 col1"></div>
                     <div className="w3-col l1 col2"></div>
                     <div className="w3-col l1 col3"></div>
-                    <div className="w3-col l1 col4">
+                    <div className="w3-col l1 col4 intro-paragraph" style={{width: 'auto'}}>
                         <h3 className="body-paragraphs" id="home-intro-1">
-                            Water is the most compelling and consquential design matter of<br/>
-                            the 21st century. Not just a life source of, water<br/>
-                            has crucial social, cultural and symbiotic functions and plays an<br/>
-                            essential role in all living systems.<br/>
+                            Water is the most compelling and consquential design matter of
+                            the 21st century. Not just a life source of, water
+                            has crucial social, cultural and symbiotic functions and plays an
+                            essential role in all living systems.
                             <br/>
                             <br/>
-                            International scholars and practitioners in garden design, landscape<br/>
-                            architecture, urban design, and ecology convene to<br/>
-                            discuss and advance concepts of and strategies for designing<br/>
-                            water from the scale of singular garden feature to integrated<br/>
+                            International scholars and practitioners in garden design, landscape
+                            architecture, urban design, and ecology convene to
+                            discuss and advance concepts of and strategies for designing
+                            water from the scale of singular garden feature to integrated
                             regional systems.
                         </h3>
                     </div>

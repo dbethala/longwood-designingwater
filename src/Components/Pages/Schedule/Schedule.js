@@ -56,9 +56,7 @@ class Schedule extends React.Component {
                         <div className="w3-col l1 col12"></div>
                     </div>
                     <Event day="Wednesday" timestamp="3:00-3:20 pm" eventHeading="Welcome"
-                           eventDesc={["Paul B. Redman, President and CEO of Longwood Gardens, ",
-                               <br/>, "and Mark Robbins, President and CEO of the American ",
-                               <br/>, "Academy in Rome"]}/>
+                           eventDesc="Paul B. Redman, President and CEO of Longwood Gardens, and Mark Robbins, President and CEO of the American Academy in Rome" />
                     <Event day="Wednesday" timestamp="3:20-3:40 pm" eventHeading="Introductory Remarks"
                            eventDesc={["Julia Czerniak, Associate Dean and Professor, Syracuse Architecture ", <br/>,
                                <br/>, "Chief Curator Julia Czerniak will provide an overview of the two days of lectures, tours, and experiences as she lays out the framework for the symposium."]}/>
