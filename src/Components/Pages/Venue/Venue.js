@@ -261,8 +261,7 @@ class Venue extends React.Component {
                             <div className="w3-col l1 venue-body-meals" style={{width: 'auto'}}>
                                 <h2 className="venue-body-paragraph-5-title"><a name="meals">Meals</a></h2>
                                 <p className="venue-meals-paragraph">
-                                Registration includes a four-course dinner in Longwood's Conservatory on the evening of October 17, continental breakfast on the morning of October 18, and a buffet lunch on October 18. <br/> <br/>Please alert us to any food allergies or dietary restrictions as you register.
-If you have any special accommodations we should be aware of to ensure you have a wonderful experience during <i>Designing Water</i>, please note these as you register.
+                                Registration includes a buffet dinner in Longwood's Conservatory on the evening of October 17, continental breakfast on the morning of October 18, and a buffet lunch on October 18.
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>

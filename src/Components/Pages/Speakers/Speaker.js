@@ -15,13 +15,13 @@ import VanBoxelKoreman from '../../Assets/Speaker Images/vanBoxel.jpg';
 import Corner from '../../Assets/Speaker Images/Corner2.jpg';
 //No photo for Descombes
 import Garland from '../../Assets/Speaker Images/Garland2.jpg';
-//No photo for Geuze
+import Geuze from '../../Assets/Speaker Images/Geuze.jpg';
 import Girot from '../../Assets/Speaker Images/Girot2.jpg';
-import Imbert from '../../Assets/Speaker Images/Imbert2.jpg';
+import Imbert from '../../Assets/Speaker Images/Imbert.jpg';
 import Jones from '../../Assets/Speaker Images/Margaret Jones2.jpg';
 import Latz from '../../Assets/Speaker Images/Latz2.jpg';
 import Lee from '../../Assets/Speaker Images/Lee2.jpg';
-//No photo for Lister
+import Lister from '../../Assets/Speaker Images/Lister.jpg'
 import Orff from '../../Assets/Speaker Images/Orff2.jpg';
 import Randall from '../../Assets/Speaker Images/randall2.jpg';
 import Redman from '../../Assets/Speaker Images/Redman3.jpg';
@@ -488,8 +488,8 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1">
                                 <div className="speaker-img-region">
-                                    {/*<img className="speaker-image Geuze" src={Geuze}
-                                         alt="Geuze"/>*/}
+                                    {<img className="speaker-image Geuze" src={Geuze}
+                                         alt="Geuze"/>}
                                 </div>
                             </div>
                             <div className="w3-col l1"></div>
@@ -604,13 +604,13 @@ class Speaker extends React.Component {
                         </div>
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
-                            <div className="w3-col l1"></div>
-                            <div className="w3-col l1">
-                                <div className="speaker-img-region">
-                                    <img className="speaker-image imbert" src={Imbert}
-                                         alt="Girot"/>
+                            <div className="w3-col l1-imbert">
+                                <div className="speaker-img-region-imbert">
+                                    {/*<{img className="speaker-image-imbert" src={Imbert}
+                                         alt="Imbert"/>*/}
                                 </div>
                             </div>
+                            <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -875,8 +875,8 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1">
                                 <div className="speaker-img-region">
-                                    {/*<img className="speaker-image lee" src={Lee}
-                                         alt="Latz"/>*/}
+                                    {<img className="speaker-image lister" src={Lister}
+                                         alt="Lister"/>}
                                 </div>
                             </div>
                             <div className="w3-col l1"></div>
@@ -1133,19 +1133,10 @@ class Speaker extends React.Component {
                                 <div className="speaker-desc">
                                     <p className="speakerTitle">President and CEO, American Academy in Rome</p>
                                     <p>
-                                        <i>No text for this speaker yet. Using Paul's bio as a placeholder</i>
-                                        <br/>
-                                        Paul B. Redman is an award-winning leader of public gardens, known for his
-                                        dedication to the beauty and sustainability of gardens, and to the training of
-                                        future generations of horticulture professionals. A hallmark of Redman’s
-                                        leadership is building a culture of planning to propel a shared vision forward.
-                                        As the President and Chief Executive Officer of Longwood Gardens for the last 11
-                                        years, Paul has implemented institutional and strategic reforms that have
-                                        positioned the Gardens as a premier horticultural, cultural, and educational
-                                        institution of the 21st Century, while respecting the values of its founder,
-                                        Pierre S. du Pont. Most recently and notably, Paul led one of largest projects
-                                        in Longwood’s history: the $90 million revitalization of the Main Fountain
-                                        Garden which reopened in May 2017.
+                                    Mark Robbins, an architect, artist, educator, and longtime advocate for art and design, is President of the American Academy in Rome -- the  preeminent overseas center for independent study and advanced research in the arts and humanities. <br /> <br />
+
+He was previously Executive Director of the International Center of Photography in New York, an institution dedicated to the presentation and interpretation of the reproduced image. From 2004 to 2012, as Dean and Professor at Syracuse University School of Architecture and University Senior Advisor on Architecture and Urban Initiatives, he had a transformative role on both the school and the city. While Director of Design at the National Endowment for the Arts, from 1999-2002,  Mark led the development of an aggressive program to strengthen the presence of innovative design in the public realm. This included work with elected officials through the Mayors Institute on City Design and giving over 100 public presentations that promoted design. From 1993 to 1999, he was Curator of Architecture at the Wexner Center for the Arts, where he created a laboratory for innovative work, and Associate Professor at the Knowlton School of Architecture at Ohio State University.  He has been a visiting professor at the University of Virginia, Southern California Institute of Architecture (SCI-Arc), Georgia Institute of Technology and the Harvard Graduate School of Design.  
+
                                     </p>
                                 </div>
                             </div>

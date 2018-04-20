@@ -87,15 +87,15 @@ class Home extends React.Component {
                     <div className="w3-col l1 col4 intro-paragraph" style={{width: 'auto'}}>
                         <h3 className="body-paragraphs" id="home-intro-1">
                             <div id="intro-paragraph-1">Water is the most compelling and consequential design matter of
-                            the 21st century. Not just a life source of, water
-                            has crucial social, cultural and symbiotic functions and plays an
+                            the 21st century. Not just a life source or a soure of beauty, water
+                            has crucial social, cultural and symbolic functions and plays an
                             essential role in all living systems. </div>
                             <br/>
                             <div id="intro-paragraph-2">
                             International scholars and practitioners in garden design, landscape
-                            architecture, urban design, and ecology convene to
+                            architecture, urban design, architecture, and ecology convene to
                             discuss and advance concepts of and strategies for designing
-                            water from the scale of singular garden feature to integrated
+                            water from the scale of a singular garden feature to integrated
                             regional systems. </div>
                         </h3>
                     </div>
@@ -114,7 +114,7 @@ class Home extends React.Component {
                         <p className="body-paragraphs" id="home-intro-2">
                             Please join me for a timely, inspirational, and dynamic event on the relationship of design
                             and water across time, space, and scale. Our line-up of speakers are influential academic
-                            leaders and world renowned design practitioners from Asia, Europe and the Americas. Each
+                            leaders and world renowned design practitioners from Asia, Europe and North America. Each
                             presenter will bring their local perspectives to truly global interests and concerns—such as
                             ecology, aesthetics, meaning and public space—as they assemble at Longwood Gardens in the
                             picturesque Brandywine River Valley.
@@ -184,17 +184,17 @@ class Home extends React.Component {
                         <div className="aar-description">
                             <img src={AARLogo} className="logo" id="homePageOrganizerAARLogo"/>
                             <p className="organizer-description" id="aarDescText">
-                                Founded in 1895 as the American School of Classical Studies in Rome, the American
-                                Academy in Rome support innovative artists, writers and scholars living and working
-                                together in a dynamic international community.
-                                The Academy awards the Rome Prize to a select group of artists and scholars. The
-                                winners, announced in the spring, are invited to Rome to pursue their work in an
-                                atmosphere conducive to intellectual and artistic freedom, interdisciplinary exchange,
-                                and innovation. The encounter with Rome represents now, as it has done since the
-                                Academy’s inception, something unique: a chance for American artists and scholars to
-                                spend significant time interacting and working in one of the oldest, most cosmopolitan
-                                cities in the world. The community includes Fellows, Residents, Visiting Artists and
-                                Scholars, and, come June, members of academic Summer Programs.
+                            Founded in 1894, the American Academy in Rome is the oldest American overseas center for independent study and advanced research in
+                            the arts and humanities. A not-for-profit, privately funded institution, the Academy awards the Rome Prize to a select group of artists and 
+                            scholars annually, after an application process that begins each fall. The winners, selected by independent juries through a national
+                            competition process, are invited to Rome the following year to pursue their work in an atmosphere conducive to intellectual and
+                            artistic experimentation and interdisciplinary exchange. Awards are offered in the following categories: Literature, Music Composition,
+                            Visual Arts, Architecture, Landscape Architecture, Design, and Historic Preservation and Conservation, as well as Ancient, Medieval,
+                            Renaissance and Early Modern, and Modern Italian Studies. 
+                            <br /> <br />
+                            In addition to the Rome Prize and Italian Fellows, the Academy also invites a select group of Residents, Affiliated Fellows,
+                            and Visiting Artists and Scholars to work together within this exceptional community in Rome.
+
                             </p>
                         </div>
                     </div>
