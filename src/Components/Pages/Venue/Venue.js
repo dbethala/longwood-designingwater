@@ -44,7 +44,7 @@ class Venue extends React.Component {
                                     Exquisite flowers, majestic trees, dazzling fountains, opulent Conservatory, starlit
                                     theatre, thunderous organ—all describe the magic of Longwood Gardens. All
                                     presentations and sessions will be held in the 4.5-acre Conservatory’s Ballroom. As
-                                    a guest to the Gardens for Designing Water, you’ll have access to all indoor and
+                                    a guest to the Gardens for <i>Designing Water</i>, you’ll have access to all indoor and
                                     outdoor gardens, places, and spaces. Anticipate walking the Gardens at your leisure
                                     amid fall weather conditions, so comfortable shoes and attire are recommended. We
                                     may experience cooler temperatures for the evening fountain performance as well.
@@ -217,7 +217,7 @@ class Venue extends React.Component {
                                 <h2 className="venue-body-paragraph-4-title"><a name="accommodations">Accommodations</a>
                                 </h2>
                                 <p className="venue-body-paragraph-4">
-                                    The preferred hotels for Designing Water, in closest proximity to Longwood Gardens,
+                                    The preferred hotels for <i>Designing Water</i>, in closest proximity to Longwood Gardens,
                                     are the: <br/>
                                     <br/>
                                     Hilton Garden Inn<br/>
@@ -262,7 +262,7 @@ class Venue extends React.Component {
                                 <h2 className="venue-body-paragraph-5-title"><a name="meals">Meals</a></h2>
                                 <p className="venue-meals-paragraph">
                                 Registration includes a four-course dinner in Longwood's Conservatory on the evening of October 17, continental breakfast on the morning of October 18, and a buffet lunch on October 18. <br/> <br/>Please alert us to any food allergies or dietary restrictions as you register.
-If you have any special accommodations we should be aware of to ensure you have a wonderful experience during Designing Water, please note these as you register.
+If you have any special accommodations we should be aware of to ensure you have a wonderful experience during <i>Designing Water</i>, please note these as you register.
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>

@@ -52,6 +52,7 @@ nav {
 
   .timestamp {
     white-space: nowrap;
+    margin-top: 25%;
   }
 
   .event-title {
@@ -87,9 +88,10 @@ nav {
     color: white;
     padding: 5px 5px
   }
-  #thursday-section {
+  .thursday-section {
     margin-top: 100px;
   }
+
 }
 @media (min-width: $breakpoint) and (max-width: 1280px) {
   .pageTitle.schedule {

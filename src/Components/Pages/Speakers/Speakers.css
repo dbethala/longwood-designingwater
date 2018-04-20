@@ -12,6 +12,11 @@
 
 .sp-name {
   white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+.speakerTitle {
+  margin-bottom: 24px;
 }
 
 .speaker-image {

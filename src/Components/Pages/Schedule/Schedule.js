@@ -63,7 +63,7 @@ class Schedule extends React.Component {
                     <Event day="Wednesday" timestamp="3:45-5:00 pm" eventHeading="Captive Waters: From Delphi to Disney"
                            eventDesc={["Christophe Girot, Professor and Chair of Landscape Architecture at the Architecture Department of the ETH, Zürich",
                                <br/>,
-                               <br/>, "Join Professor Christophe Girot as he launches the symposium with a keynote lecture that guides us through the history of designed water as not only a life source, but as the fabric of civilization and culture. Drawing from the scale of the garden to that of the regional system, and from ancient civilizations to contemporary misc-en-scenes, Girot will sketch the complex issues and amazing opportunities that Designing Water entails."]}/>
+                               <br/>, "Join Professor Christophe Girot as he launches the symposium with a keynote lecture that guides us through the history of designed water as not only a life source, but as the fabric of civilization and culture. Drawing from the scale of the garden to that of the regional system, and from ancient civilizations to contemporary ", <i>misc-en-scenes,</i>," Girot will sketch the complex issues and amazing opportunities that ", <i>Designing Water</i>, " entails."]}/>
                     <Event day="Wednesday" timestamp="5:00-6:30 pm" eventHeading="Tour of the Main Fountain Garden"
                            eventDesc={"Nowhere else in the world is there a setting that marries fountains, theater, and garden, establishing Longwood Gardens’ Main Fountain Garden as the finest performance fountain in the world. Explore this garden that combines classic landscape design with art, innovation, technology, and extraordinary fountains. Discover more than 1,700 fountain jets, a stunning grotto, and the latest technology for lighting and design, and get a behind-the-scenes look at the infrastructure that supports this engineering marvel. Thanks to the dream team of Beyer Blender Belle, West 8, Fluidity, LePore & Sons, La Observatoire, and Bancroft Construction, this garden recently underwent a $94 million revitalization opening last summer to record crowds and critic acclaim. "}/>
                     <Event day="Wednesday" timestamp="6:30-8:00 pm" eventHeading="Welcome Reception and Dinner"
@@ -121,7 +121,7 @@ class Schedule extends React.Component {
                            eventHeading="Lunch Presentation: History of A Garden"
                            eventDesc={["Adriaan Geuze, Founding Partner, Design Director, West 8",
                                <br/>, "Colvin Randall, P.S. du Pont Fellow, Longwood Gardens", <br/>,
-                               <br/>, "From its first water feature—a single fountain jet in a simple round basin—to its highly engineered and manicured Main Fountain Garden, Longwood Gardens is an extraordinary showcase for the use of water in the landscape. ",
+                               <br/>, "From its first water feature—a single fountain jet in a simple round basin—to its highly engineered and manicured Main Fountain Garden, Longwood Gardens is an extraordinary showcase for the use of water in the landscape. ",<br />,
                                <i>A buffet lunch will be served.</i>]}/>
                     <Event day="Thursday" timestamp="1:15– 3:15 pm"
                            eventHeading="Shaping Civic Space: Challenges of the Anthropocene" eventDesc={[
@@ -145,7 +145,7 @@ class Schedule extends React.Component {
                             Director, LATZ & Partner</li>,
                         <br/>,
                         <br/>,
-                        "Response by Mason White Associate Professor, University of Toronto. Questions and Answers to follow"
+                        "Response by Mason White Associate Professor, University of Toronto. Questions and Answers to follow."
                     ]}/>
                     <Event day="Thursday" timestamp="3:30–5:30 pm" eventHeading="Technology, Innovation and the Future"
                            eventDesc={[
@@ -176,7 +176,7 @@ class Schedule extends React.Component {
                            eventHeading="Roundtable Discussion: The Potentials of Water"
                            eventDesc={["Moderated by Julia Czerniak, Associate Dean and Professor, Syracuse Architecture",
                                <br/>,
-                               <br/>, "Conclude the event with an insightful synopsis of Designing Water with a discussion to include insight with thoughts on how the two days of presentations collectively have outlined the role of water in our past, in it is current application, and the future innovations.  The panel will include each of the keynote presenters: Christophe Girot, Dorothée Imbert, Anita Berrizbeitia, and Michael Lee; as well as Paul B. Redman and Mark Robbins."]}/>
+                               <br/>, "Conclude the event with an insightful synopsis of ", <i>Designing Water</i>, " with a discussion to include insight with thoughts on how the two days of presentations collectively have outlined the role of water in our past, in it is current application, and the future innovations.  The panel will include each of the keynote presenters: Christophe Girot, Dorothée Imbert, Anita Berrizbeitia, and Michael Lee; as well as Paul B. Redman and Mark Robbins."]}/>
                     <Event day="Thursday" timestamp="6:15-6:30 pm" eventHeading="Closing Remarks"
                            eventDesc={["Paul B. Redman, President and CEO of Longwood Gardens",
                                <br/>, "Mark Robbins, President and CEO of the American Academy in Rome"]}/>

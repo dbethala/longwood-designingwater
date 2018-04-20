@@ -52,6 +52,10 @@ a {
   .to-schedule-venue, .to-venue-venue, .to-speakers-venue, .to-register-venue {
     color: white;
   }
+
+  .venue-body-paragraph-2{
+    margin-top: 0px;
+  }
 }
 
 @media (min-width: $breakpoint) {

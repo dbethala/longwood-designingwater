@@ -44,6 +44,7 @@ nav {
   }*/
   .timestamp {
     white-space: nowrap;
+    margin-top: 25%;
   }
   .event-title {
     white-space: nowrap;
@@ -73,7 +74,7 @@ nav {
     color: white;
     padding: 5px 5px;
   }
-  #thursday-section {
+  .thursday-section {
     margin-top: 100px;
   }
 }
