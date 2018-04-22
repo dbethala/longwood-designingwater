@@ -9,6 +9,7 @@ import './Schedule.css'
 class Schedule extends React.Component {
     render() {
         return (
+            <div className="schedulePageMaxWidthExempt" >
             <div className="schedulePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <div className="header-region">
                     <Header navTextColor="black" pageClass="schedule"/>
@@ -21,10 +22,11 @@ class Schedule extends React.Component {
                         </div>
                     </div>
                     <div className="w3-col l1"></div>
-                    <div className="w3-col l1"></div>
-                    <div className="w3-col l1"></div>
                     <div className="w3-col l1">
-                    <Title title="schedule" className="schedule"/></div>
+                    <Title title="schedule" className="schedule"/>
+                    </div>
+                    <div className="w3-col l1"></div>
+                    <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1">
 
@@ -184,6 +186,7 @@ class Schedule extends React.Component {
                                <br/>, "Complementary transportation to downtown Philadelphia following the conclusion of the symposium will be available on a limited basis. To secure your place, please email Director of Continuing Education Matthew Ross ", <a class="schedule" href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a>," or call 610.388.5247."]}/>
                 </div>
                 </div>
+                            </div>
                 <Footer/>
             </div>
         );

@@ -9,6 +9,7 @@ import './Venue.css';
 class Venue extends React.Component {
     render() {
         return (
+            <div className="venuePageMaxWidthExempt" >
             <div className="venuePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <div className="header-region">
                     <Header navTextColor="black" pageClass="venue"/>
@@ -25,9 +26,10 @@ class Venue extends React.Component {
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
-                    <div className="w3-col l1"></div>
                     <div className="w3-col l1">
-                        <Title title="venue" className="venue"/>
+                    <Title title="venue" className="venue"/>
+                    </div>
+                    <div className="w3-col l1">
                     </div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
@@ -274,7 +276,7 @@ class Venue extends React.Component {
                     </div>
 
                 </div>
-
+                </div>
                 <Footer/>
             </div>
         );

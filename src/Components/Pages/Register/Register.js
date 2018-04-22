@@ -10,6 +10,7 @@ import './Register.css'
 class Register extends React.Component {
     render() {
         return (
+            <div className="registerPageMaxWidthExempt">
             <div className="registerPage" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <div className="header-region">
                     <Header navTextColor="black" pageClass="register"/>
@@ -97,11 +98,12 @@ Registration opens May 1
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 col12"></div>
                     </div>
+                    </div>
                 </div>
-
+                
                 <div className="footer-region">
                     <Footer/>
-                </div>
+                    </div>
             </div>
         );
     }

@@ -35,6 +35,7 @@ import Yu from '../../Assets/Speaker Images/Yu2.jpg';
 class Speaker extends React.Component {
     render() {
         return (
+            <div className="speakerPageMaxWidthExempt" >
             <div id="speakersPageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <div className="header-region">
                     <Header navTextColor="black" pageClass="speakers"/>
@@ -1388,6 +1389,7 @@ He was previously Executive Director of the International Center of Photography 
                             <div className="w3-col l1 col12"></div>
                         </div>
                     </div>
+                </div>
                 </div>
                 <Footer/>
             </div>

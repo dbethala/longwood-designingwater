@@ -46,9 +46,6 @@ nav {
     white-space: nowrap;
     margin-top: 25%;
   }
-  .event-title {
-    white-space: nowrap;
-  }
   .event-desc {
     white-space: normal;
   }
@@ -91,12 +88,11 @@ nav {
     right: 0;
     margin-right: 20px;
   }
-}
-
+} */
 @media (min-width: 1280px) {
-  .pageTitle.schedule {
-    float: right;
-    right: 9%; 
+  .date-range-col {
+    position: relative;
+    right: 30px;
   }
-}*/
+}
 /*# sourceMappingURL=Schedule.css.map */

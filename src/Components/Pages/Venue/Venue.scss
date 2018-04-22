@@ -145,10 +145,10 @@ a {
   }
 }
 
-/*
+
 @media (min-width: 1280px) {
-    .pageTitle.venue {
-        right: 0;
-        margin-right: 33%;
+    .venue-links {
+       position: relative;
+       right: 15px;
     }
-}*/
+}

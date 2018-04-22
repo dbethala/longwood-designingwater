@@ -12,11 +12,6 @@
 
 .sp-name {
   white-space: nowrap;
-  margin-bottom: 10px;
-}
-
-.speakerTitle {
-  margin-bottom: 24px;
 }
 
 .speaker-image {
@@ -141,7 +136,7 @@
   #speakerShortcuts {
     position: relative;
     margin-right: 20px;
-    right: 0;
+    right: 120px;
   }
 }
 /*# sourceMappingURL=Speakers.css.map */

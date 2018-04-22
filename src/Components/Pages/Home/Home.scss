@@ -5,7 +5,7 @@
 
 .homepage-banner {
   background-image: url('../../Assets/homepage-background.jpg');
-  background-size: 100vw 1280px;
+  background-size: 100vw auto;
   background-repeat: no-repeat;
 }
 
@@ -63,6 +63,11 @@ h2 {
     white-space: nowrap;
   }
 
+  .homepage-title-region {
+    max-width: 1280px;
+    margin: auto;
+  }
+
   #designing {
     margin-bottom: 200px;
     margin-top: 200px;
@@ -70,20 +75,21 @@ h2 {
 
   #water {
     margin-bottom: 200px;
+    left: 120px;
+    margin-right: 10%;
   }
 
   .heading-date {
-    margin-bottom: 100px;
-    padding-bottom: 200px;
-    top: 70px;
+    bottom: 150px;
   }
 
   .homepage-banner {
-    background-size: 1280px 1280px;
+    background-size: 100vw auto;
   }
 
   .header-region {
     padding-top: 20px;
+    max-width: 1280px;
   }
 
   .to-register-home {
@@ -122,6 +128,11 @@ h2 {
   #intro-paragraph-1 {
     margin-bottom: -15px;
   }
+
+  .date-location {
+    //white-space: nowrap;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -159,5 +170,25 @@ h2 {
 
   .body-paragraphs {
     margin-right: 20px
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-region {
+    margin: 0 auto;
+  }
+  .body-section-1 {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .body-section-2 {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .organizer-section {
+    max-width: 1280px;
+    margin: 0 auto;
   }
 }

@@ -13,6 +13,9 @@
     position: relative;
     right: 73px;
   }
+  .event-title {
+    white-space: normal;
+  }
 }
 
 @media screen and (max-width: 992px) {

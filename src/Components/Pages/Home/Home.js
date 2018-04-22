@@ -19,10 +19,10 @@ import LongwoodLogoForBody from '../../Assets/LG-Logo-lockup_forweb.png';
 class Home extends React.Component {
     render() {
         return (
-            <div className="homePage" style={{maxWidth: '1280px', margin: '0 auto'}}>
+            <div className="homePage">
                 <div className="homepage-banner">
                     <div className="header-region">
-                        <Header navTextColor="white" pageClass="home"/>
+                        <Header navTextColor="white" pageClass="home" style={{maxWidth: "1280px", margin: "0 auto"}}/>
                         <div style={{clear: 'both'}}/>
                     </div>
                     <div className="w3-row">
@@ -42,10 +42,9 @@ class Home extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
-                        </div>
 
                         <div className="w3-row">
-                            <div className="w3-col m1">
+                            <div className="w3-col l1">
                             </div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -60,17 +59,23 @@ class Home extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
+                            </div>
                         </div>
                     </div>
                     </div>
-                    <div className="w3-row">
+                    <div className="w3-row date-location">
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1">
-                            <h2 className="heading-date" style={{whiteSpace: 'nowrap'}}>October 17-18, 2018</h2>
                         </div>
-                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1 heading-location-col" style={{width: 'auto'}}>
+                            <h2 className="heading-date">October 17-18, 2018
+                            <br />
+                            <br />
+                                Longwood Gardens, Kennett Square, Pennsylvania
+                            </h2>
+                        </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
