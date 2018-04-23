@@ -89,7 +89,7 @@ class Home extends React.Component {
                     <div className="w3-col l1 col1"></div>
                     <div className="w3-col l1 col2"></div>
                     <div className="w3-col l1 col3"></div>
-                    <div className="w3-col l1 col4 body intro-paragraph" style={{width:'auto'}}>
+                    <div className="w3-col l1 col4 body intro-paragraph intro-col-1" style={{width: '100%'}}>
                         <h3 className="body-paragraphs" id="home-intro-1">
                             <div id="intro-paragraph-1">
                             Water is the most compelling and consequential design matter of
