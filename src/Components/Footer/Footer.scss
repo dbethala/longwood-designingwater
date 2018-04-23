@@ -39,17 +39,21 @@ $pagewidth: 1280px;
 
 @media screen and (max-width: $breakpoint) {
   #longwood-footer-logo {
-    width: 105px;
+    width: 95px;
     margin-top: 15px;
   }
 
   #aar-footer-logo {
-    width: 86px;
+    width: 76px;
     margin-top: 25px;
   }
 
   .footer-logo-region {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .vl {
+    height: 45px;
   }
 }

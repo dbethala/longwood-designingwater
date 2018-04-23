@@ -14,6 +14,10 @@
   white-space: nowrap;
 }
 
+.header-region-speakers {
+  padding-top: 20px;
+}
+
 .speaker-image {
   position: relative;
 }
@@ -31,6 +35,10 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.speaker-image .heading-region-speakers {
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 992px) {
@@ -74,7 +82,6 @@
   .pageTitle.speakers {
     position: fixed;
     top: 260px;
-    margin-left: 28px;
   }
   .speaker-desc {
     white-space: normal;
@@ -107,6 +114,9 @@
     width: 400px;
     right: 150px;
   }
+  .header-region-speakers {
+    margin-left: 40px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1280px) {
@@ -122,6 +132,7 @@
     position: fixed;
     top: 260px;
     left: 0;
+    margin-left: 28px;
   }
 }
 
@@ -137,6 +148,9 @@
     position: relative;
     margin-right: 20px;
     right: 120px;
+  }
+  .header-region-speakers {
+    margin-left: 40px;
   }
 }
 /*# sourceMappingURL=Speakers.css.map */

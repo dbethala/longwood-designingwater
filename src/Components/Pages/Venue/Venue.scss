@@ -65,6 +65,10 @@ a {
     margin-right: 20px;
   }
 
+  #venueBody > div.venue-section-2 > div:nth-child(2) > div.w3-col.l1.paragraph-cols {
+    width: 65%;
+  }
+
   #venueBody {
     position: relative;
     margin-top: 390px;
@@ -78,7 +82,7 @@ a {
 
   .venue-iwg-img {
     position: relative;
-    float: left;
+    float: right;
     height: auto;
     width: auto;
     margin-right: 20px;
@@ -96,7 +100,9 @@ a {
     position: relative;
     float: right;
     height: auto;
-    width: 500px;
+    width: 600px;
+    padding-left: 50px;
+    padding-bottom: 50px;
   }
 
   .venue-parking-paragraph {
@@ -141,7 +147,7 @@ a {
 @media (min-width: $breakpoint) and (max-width: $pagewidth) {
   .pageTitle.venue {
     right: 0;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 }
 

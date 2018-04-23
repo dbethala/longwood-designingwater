@@ -112,8 +112,8 @@ class Venue extends React.Component {
                                     <br/>
                                     <br/>
                                     How many miles to Longwood?
-                                    <img className="venue-map-large" src={require('../../Assets/googlemap.jpg')}
-                                         alt="googlemap"/>
+                                    <a href="https://www.google.com/maps/place/Longwood+Gardens/@39.8725805,-75.6773926,17z/data=!4m12!1m6!3m5!1s0x89c65625555550d9:0xf28050deeca360d0!2sLongwood+Gardens!8m2!3d39.871271!4d-75.6747203!3m4!1s0x89c65625555550d9:0xf28050deeca360d0!8m2!3d39.871271!4d-75.6747203" target="_blank"><img className="venue-map-large" src={require('../../Assets/googlemap.jpg')}
+                                         alt="googlemap"/></a>
                                     <br/>
                                     <br/>
                                     Philadelphia, PA - 30<br/>
@@ -164,7 +164,7 @@ class Venue extends React.Component {
                                     Complimentary transportation to downtown Philadelphia following the conclusion of
                                     the symposium will be available on a limited basis. To secure a spot, please email
                                     Director of Continuing Education Matthew Ross <a class="venue-inpage" href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a> or call
-                                    610.388.5247.
+                                    <span className="phone" style={{textDecoration:'none'}}> 610.388.5247</span>.
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
@@ -220,23 +220,24 @@ class Venue extends React.Component {
                                 </h2>
                                 <p className="venue-body-paragraph-4">
                                     The preferred hotels for <i>Designing Water</i>, in closest proximity to Longwood Gardens,
-                                    are the: <br/>
+                                    are: <br/>
                                     <br/>
                                     Hilton Garden Inn<br/>
-                                    815 E Baltimore Pike, <br/>Kennett Square, PA<br/>
+                                    815 E Baltimore Pike <br/>Kennett Square, PA<br/>
                                     610.444.9100
                                     <br />
                                     <br />
-                                    and the
+                                    and
                                     <br />
                                     <br />
                                     Fairfield Inn and Suites by Marriot Kennett Square Brandywine Valley<br/>
-                                    719 E Baltimore Pike, <br/>Kennett Square, PA 19348<br/>
+                                    719 E Baltimore Pike <br/>Kennett Square, PA 19348<br/>
                                     610.444.8995
                                     <br />
                                     <br />
+                                    Both hotels are offering a group rate. <a target="_blank" href="www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Designing%20Water%20Symposium%5Ephlks%60LSELSEA%7CLSELSEB%60159.00%60USD%60false%604%6010/16/18%6010/21/18%609/16/18&app=resvlink&stop_mobi=yes"className="venue-inpage">Find out more.</a> <br/> <br/>
                                     There are also several nearby bed and breakfast and other hotels which can be
-                                    accessed through the Brandywine Valley Website at (www.brandywinevalley.com)
+                                    accessed through the <a href="www.brandywinevalley.com" target="_blank" className="venue-inpage">Brandywine Valley Website.</a>
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>

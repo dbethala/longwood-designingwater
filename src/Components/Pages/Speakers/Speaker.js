@@ -17,7 +17,7 @@ import Corner from '../../Assets/Speaker Images/Corner2.jpg';
 import Garland from '../../Assets/Speaker Images/Garland2.jpg';
 import Geuze from '../../Assets/Speaker Images/Geuze.jpg';
 import Girot from '../../Assets/Speaker Images/Girot2.jpg';
-import Imbert from '../../Assets/Speaker Images/Imbert.jpg';
+import Imbert from '../../Assets/Speaker Images/Imbert2.jpg';
 import Jones from '../../Assets/Speaker Images/Margaret Jones2.jpg';
 import Latz from '../../Assets/Speaker Images/Latz2.jpg';
 import Lee from '../../Assets/Speaker Images/Lee2.jpg';
@@ -37,7 +37,7 @@ class Speaker extends React.Component {
         return (
             <div className="speakerPageMaxWidthExempt" >
             <div id="speakersPageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
-                <div className="header-region">
+                <div className="header-region-speakers">
                     <Header navTextColor="black" pageClass="speakers"/>
                 </div>
                 <div className="w3-row">
@@ -604,13 +604,13 @@ class Speaker extends React.Component {
                         </div>
                         <div className="w3-row">
                             <div className="w3-col l1"></div>
-                            <div className="w3-col l1-imbert">
-                                <div className="speaker-img-region-imbert">
-                                    {/*<{img className="speaker-image-imbert" src={Imbert}
-                                         alt="Imbert"/>*/}
+                            <div className="w3-col l1"></div>
+                            <div className="w3-col l1">
+                            <div className="speaker-img-region">
+                                    <img className="speaker-image imbert" src={Imbert}
+                                         alt="Imbert"/>
                                 </div>
                             </div>
-                            <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>

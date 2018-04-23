@@ -12,7 +12,7 @@ class Register extends React.Component {
         return (
             <div className="registerPageMaxWidthExempt">
             <div className="registerPage" style={{maxWidth: '1280px', margin: '0 auto'}}>
-                <div className="header-region">
+                <div className="header-region-register">
                     <Header navTextColor="black" pageClass="register"/>
                 </div>
 

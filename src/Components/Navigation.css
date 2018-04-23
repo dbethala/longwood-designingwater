@@ -95,7 +95,7 @@
   }
   #mobileNavClose {
     float: right;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-top: 20px;
   }
   #designing-water-header-text-mobile-nav {
@@ -105,10 +105,10 @@
     margin-left: 20px;
   }
   .mobile-nav-closed {
-    width: 50px;
+    width: 40px;
   }
   .mobile-nav-close {
-    width: 50px;
+    width: 40px;
   }
 }
 /*# sourceMappingURL=Navigation.css.map */
