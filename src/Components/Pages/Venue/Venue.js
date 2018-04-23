@@ -163,7 +163,7 @@ class Venue extends React.Component {
                                     Visitor Center as you enter Longwood Gardens. <br/> <br/>
                                     Complimentary transportation to downtown Philadelphia following the conclusion of
                                     the symposium will be available on a limited basis. To secure a spot, please email
-                                    Director of Continuing Education Matthew Ross mross@longwoodgardens.org or call
+                                    Director of Continuing Education Matthew Ross <a class="venue"href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a> or call
                                     610.388.5247.
                                 </p>
                             </div>
