@@ -169,8 +169,8 @@ class Venue extends React.Component {
                             </div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1">
-                                <img className="venue-map-mobile" src={require('../../Assets/googlemap.jpg')}
-                                     alt="googlemap"/>
+                            <a href="https://www.google.com/maps/place/Longwood+Gardens/@39.8725805,-75.6773926,17z/data=!4m12!1m6!3m5!1s0x89c65625555550d9:0xf28050deeca360d0!2sLongwood+Gardens!8m2!3d39.871271!4d-75.6747203!3m4!1s0x89c65625555550d9:0xf28050deeca360d0!8m2!3d39.871271!4d-75.6747203" target="_blank"> <img className="venue-map-mobile" src={require('../../Assets/googlemap.jpg')}
+                                     alt="googlemap"/></a>
                             </div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
