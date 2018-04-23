@@ -28,7 +28,7 @@ class Home extends React.Component {
                     <div className="w3-row">
                     <div className="forefront-element">
                         <div className="homepage-title-region">
-                            <div className="w3-col m1">
+                            <div className="w3-col l1">
                                 <h1 className="welcome-banner-text" id="designing">designing<br/></h1>
                             </div>
                             <div className="w3-col l1"></div>
@@ -70,7 +70,7 @@ class Home extends React.Component {
                         <div className="w3-col l1">
                         </div>
                         <div className="w3-col l1 heading-location-col" style={{width: 'auto'}}>
-                            <h2 className="heading-date">October 17-18, 2018
+                            <h2 className="heading-date">October 17 &mdash; 18, 2018
                             <br />
                             <br />
                                 Longwood Gardens, Kennett Square, Pennsylvania
@@ -89,11 +89,18 @@ class Home extends React.Component {
                     <div className="w3-col l1 col1"></div>
                     <div className="w3-col l1 col2"></div>
                     <div className="w3-col l1 col3"></div>
-                    <div className="w3-col l1 col4 intro-paragraph" style={{width: 'auto'}}>
+                    <div className="w3-col l1 col4 body intro-paragraph" style={{width:'auto'}}>
                         <h3 className="body-paragraphs" id="home-intro-1">
-                            <div id="intro-paragraph-1">Water is the most compelling and consequential design matter of
-                            the 21st century. Not just a life source or a soure of beauty, water
-                            has crucial social, cultural and symbolic functions and plays an
+                            <div id="intro-paragraph-1">
+                            October 17 &mdash; 18 <br />
+                            <br />
+                            Price: $199 <br />
+                            <br />
+                            Curated by: Julia Czerniak, Associate Dean and Professor, Syracuse Architecture <br />
+                            <br />
+                            Water is the most compelling and consequential design matter of
+                            the 21st Century. Not just a life source or a source of beauty, water
+                            has crucial social, cultural, and symbolic functions and plays an
                             essential role in all living systems. </div>
                             <br/>
                             <div id="intro-paragraph-2">
@@ -101,7 +108,12 @@ class Home extends React.Component {
                             architecture, urban design, architecture, and ecology convene to
                             discuss and advance concepts of and strategies for designing
                             water from the scale of a singular garden feature to integrated
-                            regional systems. </div>
+                            regional systems. <br />
+                            <br />
+                            Registration to open May 1<br />
+                            <br />
+                            <a id="longwood-link" href="https://longwoodgardens.org/designingwater"><b>https://longwoodgardens.org/designingwater</b></a>
+                            </div>
                         </h3>
                     </div>
                     <div className="w3-col l1 col5"></div>
@@ -113,21 +125,21 @@ class Home extends React.Component {
                     <div className="w3-col l1 col11"></div>
                     <div className="w3-col l1 col12"></div>
                 </div>
-                <div className="w3-row body-section-2">
+                <div className="w3-row body-section-2 body">
                     <div className="w3-col l1" id="from-the-curator-col">
                         <h2 className="subheading" style={{whiteSpace: 'nowrap'}}>From the Curator</h2>
                         <p className="body-paragraphs" id="home-intro-2">
                             Please join me for a timely, inspirational, and dynamic event on the relationship of design
                             and water across time, space, and scale. Our line-up of speakers are influential academic
-                            leaders and world renowned design practitioners from Asia, Europe and North America. Each
+                            leaders and world renowned design practitioners from Asia, Europe, and North America. Each
                             presenter will bring their local perspectives to truly global interests and concerns—such as
-                            ecology, aesthetics, meaning and public space—as they assemble at Longwood Gardens in the
+                            ecology, aesthetics, meaning, and public space—as they assemble at Longwood Gardens in the
                             picturesque Brandywine River Valley.
                             <br/>
                             <br/>
-                            The aim of this event is to recognize the significant history of designing water,
-                            interrogate the social, cultural, ecologic and economic functions that designed water plays
-                            in the 21st century, reconsider the leadership roles that the design disciplines can play in
+                            The aim of this event is to <em>recognize</em> the significant history of designing water,
+                            <em>interrogate</em> the social, cultural, ecologic, and economic functions that designed water plays
+                            in the 21st Century, reconsider the leadership roles that the design disciplines can play in
                             its shaping, and imagine ways to build features and infrastructural systems that expand the
                             aesthetics of water while innovatively addressing urgent global challenges linked to climate
                             change.
@@ -136,14 +148,14 @@ class Home extends React.Component {
                             In doing so, <i>Designing Water</i> intends to project future potentials for our disciplines while
                             educating us all about the crucial role design plays in shaping this resource. The event’s
                             diverse sessions set the coordinates for a thoughtful and lively discussion of issues that
-                            confront those involved in designing, planning and managing water, as well as all of us that
+                            confront those involved in designing, planning, and managing water, as well as all of us that
                             celebrate it.
                             <br/>
                             <br/>
                             I look forward to meeting you in October!
                             <br/>
                             <br/>
-                            <div className="speakers">Julia Czerniak</div>
+                            <div className="speakers-inpage">Julia Czerniak</div>
                             Chief Curator, <i>Designing Water</i><br />
                             Associate Dean and Professor, Syracuse Architecture
                         </p>
@@ -166,13 +178,13 @@ class Home extends React.Component {
                     <div className="w3-col l1 col2"></div>
                     <div className="w3-col l1 col3"></div>
                     <div className="w3-col l1 col4"></div>
-                    <div className="w3-col l1 col5" id="descriptions">
+                    <div className="w3-col l1 col5 body" id="descriptions">
                         <h2 className="subheading" id="orgaznizerHeading">Organizers</h2>
                         <div className="longwood-description">
                             <img src={LongwoodLogoForBody} className="logo" id="homePageOrganizerLongwoodLogo"
                                  alt="Longwood Gardens"/>
-                            <p className="organizer-description" id="longwoodDescText">
-                                In 1906, industrialist Pierre du Pont (1870-1954) purchased a small farm near Kennett
+                            <p className="organizer-description body" id="longwoodDescText">
+                                In 1906, industrialist Pierre S. du Pont (1870-1954) purchased a small farm near Kennett
                                 Square, PA, to save a collection of historic trees from being sold for lumber. Today,
                                 Longwood Gardens continues this spirit of stewardship and innovation. As one of the
                                 great gardens of the world, Longwood is now home to the most significant fountain
@@ -188,7 +200,7 @@ class Home extends React.Component {
 
                         <div className="aar-description">
                             <img src={AARLogo} className="logo" id="homePageOrganizerAARLogo"/>
-                            <p className="organizer-description" id="aarDescText">
+                            <p className="organizer-description body" id="aarDescText">
                             Founded in 1894, the American Academy in Rome is the oldest American overseas center for independent study and advanced research in
                             the arts and humanities. A not-for-profit, privately funded institution, the Academy awards the Rome Prize to a select group of artists and 
                             scholars annually, after an application process that begins each fall. The winners, selected by independent juries through a national

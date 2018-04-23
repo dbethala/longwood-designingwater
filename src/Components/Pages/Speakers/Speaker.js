@@ -43,7 +43,7 @@ class Speaker extends React.Component {
                 <div className="w3-row">
                     <div className="w3-col l1">
                         <div className="speaker-alphabet-listing">
-                            <h4 className="speakers" id="alphaShortcuts"><a href="#af">A - F</a> &mdash; <a href="#gm">G
+                            <h4 className="speakers-inpage" id="alphaShortcuts"><a href="#af">A - F</a> &mdash; <a href="#gm">G
                                 - M</a> &mdash; <a href="#nz">N - Z</a></h4>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ class Speaker extends React.Component {
                     <div className="w3-col l1">
                         <div className="speaker-shortcuts-region">
                             <h4 className="speakers" id="speakerShortcuts"><a href="#czerniak>">Czerniak</a> - <a
-                                href="#berrizheitia">Berrizheitia</a> - <a
+                                href="#berrizbeitia">Berrizbeitia</a> - <a
                                 href="#vanBoxelKoreman">van Boxel</a> - <a href="#corner">Corner</a> - <a
                                 href="#descombes">Descombes</a> - <a href="#garland">Garland</a> - <a
                                 href="#geuze">Geuze</a> - <br/>
@@ -165,7 +165,7 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 speaker-name-col">
                                 <div className="sp-name">
-                                    <h3 className="speakerName"><a name="berrizheitia">Anita Berrizheitia,
+                                    <h3 className="speakerName"><a name="berrizbeitia">Anita Berrizbeitia,
                                         ASLA</a></h3>
                                 </div>
                             </div>
@@ -410,8 +410,7 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 speaker-name-col">
                                 <div className="sp-name">
-                                    <h3 className="speakerName"><a name="garland"><a name="gm">James A. Garland, AIA
-                                        NCARB President</a></a></h3>
+                                    <h3 className="speakerName"><a name="garland"><a name="gm">James A. Garland, AIA,                                      NCARB President</a></a></h3>
                                 </div>
                             </div>
                             <div className="w3-col l1"></div>
@@ -439,7 +438,7 @@ class Speaker extends React.Component {
                                     <p>
                                         James Garland founded Fluidity Design Consultants in 2002 after twenty years of
                                         practice in water design, architecture and urbanism. Jim began working in water
-                                        at Wet Design as a consultant in 1986 while maintaining private practice, then
+                                        at Wet Design as a consultant in 1986 while maintaining a private practice, then
                                         switching to full time in 1994 to ultimately become Wet’s Director of Design.
                                         Jim’s major projects included: Canal City Hakata (Fukuoka, Japan), Al Faisaliah
                                         (Riyadh, Saudi Arabia), Lisbon Expo ‘98 (Lisbon, Portugal) Millenium Park
@@ -567,7 +566,7 @@ class Speaker extends React.Component {
                                         perception and analysis through new media, and contemporary theory and history
                                         of landscape architecture. At the ETH he co-founded the Landscape Visualising
                                         and Modelling Laboratory (LVML) with Professor Adrienne Gret-Regamey in 2010.
-                                        His professional practice (www.girot.ch) focuses on large-scale landscape
+                                        His professional practice focuses on large-scale landscape
                                         projects, using advanced 3D GIS techniques that contribute to the design of more
                                         sustainable landscape environments such as the Alptransit Deposit in Sigirino
                                         and the Third Rhône River Correction in the Canton of Valais. He directed an
@@ -626,7 +625,7 @@ class Speaker extends React.Component {
                                         University in St. Louis, taught at Harvard University, and practiced at Peter
                                         Walker and Partners. She has lectured and written on landscape modernism. She is
                                         the author of the books <i>The Modernist Garden in France, Garrett Eckbo: Modern
-                                        Landscapes for Living (with Marc Treib),</i> and <i>Between Garden and City:
+                                        Landscapes for Living</i> (with Marc Treib), and <i>Between Garden and City:
                                         Landscape
                                         Modernism and Jean Canneel-Claes</i>, and editor of <i>Food and the City:
                                         Histories of
@@ -702,7 +701,7 @@ class Speaker extends React.Component {
                                         Administration; and Fellow of the Urban Design Forum, New York, New York. She is
                                         currently leading the firm’s work on the 70-acre park that will link downtown to
                                         the river in Oklahoma City, a new open space for MIT that will be the
-                                        centerpiece of 1m sf of new development, and the recently completed 35-acre
+                                        centerpiece of 1 million sq. ft.<sup>2</sup> of new development, and the recently completed 35-acre
                                         Zaryadye Park in the heart of Moscow, adjacent to Red Square on the Moscow
                                         River.
 
@@ -825,7 +824,7 @@ class Speaker extends React.Component {
                                         Michael Lee’s research explores the intersection of philosophy, technology, and
                                         landscape design, with a particular focus on 18th- to 20th-century Germany. His
                                         recent projects include a study of the infrastructural landscapes of Peter
-                                        Joseph Lenné in early 19th-century Prussia and an analysis of landscape and
+                                        Joseph Lenné in early 19th-Century Prussia and an analysis of landscape and
                                         gender in Weimar Germany. Lee is the author of <i>The German “Mittelweg”: Garden
                                         Theory</i> and <i>Philosophy in the Time of Kant</i>, co-editor with Mirka Beneš
                                         of <i>Clio in
@@ -836,7 +835,7 @@ class Speaker extends React.Component {
                                         Landscape Studies at Dumbarton Oaks in Washington, D.C. He has previously taught
                                         at the Harvard Graduate School of Design, the Rhode Island School of Design, and
                                         Connecticut College. Trained as a landscape architect and historian, Lee
-                                        received an MLA and a PhD from Harvard University and a BSLA from Texas A&M
+                                        received an MLA and a Ph.D. from Harvard University and a BSLA from Texas A&M
                                         University.
                                     </p>
                                 </div>
@@ -859,7 +858,7 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 speaker-name-col">
                                 <div className="sp-name">
-                                    <h3 className="speakerName"><a name="lister">Nina-Marie E. Lister, MCIP RPP Hon
+                                    <h3 className="speakerName"><a name="lister">Nina-Marie E. Lister, MCIP, RPP, Honorary
                                         ASLA</a>
                                     </h3>
                                 </div>
@@ -896,7 +895,7 @@ class Speaker extends React.Component {
                                         Urban Planning at Harvard University, Graduate School of Design. A Registered
                                         Professional Planner (MCIP, RPP) trained in ecology, environmental science and
                                         landscape planning; she is the founding principal of PLANDFORM, a creative
-                                        studio practice working at the nexus of landscape, ecology, and urbanism. Prof.
+                                        studio practice working at the nexus of landscape, ecology, and urbanism. Professor
                                         Lister’s research, teaching and practice center on the confluence of landscape
                                         infrastructure and ecological processes within contemporary metropolitan
                                         regions, with a particular focus on resilience and adaptive systems design. At
@@ -1184,11 +1183,11 @@ He was previously Executive Director of the International Center of Photography 
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 speaker-desc-col">
                                 <div className="speaker-desc">
-                                    <p className="speakerTitle">Associate Professor of Landscape Architecture, City
+                                    <p className="speakerTitle">Associate Professor of Landscape Architecture, The City
                                         College of New York <br/>Principal, Catherine Seavitt Studio</p>
                                     <p>
                                         Catherine Seavitt Nordenson is an associate professor of landscape architecture
-                                        at the City College of New York and principal of Catherine Seavitt Studio, New
+                                        at The City College of New York and principal of Catherine Seavitt Studio, New
                                         York. A registered architect and landscape architect, she is a graduate of the
                                         Cooper Union and Princeton University, a fellow of the American Academy in Rome,
                                         and a recipient of a Fulbright Fellowship for research in Brazil. Her research
@@ -1199,7 +1198,7 @@ He was previously Executive Director of the International Center of Photography 
                                         policy. Her books include <i>Structures of Coastal Resilience; Depositions:
                                         Roberto
                                         Burle Marx and Public Landscapes under Dictatorship; Corridor Workbook: Design
-                                        Initiative for RPA’s Fourth Regional Plan; Waterproofing New York; and On the
+                                        Initiative for RPA’s Fourth Regional Plan; Waterproofing New York;</i> and <i>On the
                                         Water: Palisade Bay.</i> Her work has been published in <i>Artforum, Avery
                                         Review,
                                         Harvard Design Magazine, JoLA, LA+, Praxis,</i> and <i>Topos.</i>
@@ -1257,8 +1256,8 @@ He was previously Executive Director of the International Center of Photography 
                                         contemporary urbanization. On these topics, he is author of <i>Landscape as
                                         Urbanism: A General Theory</i> and editor of <i>The Landscape Urbanism
                                         Reader.</i> Waldheim
-                                        is John E. Irving Professor at Harvard University’s Graduate School of Design
-                                        where he directs the School’s Office for Urbanization. He is recipient of the
+                                        is the John E. Irving Professor at Harvard University’s Graduate School of Design
+                                        where he directs the School’s Office for Urbanization. He is the recipient of the
                                         Rome Prize Fellowship from the American Academy in Rome; the Visiting Scholar
                                         Research Fellowship at the Study Centre of the Canadian Centre for Architecture;
                                         the Cullinan Chair at Rice University; and the Sanders Fellowship at the
@@ -1378,7 +1377,8 @@ He was previously Executive Director of the International Center of Photography 
                                         restoration. His practice includes landscape and urbanism in major cities around
                                         the world. His guiding design principles are the appreciation of the ordinary
                                         and a deep embracing of nature, even in its potentially destructive aspects,
-                                        such as urban flooding.
+                                        such as urban flooding. His numerous awards include 13 ASLA Excellence and Honor Awards and a 2009 Urban Land Institude Global Award, and 5 World's Best Landscape of the Year Awards
+                                        from the World Architecture Festival. 
                                     </p>
                                 </div>
                             </div>

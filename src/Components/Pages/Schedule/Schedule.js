@@ -17,15 +17,16 @@ class Schedule extends React.Component {
                 <div className="w3-row">
                     <div className="w3-col l1 date-range-col" style={{width: 'auto'}}>
                         <div className="scheduleDateRange">
-                            <h4 className="schedule" id="date-range"><a href="#wednesday">Wednesday, October
+                            <h4 className="schedule-inpage" id="date-range"><a href="#wednesday">Wednesday, October
                                 17</a> &mdash; <a href="#thursday">Thursday, October 18</a></h4>
                         </div>
                     </div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1">
+                    </div>
+                    <div className="w3-col l1">
                     <Title title="schedule" className="schedule"/>
                     </div>
-                    <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1">
@@ -183,7 +184,7 @@ class Schedule extends React.Component {
                     <Event day="Thursday" timestamp="6:30-9:00 pm" eventHeading="Self-Guided Garden Tour"
                            eventDesc={["Following the event’s close, Longwood Gardens will remain open until 9:00 pm for symposium guests to explore on their own.",
                                <br/>,
-                               <br/>, "Complementary transportation to downtown Philadelphia following the conclusion of the symposium will be available on a limited basis. To secure your place, please email Director of Continuing Education Matthew Ross ", <a class="schedule" href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a>," or call 610.388.5247."]}/>
+                               <br/>, "Complementary transportation to downtown Philadelphia following the conclusion of the symposium will be available on a limited basis. To secure your place, please email Director of Continuing Education Matthew Ross ", <a class="schedule-inpage" href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a>," or call 610.388.5247."]}/>
                 </div>
                 </div>
                             </div>

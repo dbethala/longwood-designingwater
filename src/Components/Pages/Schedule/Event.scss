@@ -1,5 +1,8 @@
 $breakpoint: 992px;
 
+.schedule-inpage {
+    color: #21D2E8;
+}
 @media (min-width: $breakpoint) {
     .event-col {
         width: 35%;

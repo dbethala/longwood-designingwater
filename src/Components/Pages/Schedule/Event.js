@@ -7,7 +7,7 @@ class Event extends React.Component {
             return (
                 <div className="w3-row">
                     <div className="w3-col l1">
-                        <p className="schedule timestamp wednesday">{this.props.timestamp}</p>
+                        <p className="schedule-inpage timestamp wednesday">{this.props.timestamp}</p>
                     </div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1 event-col">
@@ -37,7 +37,7 @@ class Event extends React.Component {
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1">
-                        <p className="schedule timestamp thursday">{this.props.timestamp}</p>
+                        <p className="schedule-inpage timestamp thursday">{this.props.timestamp}</p>
                     </div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1 event-col">

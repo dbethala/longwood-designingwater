@@ -1,3 +1,7 @@
+.schedule-inpage {
+  color: #21D2E8;
+}
+
 @media (min-width: 992px) {
   .event-col {
     width: 35%;

@@ -16,7 +16,7 @@ class Venue extends React.Component {
                 </div>
                 <div className="w3-row">
                     <div className="w3-col l1 venue-links">
-                        <h4 className="venue venue-links"><a href="#directions">Directions</a> &mdash; <a
+                        <h4 className="venue-inpage venue-links"><a href="#directions">Directions</a> &mdash; <a
                             href="#parking">Parking</a> &mdash; <a href="#accommodations">Accommodations</a> &mdash; <a
                             href="#meals">Meals</a></h4>
                     </div>
@@ -163,7 +163,7 @@ class Venue extends React.Component {
                                     Visitor Center as you enter Longwood Gardens. <br/> <br/>
                                     Complimentary transportation to downtown Philadelphia following the conclusion of
                                     the symposium will be available on a limited basis. To secure a spot, please email
-                                    Director of Continuing Education Matthew Ross <a class="venue"href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a> or call
+                                    Director of Continuing Education Matthew Ross <a class="venue-inpage" href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a> or call
                                     610.388.5247.
                                 </p>
                             </div>

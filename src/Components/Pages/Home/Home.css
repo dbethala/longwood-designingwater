@@ -57,6 +57,10 @@ h2 {
   margin-bottom: 24px;
 }
 
+.body {
+  margin-right: 20px;
+}
+
 @media (min-width: 992px) {
   .body-paragraphs {
     white-space: nowrap;
@@ -83,6 +87,7 @@ h2 {
   .header-region {
     padding-top: 20px;
     max-width: 1280px;
+    margin-right: 20px;
   }
   .to-register-home {
     background-color: black;
@@ -145,6 +150,9 @@ h2 {
   }
   .body-paragraphs {
     margin-right: 20px;
+  }
+  #longwood-link {
+    font-size: 0.8em;
   }
 }
 
