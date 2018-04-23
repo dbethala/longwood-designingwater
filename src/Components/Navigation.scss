@@ -135,3 +135,9 @@
     width: 40px;
   }
 }
+
+@media only screen and (orientation: landscape) {
+  .menuhidden ul {
+    margin-top: 10%;
+  }
+}
