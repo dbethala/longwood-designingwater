@@ -6,6 +6,7 @@ import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 import SpeakerBio from './SpeakerBio';
 import '../../../Global Stylesheets/lw01_css_032818mm.css';
+import {HashLink as HashLink} from 'react-router-hash-link'
 
 //Images
 
@@ -54,8 +55,8 @@ class Speaker extends React.Component {
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1">
                         <div className="speaker-shortcuts-region">
-                            <h4 className="speakers" id="speakerShortcuts"><a href="#czerniak>">Czerniak</a> - <a
-                                href="#berrizbeitia">Berrizbeitia</a> - <a
+                            <h4 className="speakers" id="speakerShortcuts"><a href="#czerniak>">Czerniak</a> - 
+                                <a href="#berrizbeitia">Berrizbeitia</a> - <a
                                 href="#vanBoxelKoreman">van Boxel</a> - <a href="#corner">Corner</a> - <a
                                 href="#descombes">Descombes</a> - <a href="#garland">Garland</a> - <a
                                 href="#geuze">Geuze</a> - <br/>
