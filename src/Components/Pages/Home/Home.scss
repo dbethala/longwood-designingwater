@@ -180,6 +180,10 @@ h2 {
   #longwood-link {
     font-size: 0.8em;
   }
+
+  .intro-col-1 {
+    width: auto;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -199,5 +203,13 @@ h2 {
   .organizer-section {
     max-width: 1280px;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .heading-date {
+    bottom: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
   }
 }
