@@ -92,12 +92,6 @@ class Home extends React.Component {
                     <div className="w3-col l1 col4 body intro-paragraph" style={{width:'auto'}}>
                         <h3 className="body-paragraphs" id="home-intro-1">
                             <div id="intro-paragraph-1">
-                            October 17 &mdash; 18 <br />
-                            <br />
-                            Price: $199 <br />
-                            <br />
-                            Curated by: Julia Czerniak, Associate Dean and Professor, Syracuse Architecture <br />
-                            <br />
                             Water is the most compelling and consequential design matter of
                             the 21st Century. Not just a life source or a source of beauty, water
                             has crucial social, cultural, and symbolic functions and plays an
