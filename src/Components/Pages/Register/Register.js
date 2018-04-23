@@ -10,8 +10,9 @@ import './Register.css'
 class Register extends React.Component {
     render() {
         return (
+            <div className="registerPageMaxWidthExempt">
             <div className="registerPage" style={{maxWidth: '1280px', margin: '0 auto'}}>
-                <div className="header-region">
+                <div className="header-region-register">
                     <Header navTextColor="black" pageClass="register"/>
                 </div>
 
@@ -60,14 +61,14 @@ class Register extends React.Component {
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 tickets-region" style={{width: 'auto'}}>
-                            <h3 className="tickets-title"><a name="tickets">Tickets</a></h3>
+                            <h2 className="tickets-title"><a name="tickets">Tickets</a></h2>
                             <p className="tickets-paragraph">
                             Two-day symposium: $199<br />
                             <br />
 Student rate: $99 <br /> <br/>
 Registration opens May 1
                             </p>
-                            <h4 className="register link-out">Register here.</h4>
+                            {/*<h4 className="register link-out">Register here.</h4>*/}
                             <br />
                         </div>
                         <div className="w3-col l1"></div>
@@ -85,7 +86,7 @@ Registration opens May 1
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 conted-region" style={{width: 'auto'}}>
-                            <h3 className="conted-title"><a name="conted">Continuing Education Units</a></h3>
+                            <h2 className="conted-title"><a name="conted">Continuing Education Units</a></h2>
                             <p className="conted-paragraph">
                             CEUs for LACES and APLD are being evaluated at this time.
                             </p>
@@ -97,11 +98,12 @@ Registration opens May 1
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1 col12"></div>
                     </div>
+                    </div>
                 </div>
-
+                
                 <div className="footer-region">
                     <Footer/>
-                </div>
+                    </div>
             </div>
         );
     }

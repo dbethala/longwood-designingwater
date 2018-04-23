@@ -9,13 +9,14 @@ import './Venue.css';
 class Venue extends React.Component {
     render() {
         return (
+            <div className="venuePageMaxWidthExempt" >
             <div className="venuePageWrapper" style={{maxWidth: '1280px', margin: '0 auto'}}>
                 <div className="header-region">
                     <Header navTextColor="black" pageClass="venue"/>
                 </div>
                 <div className="w3-row">
                     <div className="w3-col l1 venue-links">
-                        <h4 className="venue venue-links"><a href="#directions">Directions</a> &mdash; <a
+                        <h4 className="venue-inpage venue-links"><a href="#directions">Directions</a> &mdash; <a
                             href="#parking">Parking</a> &mdash; <a href="#accommodations">Accommodations</a> &mdash; <a
                             href="#meals">Meals</a></h4>
                     </div>
@@ -25,9 +26,10 @@ class Venue extends React.Component {
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
-                    <div className="w3-col l1"></div>
                     <div className="w3-col l1">
-                        <Title title="venue" className="venue"/>
+                    <Title title="venue" className="venue"/>
+                    </div>
+                    <div className="w3-col l1">
                     </div>
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1"></div>
@@ -44,7 +46,7 @@ class Venue extends React.Component {
                                     Exquisite flowers, majestic trees, dazzling fountains, opulent Conservatory, starlit
                                     theatre, thunderous organ—all describe the magic of Longwood Gardens. All
                                     presentations and sessions will be held in the 4.5-acre Conservatory’s Ballroom. As
-                                    a guest to the Gardens for Designing Water, you’ll have access to all indoor and
+                                    a guest to the Gardens for <i>Designing Water</i>, you’ll have access to all indoor and
                                     outdoor gardens, places, and spaces. Anticipate walking the Gardens at your leisure
                                     amid fall weather conditions, so comfortable shoes and attire are recommended. We
                                     may experience cooler temperatures for the evening fountain performance as well.
@@ -109,9 +111,9 @@ class Venue extends React.Component {
                                     Square, PA.
                                     <br/>
                                     <br/>
-                                    How miles to Longwood?
-                                    <img className="venue-map-large" src={require('../../Assets/googlemap.jpg')}
-                                         alt="googlemap"/>
+                                    How many miles to Longwood?
+                                    <a href="https://www.google.com/maps/place/Longwood+Gardens/@39.8725805,-75.6773926,17z/data=!4m12!1m6!3m5!1s0x89c65625555550d9:0xf28050deeca360d0!2sLongwood+Gardens!8m2!3d39.871271!4d-75.6747203!3m4!1s0x89c65625555550d9:0xf28050deeca360d0!8m2!3d39.871271!4d-75.6747203" target="_blank"><img className="venue-map-large" src={require('../../Assets/googlemap.jpg')}
+                                         alt="googlemap"/></a>
                                     <br/>
                                     <br/>
                                     Philadelphia, PA - 30<br/>
@@ -161,8 +163,8 @@ class Venue extends React.Component {
                                     Visitor Center as you enter Longwood Gardens. <br/> <br/>
                                     Complimentary transportation to downtown Philadelphia following the conclusion of
                                     the symposium will be available on a limited basis. To secure a spot, please email
-                                    Director of Continuing Education Matthew Ross mross@longwoodgardens.org or call
-                                    610.388.5247.
+                                    Director of Continuing Education Matthew Ross <a class="venue-inpage" href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a> or call
+                                    <span className="phone" style={{textDecoration:'none'}}> 610.388.5247</span>.
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
@@ -217,24 +219,25 @@ class Venue extends React.Component {
                                 <h2 className="venue-body-paragraph-4-title"><a name="accommodations">Accommodations</a>
                                 </h2>
                                 <p className="venue-body-paragraph-4">
-                                    The preferred hotels for Designing Water, in closest proximity to Longwood Gardens,
-                                    are the: <br/>
+                                    The preferred hotels for <i>Designing Water</i>, in closest proximity to Longwood Gardens,
+                                    are: <br/>
                                     <br/>
                                     Hilton Garden Inn<br/>
-                                    815 E Baltimore Pike, <br/>Kennett Square, PA<br/>
+                                    815 E Baltimore Pike <br/>Kennett Square, PA<br/>
                                     610.444.9100
                                     <br />
                                     <br />
-                                    and the
+                                    and
                                     <br />
                                     <br />
                                     Fairfield Inn and Suites by Marriot Kennett Square Brandywine Valley<br/>
-                                    719 E Baltimore Pike, <br/>Kennett Square, PA 19348<br/>
+                                    719 E Baltimore Pike <br/>Kennett Square, PA 19348<br/>
                                     610.444.8995
                                     <br />
                                     <br />
+                                    Both hotels are offering a group rate. <a target="_blank" href="www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Designing%20Water%20Symposium%5Ephlks%60LSELSEA%7CLSELSEB%60159.00%60USD%60false%604%6010/16/18%6010/21/18%609/16/18&app=resvlink&stop_mobi=yes"className="venue-inpage">Find out more.</a> <br/> <br/>
                                     There are also several nearby bed and breakfast and other hotels which can be
-                                    accessed through the Brandywine Valley Website at (www.brandywinevalley.com)
+                                    accessed through the <a href="www.brandywinevalley.com" target="_blank" className="venue-inpage">Brandywine Valley Website.</a>
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
@@ -261,8 +264,7 @@ class Venue extends React.Component {
                             <div className="w3-col l1 venue-body-meals" style={{width: 'auto'}}>
                                 <h2 className="venue-body-paragraph-5-title"><a name="meals">Meals</a></h2>
                                 <p className="venue-meals-paragraph">
-                                Registration includes a four-course dinner in Longwood's Conservatory on the evening of October 17, continental breakfast on the morning of October 18, and a buffet lunch on October 18. <br/> <br/>Please alert us to any food allergies or dietary restrictions as you register. 
-If you have any special accommodations we should be aware of to ensure you have a wonderful experience during Designing Water, please note these as you register. 
+                                Registration includes a buffet dinner in Longwood's Conservatory on the evening of October 17, continental breakfast on the morning of October 18, and a buffet lunch on October 18.
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
@@ -275,7 +277,7 @@ If you have any special accommodations we should be aware of to ensure you have 
                     </div>
 
                 </div>
-
+                </div>
                 <Footer/>
             </div>
         );

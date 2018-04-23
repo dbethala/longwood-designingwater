@@ -13,13 +13,24 @@ p {
 .schedule {
 	color: #37E7FD;
 	}
+
+.schedule-inpage {
+	color: #21D2E8;
+	}
 	
 .speakers {
 	color: #B2E52D;
 	}
+
+.speakers-inpage {
+	color: #99D00B;
+	}
 	
 .venue {
 	color: #35F4CF;
+	}
+.venue-inpage {
+	color: #00D0A7;
 	}
 	
 .register {

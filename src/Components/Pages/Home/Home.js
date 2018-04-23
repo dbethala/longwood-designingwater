@@ -19,16 +19,16 @@ import LongwoodLogoForBody from '../../Assets/LG-Logo-lockup_forweb.png';
 class Home extends React.Component {
     render() {
         return (
-            <div className="homePage" style={{maxWidth: '1280px', margin: '0 auto'}}>
+            <div className="homePage">
                 <div className="homepage-banner">
                     <div className="header-region">
-                        <Header navTextColor="white" pageClass="home"/>
+                        <Header navTextColor="white" pageClass="home" style={{maxWidth: "1280px"/*, margin: "0 auto"*/}}/>
                         <div style={{clear: 'both'}}/>
                     </div>
                     <div className="w3-row">
                     <div className="forefront-element">
                         <div className="homepage-title-region">
-                            <div className="w3-col m1">
+                            <div className="w3-col l1">
                                 <h1 className="welcome-banner-text" id="designing">designing<br/></h1>
                             </div>
                             <div className="w3-col l1"></div>
@@ -42,10 +42,9 @@ class Home extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
-                        </div>
 
                         <div className="w3-row">
-                            <div className="w3-col m1">
+                            <div className="w3-col l1">
                             </div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
@@ -60,17 +59,23 @@ class Home extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1"></div>
+                            </div>
                         </div>
                     </div>
                     </div>
-                    <div className="w3-row">
+                    <div className="w3-row date-location">
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1">
-                            <h2 className="heading-date" style={{whiteSpace: 'nowrap'}}>October 17-18, 2018</h2>
                         </div>
-                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1 heading-location-col" style={{width: 'auto'}}>
+                            <h2 className="heading-date">October 17 &mdash; 18, 2018
+                            <br />
+                            <br />
+                                Longwood Gardens, Kennett Square, Pennsylvania
+                            </h2>
+                        </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
@@ -84,19 +89,31 @@ class Home extends React.Component {
                     <div className="w3-col l1 col1"></div>
                     <div className="w3-col l1 col2"></div>
                     <div className="w3-col l1 col3"></div>
-                    <div className="w3-col l1 col4">
+                    <div className="w3-col l1 col4 body intro-paragraph" style={{width:'auto'}}>
                         <h3 className="body-paragraphs" id="home-intro-1">
-                            Water is the most compelling and consquential design matter of<br/>
-                            the 21st century. Not just a life source of, water<br/>
-                            has crucial social, cultural and symbiotic functions and plays an<br/>
-                            essential role in all living systems.<br/>
+                            <div id="intro-paragraph-1">
+                            October 17 &mdash; 18 <br />
+                            <br />
+                            Price: $199 <br />
+                            <br />
+                            Curated by: Julia Czerniak, Associate Dean and Professor, Syracuse Architecture <br />
+                            <br />
+                            Water is the most compelling and consequential design matter of
+                            the 21st Century. Not just a life source or a source of beauty, water
+                            has crucial social, cultural, and symbolic functions and plays an
+                            essential role in all living systems. </div>
                             <br/>
-                            <br/>
-                            International scholars and practitioners in garden design, landscape<br/>
-                            architecture, urban design, and ecology convene to<br/>
-                            discuss and advance concepts of and strategies for designing<br/>
-                            water from the scale of singular garden feature to integrated<br/>
-                            regional systems.
+                            <div id="intro-paragraph-2">
+                            International scholars and practitioners in garden design, landscape
+                            architecture, urban design, architecture, and ecology convene to
+                            discuss and advance concepts of and strategies for designing
+                            water from the scale of a singular garden feature to integrated
+                            regional systems. <br />
+                            <br />
+                            Registration to open May 1<br />
+                            <br />
+                            <a id="longwood-link" href="https://longwoodgardens.org/designingwater"><b>https://longwoodgardens.org/designingwater</b></a>
+                            </div>
                         </h3>
                     </div>
                     <div className="w3-col l1 col5"></div>
@@ -108,38 +125,38 @@ class Home extends React.Component {
                     <div className="w3-col l1 col11"></div>
                     <div className="w3-col l1 col12"></div>
                 </div>
-                <div className="w3-row body-section-2">
+                <div className="w3-row body-section-2 body">
                     <div className="w3-col l1" id="from-the-curator-col">
                         <h2 className="subheading" style={{whiteSpace: 'nowrap'}}>From the Curator</h2>
                         <p className="body-paragraphs" id="home-intro-2">
                             Please join me for a timely, inspirational, and dynamic event on the relationship of design
                             and water across time, space, and scale. Our line-up of speakers are influential academic
-                            leaders and world renowned design practitioners from Asia, Europe and the Americas. Each
+                            leaders and world renowned design practitioners from Asia, Europe, and North America. Each
                             presenter will bring their local perspectives to truly global interests and concerns—such as
-                            ecology, aesthetics, meaning and public space—as they assemble at Longwood Gardens in the
+                            ecology, aesthetics, meaning, and public space—as they assemble at Longwood Gardens in the
                             picturesque Brandywine River Valley.
                             <br/>
                             <br/>
-                            The aim of this event is to recognize the significant history of designing water,
-                            interrogate the social, cultural, ecologic and economic functions that designed water plays
-                            in the 21st century, reconsider the leadership roles that the design disciplines can play in
+                            The aim of this event is to <em>recognize</em> the significant history of designing water,
+                            <em>interrogate</em> the social, cultural, ecologic, and economic functions that designed water plays
+                            in the 21st Century, reconsider the leadership roles that the design disciplines can play in
                             its shaping, and imagine ways to build features and infrastructural systems that expand the
                             aesthetics of water while innovatively addressing urgent global challenges linked to climate
                             change.
                             <br/>
                             <br/>
-                            In doing so, Designing Water intends to project future potentials for our disciplines while
+                            In doing so, <i>Designing Water</i> intends to project future potentials for our disciplines while
                             educating us all about the crucial role design plays in shaping this resource. The event’s
                             diverse sessions set the coordinates for a thoughtful and lively discussion of issues that
-                            confront those involved in designing, planning and managing water, as well as all of us that
+                            confront those involved in designing, planning, and managing water, as well as all of us that
                             celebrate it.
                             <br/>
                             <br/>
                             I look forward to meeting you in October!
                             <br/>
                             <br/>
-                            <div className="speakers">Julia Czeniak</div>
-                            Chief Curator, Designing Water
+                            <div className="speakers-inpage">Julia Czerniak</div>
+                            Chief Curator, <i>Designing Water</i><br />
                             Associate Dean and Professor, Syracuse Architecture
                         </p>
                     </div>
@@ -161,13 +178,13 @@ class Home extends React.Component {
                     <div className="w3-col l1 col2"></div>
                     <div className="w3-col l1 col3"></div>
                     <div className="w3-col l1 col4"></div>
-                    <div className="w3-col l1 col5" id="descriptions">
+                    <div className="w3-col l1 col5 body" id="descriptions">
                         <h2 className="subheading" id="orgaznizerHeading">Organizers</h2>
                         <div className="longwood-description">
                             <img src={LongwoodLogoForBody} className="logo" id="homePageOrganizerLongwoodLogo"
                                  alt="Longwood Gardens"/>
-                            <p className="organizer-description" id="longwoodDescText">
-                                In 1906, industrialist Pierre du Pont (1870-1954) purchased a small farm near Kennett
+                            <p className="organizer-description body" id="longwoodDescText">
+                                In 1906, industrialist Pierre S. du Pont (1870-1954) purchased a small farm near Kennett
                                 Square, PA, to save a collection of historic trees from being sold for lumber. Today,
                                 Longwood Gardens continues this spirit of stewardship and innovation. As one of the
                                 great gardens of the world, Longwood is now home to the most significant fountain
@@ -183,18 +200,18 @@ class Home extends React.Component {
 
                         <div className="aar-description">
                             <img src={AARLogo} className="logo" id="homePageOrganizerAARLogo"/>
-                            <p className="organizer-description" id="aarDescText">
-                                Founded in 1895 as the American School of Classical Studies in Rome, the American
-                                Academy in Rome support innovative artists, writers and scholars living and working
-                                together in a dynamic international community.
-                                The Academy awards the Rome Prize to a select group of artists and scholars. The
-                                winners, announced in the spring, are invited to Rome to pursue their work in an
-                                atmosphere conducive to intellectual and artistic freedom, interdisciplinary exchange,
-                                and innovation. The encounter with Rome represents now, as it has done since the
-                                Academy’s inception, something unique: a chance for American artists and scholars to
-                                spend significant time interacting and working in one of the oldest, most cosmopolitan
-                                cities in the world. The community includes Fellows, Residents, Visiting Artists and
-                                Scholars, and, come June, members of academic Summer Programs.
+                            <p className="organizer-description body" id="aarDescText">
+                            Founded in 1894, the American Academy in Rome is the oldest American overseas center for independent study and advanced research in
+                            the arts and humanities. A not-for-profit, privately funded institution, the Academy awards the Rome Prize to a select group of artists and 
+                            scholars annually, after an application process that begins each fall. The winners, selected by independent juries through a national
+                            competition process, are invited to Rome the following year to pursue their work in an atmosphere conducive to intellectual and
+                            artistic experimentation and interdisciplinary exchange. Awards are offered in the following categories: Literature, Music Composition,
+                            Visual Arts, Architecture, Landscape Architecture, Design, and Historic Preservation and Conservation, as well as Ancient, Medieval,
+                            Renaissance and Early Modern, and Modern Italian Studies. 
+                            <br /> <br />
+                            In addition to the Rome Prize and Italian Fellows, the Academy also invites a select group of Residents, Affiliated Fellows,
+                            and Visiting Artists and Scholars to work together within this exceptional community in Rome.
+
                             </p>
                         </div>
                     </div>

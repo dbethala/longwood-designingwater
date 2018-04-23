@@ -1,8 +1,11 @@
 $breakpoint: 992px;
 
+.schedule-inpage {
+    color: #21D2E8;
+}
 @media (min-width: $breakpoint) {
     .event-col {
-        width: 45%;
+        width: 35%;
     }
 
     .event-desc {
@@ -17,6 +20,10 @@ $breakpoint: 992px;
     #schedule-date-2 {
         position: relative;
         right: 73px;
+    }
+
+    .event-title {
+        white-space: normal;
     }
     
 }

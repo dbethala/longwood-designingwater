@@ -1,6 +1,10 @@
+.schedule-inpage {
+  color: #21D2E8;
+}
+
 @media (min-width: 992px) {
   .event-col {
-    width: 45%;
+    width: 35%;
   }
   .event-desc {
     white-space: normal;
@@ -12,6 +16,9 @@
   #schedule-date-2 {
     position: relative;
     right: 73px;
+  }
+  .event-title {
+    white-space: normal;
   }
 }
 

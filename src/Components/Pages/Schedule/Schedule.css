@@ -28,6 +28,7 @@ nav {
   }
   .timestamp {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
   #designing-water-header-text {
     margin-left: 20px;
@@ -43,9 +44,7 @@ nav {
   }*/
   .timestamp {
     white-space: nowrap;
-  }
-  .event-title {
-    white-space: nowrap;
+    margin-top: 25%;
   }
   .event-desc {
     white-space: normal;
@@ -62,7 +61,7 @@ nav {
   .pageTitle.schedule {
     position: fixed;
     top: 260px;
-    margin-right: 18%;
+    margin-left: 40px;
   }
   .to-schedule-schedule, .to-venue-schedule, .to-speakers-schedule {
     color: black;
@@ -72,15 +71,15 @@ nav {
     color: white;
     padding: 5px 5px;
   }
-  #thursday-section {
-    margin-top: 100px;
+  .thursday-section {
+    margin-top: 200px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1280px) {
   .pageTitle.schedule {
     right: 0;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 }
 
@@ -89,12 +88,11 @@ nav {
     right: 0;
     margin-right: 20px;
   }
-}
-
+} */
 @media (min-width: 1280px) {
-  .pageTitle.schedule {
-    float: right;
-    right: 9%; 
+  .date-range-col {
+    position: relative;
+    right: 30px;
   }
-}*/
+}
 /*# sourceMappingURL=Schedule.css.map */

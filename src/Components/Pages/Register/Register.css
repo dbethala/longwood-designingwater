@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+.header-region-register {
+  padding-top: 20px;
+}
+
 @media screen and (max-width: 992px) {
   .registerBody {
     position: relative;
@@ -64,12 +68,18 @@ a {
   .pageTitle.register {
     left: 0;
   }
+  .header-region-register {
+    margin-left: 28px;
+  }
 }
 
 @media (min-width: 1280px) {
   .pageTitle.register {
     position: fixed;
     top: 260px;
+  }
+  .header-region-register {
+    margin-left: 40px;
   }
 }
 /*# sourceMappingURL=Register.css.map */

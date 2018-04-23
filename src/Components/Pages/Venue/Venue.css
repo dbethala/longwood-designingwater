@@ -42,6 +42,9 @@ a {
   .to-schedule-venue, .to-venue-venue, .to-speakers-venue, .to-register-venue {
     color: white;
   }
+  .venue-body-paragraph-2 {
+    margin-top: 0px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -49,6 +52,9 @@ a {
     position: fixed;
     top: 260px;
     margin-right: 20px;
+  }
+  #venueBody > div.venue-section-2 > div:nth-child(2) > div.w3-col.l1.paragraph-cols {
+    width: 65%;
   }
   #venueBody {
     position: relative;
@@ -61,7 +67,7 @@ a {
   }
   .venue-iwg-img {
     position: relative;
-    float: left;
+    float: right;
     height: auto;
     width: auto;
     margin-right: 20px;
@@ -76,7 +82,9 @@ a {
     position: relative;
     float: right;
     height: auto;
-    width: 500px;
+    width: 600px;
+    padding-left: 50px;
+    padding-bottom: 50px;
   }
   .venue-parking-paragraph {
     text-align: left;
@@ -113,15 +121,14 @@ a {
 @media (min-width: 992px) and (max-width: 1280px) {
   .pageTitle.venue {
     right: 0;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 }
 
-/*
 @media (min-width: 1280px) {
-    .pageTitle.venue {
-        right: 0;
-        margin-right: 33%;
-    }
-}*/
+  .venue-links {
+    position: relative;
+    right: 15px;
+  }
+}
 /*# sourceMappingURL=Venue.css.map */

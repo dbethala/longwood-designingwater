@@ -12,9 +12,9 @@ export class Footer extends Component {
                 <div className="w3-row footer-section">
                     <div className="w3-col l1 col1" style={{whiteSpace: 'nowrap', width: '100%'}}>
                         <div className="footer-logo-region" style={{whiteSpace: 'nowrap'}}>
-                            <img id="longwood-footer-logo" src={LongwoodLogo} alt="Longwood Gardens"/>
+                            <a href="https://longwoodgardens.org"><img id="longwood-footer-logo" src={LongwoodLogo} alt="Longwood Gardens"></img></a>
                             <div className="vl"></div>
-                            <img id="aar-footer-logo" src={AARLogo} alt="American Academy in Rome"/>
+                            <a href="http://www.aarome.org/"><img id="aar-footer-logo" src={AARLogo} alt="American Academy in Rome"></img></a>
                         </div>
                     </div>
                     <div className="w3-col l1 col2"></div>
