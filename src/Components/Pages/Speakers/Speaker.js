@@ -55,7 +55,7 @@ class Speaker extends React.Component {
                     <div className="w3-col l1"></div>
                     <div className="w3-col l1">
                         <div className="speaker-shortcuts-region">
-                            <h4 className="speakers" id="speakerShortcuts"><a href="#czerniak>">Czerniak</a> - 
+                            <h4 className="speakers" id="speakerShortcuts"><a href="#czerniak">Czerniak</a> - 
                                 <a href="#berrizbeitia">Berrizbeitia</a> - <a
                                 href="#vanBoxelKoreman">van Boxel</a> - <a href="#corner">Corner</a> - <a
                                 href="#descombes">Descombes</a> - <a href="#garland">Garland</a> - <a
