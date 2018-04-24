@@ -73,7 +73,7 @@ class Home extends React.Component {
                             <h2 className="heading-date">October 17 &mdash; 18, 2018
                             <br />
                             <br />
-                                Longwood Gardens, Kennett Square, Pennsylvania
+                                Longwood Gardens, <br />Kennett Square, Pennsylvania
                             </h2>
                         </div>
                         <div className="w3-col l1"></div>
