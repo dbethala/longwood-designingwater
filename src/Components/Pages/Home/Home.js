@@ -123,7 +123,7 @@ class Home extends React.Component {
                         <h2 className="subheading" style={{whiteSpace: 'nowrap'}}>From the Curator</h2>
                         <p className="body-paragraphs" id="home-intro-2">
                             Please join me for a timely, inspirational, and dynamic event on the relationship of design
-                            and water across time, space, and scale. Our lineup of speakers is influential academic
+                            and water across time, space, and scale. Our lineup of speakers includes influential academic
                             leaders and world renowned design practitioners from Asia, Europe, and North America. Each
                             presenter will bring their local perspectives to truly global interests and concerns—such as
                             ecology, aesthetics, meaning, and public space—as they assemble at Longwood Gardens in the
@@ -131,7 +131,7 @@ class Home extends React.Component {
                             <br/>
                             <br/>
                             The aim of this event is to <em>recognize</em> the significant history of designing water, 
-                            <em>interrogate</em> the social, cultural, ecologic, and economic functions that designed water plays
+                            <em> interrogate</em> the social, cultural, ecologic, and economic functions that designed water plays
                             in the 21st Century, reconsider the leadership roles that the design disciplines can play in
                             its shaping, and imagine ways to build features and infrastructural systems that expand the
                             aesthetics of water while innovatively addressing urgent global challenges linked to climate

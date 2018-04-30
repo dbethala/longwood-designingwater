@@ -135,7 +135,7 @@ class Speaker extends React.Component {
                                         University where she teaches studios as well as seminars on landscape theory and
                                         criticism. Czerniak is educated both as an architect (Princeton University, M.
                                         Arch 1992) and landscape architect (Pennsylvania State University, BA 1984) and
-                                        her research and practice draws on the intersection of these disciplines.
+                                        her research and practice draw on the intersection of these disciplines.
                                         Although the techniques, scales and products of her research vary, Czerniak’s
                                         work focuses on the physical and cultural potentials of urban landscapes. Recent
                                         design research advances landscape as a protagonist in the remaking of Rust-Belt
@@ -191,7 +191,7 @@ class Speaker extends React.Component {
                                         Graduate School of Design</p>
                                     <p>
                                         Anita Berrizbeitia is a landscape architect specializing in theory and criticism
-                                        of nineteenth and twentieth-century public landscapes in the US and Europe, with
+                                        of 19th and 20th-Century public landscapes in the United States and Europe, with
                                         particular interests in material culture, design expression, and the productive
                                         functions and roles of landscape in processes of urbanization. Berrizbeitia is
                                         editor of several publications, including: <i>Urban Landscape—Critical Concepts
@@ -229,7 +229,7 @@ class Speaker extends React.Component {
                             <div className="w3-col l1"></div>
                             <div className="w3-col l1 speaker-name-col">
                                 <div className="sp-name">
-                                    <h3 className="speakerName"><a name="vanBoxelKoreman">Elma van Boxel and Krisitan
+                                    <h3 className="speakerName"><a name="vanBoxelKoreman">Elma van Boxel and Kristian
                                         Koreman</a></h3>
                                 </div>
                             </div>
@@ -320,13 +320,13 @@ class Speaker extends React.Component {
                                         James has devoted the past 30 years to advancing the field of landscape
                                         architecture and urbanism, through his leadership on high-visibility, complex
                                         urban projects at Field Operations, as well as through teaching, public speaking
-                                        and writing. James’ work has been recognized with the National Design Award; the
+                                        and writing. Corner's work has been recognized with the National Design Award; the
                                         American Academy of Arts and Letters Award in Architecture; the AA&D Black
                                         Pencil Award; and the Chrysler Design Award. His work has been published broadly
                                         and exhibited at the New York Museum of Modern Art; the Cooper-Hewitt Design
                                         Museum; the National Building Museum; the Royal Academy of Art in London; and
                                         the Venice Biennale. His books include <i>The High Line; The Landscape
-                                        Imagination; and Taking Measures Across the American Landscape.</i> James is an
+                                        Imagination; and Taking Measures Across the American Landscape.</i> Corner is an
                                         emeritus Professor of Landscape Architecture and Urbanism at the University of
                                         Pennsylvania School of Design, and serves on the Board of the Urban Design
                                         Forum.
@@ -378,16 +378,15 @@ class Speaker extends React.Component {
                                 <div className="speaker-desc">
                                     <p className="speakerTitle">Principal, Atelier Descombes Rampini</p>
                                     <p>
-                                        George Descombes lives and works in Geneva and is principal in the firm ADR
-                                        architects. He studied architecture in Geneva, Zurich and London (AAGS). Georges
+                                        Georges Descombes lives and works in Geneva and is principal of Atelier Descombes Rampini. He has studied architecture in Geneva, Zurich and London (AAGS). Descombes
                                         has taught at University of Geneva School of Architecture, the Berlage
-                                        Institute, visiting professor at Harvard GSD, University of Virginia School of
-                                        Architecture, Berkeley University, Rapperswill School of Landscape Architecture,
-                                        and lectured extensively in Europe, USA, Israel, China and South America. Among
-                                        his realizations are Park in Lancy, Swiss Path, Bijlmer memorial in Amsterdam,
+                                        Institute, Harvard GSD, University of Virginia School of
+                                        Architecture, Berkeley University, and Rapperswill School of Landscape Architecture,
+                                        and has lectured extensively in Europe, the United States, Israel, China and South America. Among
+                                        his realizations are Park in Lancy, Swiss Path, Bijlmer memorial in Amsterdam, and
                                         Parc de la Cour du Maroc in Paris. He is presently working on the River Aire
-                                        restoration project in Geneva, on Lyon Confluence riversides, the Ostende Green
-                                        belt projet, the Material kaai in Brussels and the DokZuid park in Anvers,
+                                        restoration project in Geneva, Lyon Confluence riversides, the Ostende Green
+                                        Belt Project, the Material kaai in Brussels, and the DokZuid park in Anvers,
                                         Belgium.
                                     </p>
                                 </div>
@@ -436,19 +435,19 @@ class Speaker extends React.Component {
                                 <div className="speaker-desc">
                                     <p className="speakerTitle">President & Founder, Fluidity Design Consultants</p>
                                     <p>
-                                        James Garland founded Fluidity Design Consultants in 2002 after twenty years of
-                                        practice in water design, architecture and urbanism. Jim began working in water
+                                        James Garland founded Fluidity Design Consultants in 2002 after 20 years of
+                                        practice in water design, architecture, and urbanism. Garland began working in water
                                         at Wet Design as a consultant in 1986 while maintaining a private practice, then
-                                        switching to full time in 1994 to ultimately become Wet’s Director of Design.
-                                        Jim’s major projects included: Canal City Hakata (Fukuoka, Japan), Al Faisaliah
+                                        switched to full time in 1994 to ultimately become Wet’s Director of Design.
+                                        Garland’s major projects included: Canal City Hakata (Fukuoka, Japan), Al Faisaliah
                                         (Riyadh, Saudi Arabia), Lisbon Expo ‘98 (Lisbon, Portugal) Millenium Park
                                         (Singapore), the Rose Garden Arena (Portland, Oregon), the Burj Al Arab (Dubai,
-                                        UAE) and Water Tower Place (Chicago, USA). During this period, Jim also designed
-                                        water features in Kuala Lumpur, Chicago, Singapore, Beijing, Shanghai, Seoul,
-                                        Berlin, Miami Beach and Houston. Jim Garland holds a Masters degree in
+                                        UAE) and Water Tower Place (Chicago, Illinois). Garland has also designed
+                                        water features in Kuala Lumpur, Beijing, Shanghai, Seoul,
+                                        Berlin, Miami Beach, and Houston. Garland holds a Masters degree in
                                         Architecture from UCLA, with a focus in architectural design and urban design.
                                         His undergraduate degree, also in architecture, was obtained from the University
-                                        of Louisiana. Jim interned at Urban Innovations Group under Charles W. Moore,
+                                        of Louisiana. Garland interned at Urban Innovations Group under Charles W. Moore,
                                         FAIA, an internationally celebrated architect who was known, among many things,
                                         for his enthusiastic and skillful use of water in architecture.
                                     </p>
@@ -501,7 +500,7 @@ class Speaker extends React.Component {
                                     <p>
                                         Adriaan Geuze, cofounder and design director of West 8, has established an
                                         enormous reputation on an international level with his visionary approach to
-                                        planning and design of the built environment. Adriaan, together with his office,
+                                        planning and design of the built environment. Geuze, together with his office,
                                         has brought West 8 to the frontline of international urban design and landscape
                                         architecture for nearly 30 years now. As a key player in the field of landscape
                                         urbanism, nurturing landscape design's role as a powerful force in shaping our
@@ -509,7 +508,7 @@ class Speaker extends React.Component {
                                         combination of natural inclination and urban know-how: a technique of relating
                                         contemporary culture, urban identity, architecture, public space and engineering
                                         within one design while always taking the context into account. Internationally
-                                        respected as a professor in Architecture and Urban Design, Adriaan frequently
+                                        respected as a professor in Architecture and Urban Design, Geuze frequently
                                         lectures and teaches at universities worldwide.
                                     </p>
                                 </div>
@@ -560,7 +559,7 @@ class Speaker extends React.Component {
                                     <p>
                                         Christophe Girot is Professor and Chair of Landscape Architecture at the
                                         Architecture Department of the ETH in Zurich. He received a dual Masters in
-                                        Architecture and Landscape Architecture from UC Berkeley, and was Chair of
+                                        Architecture and Landscape Architecture from UC Berkeley and was Chair of
                                         Design at the Versailles School of Landscape Architecture. His teaching and
                                         research interests span new topological methods in landscape design, landscape
                                         perception and analysis through new media, and contemporary theory and history
@@ -684,24 +683,24 @@ class Speaker extends React.Component {
                                         Mary Margaret Jones is Senior Principal and President of Hargreaves Associates
                                         and oversees the three offices in San Francisco, CA; Cambridge, MA; and
                                         Hargreaves Jones in New York City. The firm is a leader in the fields of
-                                        landscape architecture and planning and has received over 100 national and
-                                        international awards and is the recipient of the 2016 Cooper Hewitt Smithsonian
+                                        landscape architecture and planning, has received more than 100 national and
+                                        international awards, and is the recipient of the 2016 Cooper Hewitt Smithsonian
                                         Museum National Design Award. She has served as principal-in-charge for such
                                         award-winning projects as Discovery Green in Houston, TX; the London Olympic
                                         Parklands; the University of Cincinnati Master Plan, and the restoration of
-                                        Crissy Field in San Francisco's Presidio; now a national park. Ms. Jones is the
+                                        Crissy Field in San Francisco's Presidio, now a national park. Jones is the
                                         Prince Charitable Trust Fellow in Landscape Architecture of the American Academy
                                         in Rome and current Chairman of the Board of Trustees; she is also Vice
-                                        President of the Board of ODC Dance in San Francisco. Ms. Jones is a past
-                                        Visiting Critic in Landscape Architecture at the Harvard Design School; is a
-                                        Fellow of the American Society of Landscape Architects; Sr. Fellow of the Design
+                                        President of the Board of ODC Dance in San Francisco. Jones is a past
+                                        visiting critic in Landscape Architecture at the Harvard Design School; is a
+                                        Fellow of the American Society of Landscape Architects; Senior Fellow of the Design
                                         Futures Council; past member of the National Advisory Council for the Mayors’
                                         Institute on City Design; past member of the Industry Advisory Group for the
-                                        U.S. State Department and Peer Professional for the General Service
-                                        Administration; and Fellow of the Urban Design Forum, New York, New York. She is
+                                        U.S. State Department; past Peer Professional for the General Services
+                                        Administration; and Fellow of the Urban Design Forum, New York, NW. She is
                                         currently leading the firm’s work on the 70-acre park that will link downtown to
                                         the river in Oklahoma City, a new open space for MIT that will be the
-                                        centerpiece of 1 million sq. ft.<sup>2</sup> of new development, and the recently completed 35-acre
+                                        centerpiece of one-million square feet of new development, and the recently completed 35-acre
                                         Zaryadye Park in the heart of Moscow, adjacent to Red Square on the Moscow
                                         River.
 
@@ -754,7 +753,7 @@ class Speaker extends React.Component {
                                     <p className="speakerTitle">Partner & Design Director, Latz + Partner <br/>Landscape
                                         Architect ByAK bdla, Architect ByAK, Urban Planner ByAK</p>
                                     <p>
-                                        Tilman Latz has over 20 years of professional experience in a wide variety of
+                                        Tilman Latz has more than 20 years of professional experience in a wide variety of
                                         projects. Deeply committed to ecological urban renewal, he is also interested in
                                         the socio-political potential of combined planning strategies, the interface of
                                         architecture and landscape and the meaning of material and memory. Projects
@@ -762,14 +761,14 @@ class Speaker extends React.Component {
                                         harbours in Bremerhaven into a new neighbourhood centre and the transformation
                                         of Turin’s largest urban industrial wasteland into Parco Dora, the conversion of
                                         the former port Rambaud in Lyon, the redevelopment of Place Flagey in Brussels,
-                                        St Peter’s Square in Manchester, the Kleiner Tiergarten Park in Berlin. When
-                                        Tilman was appointed to lead an interdisciplinary team to design the master plan
+                                        St Peter’s Square in Manchester, and the Kleiner Tiergarten Park in Berlin. When
+                                        Latz was appointed to lead an interdisciplinary team to design the master plan
                                         for Crystal Palace Park in 2006, he established a branch office in London, which
                                         also completed a number of projects in the United Kingdom. He and his team are
-                                        currently working in Israel, Russia and China alongside projects in the European
-                                        Union. Beyond that Tilman is actively engaged in the Bavarian board of the BDLA
+                                        currently working in Israel, Russia, and China alongside projects in the European
+                                        Union. Beyond that Latz is actively engaged in the Bavarian board of the BDLA
                                         (Federation of German Landscape Architects) and in the German Werkbund Bavaria.
-                                        Tilman Latz graduated in landscape architecture from the University of Kassel in
+                                        Latz graduated in landscape architecture from the University of Kassel in
                                         1993 and went on to study architecture in Kassel and London.
                                     </p>
                                 </div>
@@ -832,7 +831,7 @@ class Speaker extends React.Component {
                                         Theoretical Perspectives</i>, and co-editor with Kenneth I. Helphand of <i>Technology
                                         and the Garden.</i> From 2009 to 2012 Lee was a postdoctoral associate in Garden
                                         and
-                                        Landscape Studies at Dumbarton Oaks in Washington, D.C. He has previously taught
+                                        Landscape Studies at Dumbarton Oaks in Washington, DC He has previously taught
                                         at the Harvard Graduate School of Design, the Rhode Island School of Design, and
                                         Connecticut College. Trained as a landscape architect and historian, Lee
                                         received an MLA and a Ph.D. from Harvard University and a BSLA from Texas A&M
@@ -891,11 +890,11 @@ class Speaker extends React.Component {
                                     <p>
                                         Nina-Marie Lister is Graduate Program Director and Associate Professor in the
                                         School of Urban + Regional Planning at Ryerson University in Toronto. From
-                                        2010-2014, she was Visiting Associate Professor of Landscape Architecture +
+                                        2010-2014, she was visiting Associate Professor of Landscape Architecture +
                                         Urban Planning at Harvard University, Graduate School of Design. A Registered
                                         Professional Planner (MCIP, RPP) trained in ecology, environmental science and
                                         landscape planning; she is the founding principal of PLANDFORM, a creative
-                                        studio practice working at the nexus of landscape, ecology, and urbanism. Professor
+                                        studio practice working at the nexus of landscape, ecology, and urbanism.
                                         Lister’s research, teaching and practice center on the confluence of landscape
                                         infrastructure and ecological processes within contemporary metropolitan
                                         regions, with a particular focus on resilience and adaptive systems design. At
@@ -962,10 +961,10 @@ class Speaker extends React.Component {
                                         complex, creative, and collaborative work processes that advance broad
                                         environmental and social prerogatives. Orff was awarded the MacArthur Foundation
                                         ‘Genius’ Grant in 2017, the first given in the field of Landscape Architecture.
-                                        She was named a 2012 United States Artist Fellow, an Elle Magazine “Planet
+                                        She was named a 2012 United States Artist Fellow, and an <i>Elle</i> magazine “Planet
                                         Fixer,” and shared SCAPE’s design methodologies at the International TEDWomen
-                                        Conference in 2010. She graduated with a bachelor’s degree in Political and
-                                        Social Thought from the University of Virginia with Distinction and earned a
+                                        Conference in 2010. She graduated with a bachelor’s degree with distinction in Political and
+                                        Social Thought from the University of Virginia and earned a
                                         Master in Landscape Architecture from the Graduate School of Design at Harvard
                                         University. Orff is also the Director of Columbia University GSAPP’s Urban
                                         Design Program.
@@ -1018,14 +1017,14 @@ class Speaker extends React.Component {
                                     <p className="speakerTitle">P.S. du Pont Fellow, Longwood Gardens</p>
                                     <p>
                                         As the first P.S. du Pont Fellow, Colvin Randall has spoken all over the world
-                                        about Longwood Gardens, its history, magnificent garden features, the evolution
+                                        about Longwood Gardens and its history, magnificent garden features, the evolution
                                         of its bucolic landscape, and the performing arts in the Gardens that take place
                                         throughout the year. He is also the author of three books on Longwood Gardens
                                         including the centennial publication, <i>Longwood Gardens: 100 Years of Garden
                                         Splendor</i>. Randall became interested in the history of Longwood Gardens in 1973
                                         as a Longwood Graduate Fellow researching the story of the garden’s fountains.
                                         Currently, Randall oversees Longwood’s fireworks displays, the world’s largest
-                                        resident 10,010-pipe organ as well as the 62-bell carillon in the Chimes Tower.
+                                        resident 10,010-pipe organ, and the 62-bell carillon in the Chimes Tower.
                                     </p>
                                 </div>
                             </div>
@@ -1079,7 +1078,7 @@ class Speaker extends React.Component {
                                         future generations of horticulture professionals. A hallmark of Redman’s
                                         leadership is building a culture of planning to propel a shared vision forward.
                                         As the President and Chief Executive Officer of Longwood Gardens for the last 11
-                                        years, Paul has implemented institutional and strategic reforms that have
+                                        years, Redman has implemented institutional and strategic reforms that have
                                         positioned the Gardens as a premier horticultural, cultural, and educational
                                         institution of the 21st Century, while respecting the values of its founder,
                                         Pierre S. du Pont. Most recently and notably, Paul led one of the largest projects
@@ -1135,7 +1134,7 @@ class Speaker extends React.Component {
                                     <p>
                                     Mark Robbins, an architect, artist, educator, and longtime advocate for art and design, is President of the American Academy in Rome -- the  preeminent overseas center for independent study and advanced research in the arts and humanities. <br /> <br />
 
-He was previously Executive Director of the International Center of Photography in New York, an institution dedicated to the presentation and interpretation of the reproduced image. From 2004 to 2012, as Dean and Professor at Syracuse University School of Architecture and University Senior Advisor on Architecture and Urban Initiatives, he had a transformative role on both the school and the city. While Director of Design at the National Endowment for the Arts, from 1999-2002,  Mark led the development of an aggressive program to strengthen the presence of innovative design in the public realm. This included work with elected officials through the Mayors Institute on City Design and giving over 100 public presentations that promoted design. From 1993 to 1999, he was Curator of Architecture at the Wexner Center for the Arts, where he created a laboratory for innovative work, and Associate Professor at the Knowlton School of Architecture at Ohio State University.  He has been a visiting professor at the University of Virginia, Southern California Institute of Architecture (SCI-Arc), Georgia Institute of Technology and the Harvard Graduate School of Design.  
+He was previously Executive Director of the International Center of Photography in New York, an institution dedicated to the presentation and interpretation of the reproduced image. From 2004 to 2012, as Dean and Professor at Syracuse University School of Architecture and University Senior Advisor on Architecture and Urban Initiatives, he had a transformative role on both the school and the city. While Director of Design at the National Endowment for the Arts, from 1999-2002,  Robbins led the development of an aggressive program to strengthen the presence of innovative design in the public realm, which included work with elected officials through the Mayors Institute on City Design and giving more than 100 public presentations that promoted design. From 1993-1999, he was Curator of Architecture at the Wexner Center for the Arts, where he created a laboratory for innovative work, and Associate Professor at the Knowlton School of Architecture at Ohio State University.  He has been a visiting professor at the University of Virginia, Southern California Institute of Architecture (SCI-Arc), Georgia Institute of Technology and the Harvard Graduate School of Design.  
 
                                     </p>
                                 </div>
@@ -1311,7 +1310,7 @@ He was previously Executive Director of the International Center of Photography 
                                     <p>
                                         Mason White is Associate Professor at University of Toronto, and a founding
                                         partner of the internationally recognized design practice Lateral Office. His
-                                        design work and research considers architecture in relationship to environment
+                                        design work and research consider architecture in relationship to environment
                                         and infrastructure. He is the recipient of the 2012-13 Howard Friedman Visiting
                                         Professorship in the Practice of Architecture at UC Berkeley College of
                                         Environmental Design and the 2008-09 Arthur Wheelwright Fellowship from Harvard
@@ -1371,13 +1370,13 @@ He was previously Executive Director of the International Center of Photography 
                                         Design, Kongjian Yu is founder of the College of Architecture and Landscape at
                                         Peking University. In addition, he is the founder and president of Turenscape,
                                         one of the first and largest private urbanism and landscape architecture firms
-                                        in China. His pioneering research on the “ecological security patterns” and
+                                        in China. His pioneering research on “ecological security patterns” and
                                         “sponge cities” have been adopted by the Chinese government as the guiding
                                         theory for national land use planning, eco-city campaign, and urban ecological
                                         restoration. His practice includes landscape and urbanism in major cities around
                                         the world. His guiding design principles are the appreciation of the ordinary
                                         and a deep embracing of nature, even in its potentially destructive aspects,
-                                        such as urban flooding. His numerous awards include 13 ASLA Excellence and Honor Awards and a 2009 Urban Land Institude Global Award, and 5 World's Best Landscape of the Year Awards
+                                        such as urban flooding. His numerous awards include 13 ASLA Excellence and Honor Awards and a 2009 Urban Land Institute Global Award, and five World's Best Landscape of the Year Awards
                                         from the World Architecture Festival. 
                                     </p>
                                 </div>
