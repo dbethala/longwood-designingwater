@@ -104,9 +104,8 @@ class Home extends React.Component {
                             water from the scale of a singular garden feature to integrated
                             regional systems. <br />
                             <br />
-                            Registration to open May 1<br />
+                            Registration open now<br />
                             <br />
-                            <a id="longwood-link" href="https://longwoodgardens.org/designingwater"><b>https://longwoodgardens.org/designingwater</b></a>
                             </div>
                         </h3>
                     </div>
@@ -124,14 +123,14 @@ class Home extends React.Component {
                         <h2 className="subheading" style={{whiteSpace: 'nowrap'}}>From the Curator</h2>
                         <p className="body-paragraphs" id="home-intro-2">
                             Please join me for a timely, inspirational, and dynamic event on the relationship of design
-                            and water across time, space, and scale. Our line-up of speakers are influential academic
+                            and water across time, space, and scale. Our lineup of speakers is influential academic
                             leaders and world renowned design practitioners from Asia, Europe, and North America. Each
                             presenter will bring their local perspectives to truly global interests and concerns—such as
                             ecology, aesthetics, meaning, and public space—as they assemble at Longwood Gardens in the
                             picturesque Brandywine River Valley.
                             <br/>
                             <br/>
-                            The aim of this event is to <em>recognize</em> the significant history of designing water,
+                            The aim of this event is to <em>recognize</em> the significant history of designing water, 
                             <em>interrogate</em> the social, cultural, ecologic, and economic functions that designed water plays
                             in the 21st Century, reconsider the leadership roles that the design disciplines can play in
                             its shaping, and imagine ways to build features and infrastructural systems that expand the

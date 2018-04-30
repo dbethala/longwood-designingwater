@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 import Title from '../../Title';
@@ -163,7 +164,7 @@ class Venue extends React.Component {
                                     Visitor Center as you enter Longwood Gardens. <br/> <br/>
                                     Complimentary transportation to downtown Philadelphia following the conclusion of
                                     the symposium will be available on a limited basis. To secure a spot, please email
-                                    Director of Continuing Education Matthew Ross <a class="venue-inpage" href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a> or call
+                                    Director of Continuing Education Matthew Ross at <a class="venue-inpage" href="mailto:mross@longwoodgardens.org">mross@longwoodgardens.org</a> or call
                                     <span className="phone" style={{textDecoration:'none'}}> 610.388.5247</span>.
                                 </p>
                             </div>
@@ -222,7 +223,7 @@ class Venue extends React.Component {
                                     The preferred hotels for <i>Designing Water</i>, in closest proximity to Longwood Gardens,
                                     are: <br/>
                                     <br/>
-                                    Hilton Garden Inn<br/>
+                                    <a href="/hilton" target="_blank" className="venue-inpage">Hilton Garden Inn</a><br/>
                                     815 E Baltimore Pike <br/>Kennett Square, PA<br/>
                                     610.444.9100
                                     <br />
@@ -230,14 +231,14 @@ class Venue extends React.Component {
                                     and
                                     <br />
                                     <br />
-                                    Fairfield Inn and Suites by Marriot Kennett Square Brandywine Valley<br/>
+                                    <a href="/mariott" target="_blank" className="venue-inpage">Fairfield Inn and Suites by Marriot Kennett Square Brandywine Valley</a><br/>
                                     719 E Baltimore Pike <br/>Kennett Square, PA 19348<br/>
                                     610.444.8995
                                     <br />
                                     <br />
-                                    Both hotels are offering a group rate. <a target="_blank" href="www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Designing%20Water%20Symposium%5Ephlks%60LSELSEA%7CLSELSEB%60159.00%60USD%60false%604%6010/16/18%6010/21/18%609/16/18&app=resvlink&stop_mobi=yes"className="venue-inpage">Find out more.</a> <br/> <br/>
+                                    {/*Both hotels are offering a group rate. <a href="www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Designing%20Water%20Symposium%5Ephlks%60LSELSEA%7CLSELSEB%60159.00%60USD%60false%604%6010/16/18%6010/21/18%609/16/18&app=resvlink&stop_mobi=yes"className="venue-inpage">Find out more.</a>*/} <br/> <br/>
                                     There are also several nearby bed and breakfast and other hotels which can be
-                                    accessed through the <a href="www.brandywinevalley.com" target="_blank" className="venue-inpage">Brandywine Valley Website.</a>
+                                    explored <a href="/longwood-site-hotels" target="_blank" className="venue-inpage">here</a>.
                                 </p>
                             </div>
                             <div className="w3-col l1"></div>
