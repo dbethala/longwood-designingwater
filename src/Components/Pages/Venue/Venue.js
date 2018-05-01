@@ -231,7 +231,7 @@ class Venue extends React.Component {
                                     and
                                     <br />
                                     <br />
-                                    <a href="/mariott" target="_blank" className="venue-inpage">Fairfield Inn and Suites by Marriot Kennett Square Brandywine Valley</a><br/>
+                                    <a href="/mariott" target="_blank" className="venue-inpage">Fairfield Inn and Suites by Marriott Kennett Square Brandywine Valley</a><br/>
                                     719 E Baltimore Pike <br/>Kennett Square, PA 19348<br/>
                                     610.444.8995
                                     <br />

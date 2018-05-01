@@ -128,7 +128,7 @@ class Home extends React.Component {
                             leaders and world renowned design practitioners from Asia, Europe, and North America. Each
                             presenter will bring their local perspectives to truly global interests and concerns—such as
                             ecology, aesthetics, meaning, and public space—as they assemble at Longwood Gardens in the
-                            picturesque Brandywine River Valley.
+                            picturesque Brandywine Valley.
                             <br/>
                             <br/>
                             The aim of this event is to <em>recognize</em> the significant history of designing water, 
