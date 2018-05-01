@@ -70,10 +70,10 @@ class Home extends React.Component {
                         <div className="w3-col l1">
                         </div>
                         <div className="w3-col l1 heading-location-col" style={{width: 'auto'}}>
-                            <h2 className="heading-date">October 17 &mdash; 18, 2018
+                            <h2 className="heading-date">October 17&ndash;18, 2018
                             <br />
                             <br />
-                                Longwood Gardens, <br />Kennett Square, Pennsylvania
+                                Longwood Gardens <br />Kennett Square, Pennsylvania
                             </h2>
                         </div>
                         <div className="w3-col l1"></div>
