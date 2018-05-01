@@ -317,7 +317,7 @@ class Speaker extends React.Component {
                                         Operations </p>
                                     <p>
                                         James Corner is the Founding Partner and CEO of James Corner Field Operations.
-                                        James has devoted the past 30 years to advancing the field of landscape
+                                        Corner has devoted the past 30 years to advancing the field of landscape
                                         architecture and urbanism, through his leadership on high-visibility, complex
                                         urban projects at Field Operations, as well as through teaching, public speaking
                                         and writing. Corner's work has been recognized with the National Design Award; the
@@ -890,7 +890,7 @@ class Speaker extends React.Component {
                                     <p>
                                         Nina-Marie Lister is Graduate Program Director and Associate Professor in the
                                         School of Urban + Regional Planning at Ryerson University in Toronto. From
-                                        2010-2014, she was visiting Associate Professor of Landscape Architecture +
+                                        2010&#8211;2014, she was visiting Associate Professor of Landscape Architecture +
                                         Urban Planning at Harvard University, Graduate School of Design. A Registered
                                         Professional Planner (MCIP, RPP) trained in ecology, environmental science and
                                         landscape planning; she is the founding principal of PLANDFORM, a creative
@@ -1134,7 +1134,7 @@ class Speaker extends React.Component {
                                     <p>
                                     Mark Robbins, an architect, artist, educator, and longtime advocate for art and design, is President of the American Academy in Rome -- the  preeminent overseas center for independent study and advanced research in the arts and humanities. <br /> <br />
 
-He was previously Executive Director of the International Center of Photography in New York, an institution dedicated to the presentation and interpretation of the reproduced image. From 2004 to 2012, as Dean and Professor at Syracuse University School of Architecture and University Senior Advisor on Architecture and Urban Initiatives, he had a transformative role on both the school and the city. While Director of Design at the National Endowment for the Arts, from 1999-2002,  Robbins led the development of an aggressive program to strengthen the presence of innovative design in the public realm, which included work with elected officials through the Mayors Institute on City Design and giving more than 100 public presentations that promoted design. From 1993-1999, he was Curator of Architecture at the Wexner Center for the Arts, where he created a laboratory for innovative work, and Associate Professor at the Knowlton School of Architecture at Ohio State University.  He has been a visiting professor at the University of Virginia, Southern California Institute of Architecture (SCI-Arc), Georgia Institute of Technology and the Harvard Graduate School of Design.  
+He was previously Executive Director of the International Center of Photography in New York, an institution dedicated to the presentation and interpretation of the reproduced image. From 2004&#8211;2012, as Dean and Professor at Syracuse University School of Architecture and University Senior Advisor on Architecture and Urban Initiatives, he had a transformative role on both the school and the city. While Director of Design at the National Endowment for the Arts, from 1999&#8211;2002,  Robbins led the development of an aggressive program to strengthen the presence of innovative design in the public realm, which included work with elected officials through the Mayors Institute on City Design and giving more than 100 public presentations that promoted design. From 1993-1999, he was Curator of Architecture at the Wexner Center for the Arts, where he created a laboratory for innovative work, and Associate Professor at the Knowlton School of Architecture at Ohio State University.  He has been a visiting professor at the University of Virginia, Southern California Institute of Architecture (SCI-Arc), Georgia Institute of Technology and the Harvard Graduate School of Design.  
 
                                     </p>
                                 </div>
@@ -1313,7 +1313,7 @@ He was previously Executive Director of the International Center of Photography 
                                         design work and research consider architecture in relationship to environment
                                         and infrastructure. He is the recipient of the 2012-13 Howard Friedman Visiting
                                         Professorship in the Practice of Architecture at UC Berkeley College of
-                                        Environmental Design and the 2008-09 Arthur Wheelwright Fellowship from Harvard
+                                        Environmental Design and the 2008&#8211;09 Arthur Wheelwright Fellowship from Harvard
                                         Graduate School of Design. White is author of <i>Many Norths: Spatial Practice
                                         in a
                                         Polar Territory</i> and a co-editor of <i>Third Coast Atlas: Prelude to a
