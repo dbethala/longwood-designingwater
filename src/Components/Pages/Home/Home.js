@@ -106,7 +106,7 @@ class Home extends React.Component {
                             <br />
                             Registration open now.<br />
                             <br />
-                            <h4><a className="register link-out" href="/tickets" target="_blank">Register here.</a></h4>
+                           <a className="register link-out" href="/tickets" target="_blank">Register here.</a>
                             </div>
                         </h3>
                     </div>
