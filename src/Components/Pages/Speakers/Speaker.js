@@ -1081,7 +1081,7 @@ class Speaker extends React.Component {
                                         years, Redman has implemented institutional and strategic reforms that have
                                         positioned the Gardens as a premier horticultural, cultural, and educational
                                         institution of the 21st Century, while respecting the values of its founder,
-                                        Pierre S. du Pont. Most recently and notably, Paul led one of the largest projects
+                                        Pierre S. du Pont. Most recently and notably, Redman led one of the largest projects
                                         in Longwood’s history: the $90 million revitalization of the Main Fountain
                                         Garden which reopened in May 2017.
                                     </p>
