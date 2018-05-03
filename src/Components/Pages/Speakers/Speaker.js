@@ -1016,15 +1016,7 @@ class Speaker extends React.Component {
                                 <div className="speaker-desc">
                                     <p className="speakerTitle">P.S. du Pont Fellow, Longwood Gardens</p>
                                     <p>
-                                        As the first P.S. du Pont Fellow, Colvin Randall has spoken all over the world
-                                        about Longwood Gardens and its history, magnificent garden features, the evolution
-                                        of its bucolic landscape, and the performing arts in the Gardens that take place
-                                        throughout the year. He is also the author of three books on Longwood Gardens
-                                        including the centennial publication, <i>Longwood Gardens: 100 Years of Garden
-                                        Splendor</i>. Randall became interested in the history of Longwood Gardens in 1973
-                                        as a Longwood Graduate Fellow researching the story of the garden’s fountains.
-                                        Currently, Randall oversees Longwood’s fireworks displays, the world’s largest
-                                        resident 10,010-pipe organ, and the 62-bell carillon in the Chimes Tower.
+                                    As the first P.S. du Pont Fellow, Colvin Randall has lectured for 40 years about Longwood Gardens, its history, magnificent garden features, the evolution of its bucolic landscape, and the performing arts in the Gardens that take place throughout the year. He is the author of six books and a DVD on Longwood Gardens including the centennial publication, Longwood Gardens: 100 Years of Garden Splendor. Randall received a B. Architectural History degree from the University of Virginia and became interested in the history of Longwood Gardens in 1973 as a Longwood Graduate Fellow researching the story of the Gardens’ fountains. He has visited several hundred European gardens, including all the gardens that inspired Pierre du Pont on his travels.  Randall has designed Longwood’s musical fountain displays since 1980 and helps oversee its fireworks displays, its huge 10,010-pipe organ, and a 62-bell carillon in the Chimes Tower.
                                     </p>
                                 </div>
                             </div>
