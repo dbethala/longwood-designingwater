@@ -11,7 +11,8 @@
 
 #home-intro-1 {
   position: relative;
-  align-content: right;
+  -ms-flex-line-pack: right;
+      align-content: right;
   margin-bottom: 80px;
 }
 
