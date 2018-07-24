@@ -12,8 +12,9 @@
   }
   nav ul {
     float: right;
+    font-family: 'Patron Regular';
   }
-  nav ul li {
+  nav ul li a {
     display: inline;
     font-size: 24px;
     line-height: 34px;
