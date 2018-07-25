@@ -89,8 +89,42 @@ Registration opens May 1
                         <div className="w3-col l1 conted-region" style={{width: 'auto'}}>
                             <h2 className="conted-title"><a name="conted">Continuing Education Units</a></h2>
                             <p className="conted-paragraph">
-                            CEUs for LACES and APLD are being evaluated at this time.
+                            LA CES&trade; approved professional development hours for the Designing Water Symposium
                             </p>
+                            <table id="course-credits" style={{width: '100%'}}>
+                                <tr>
+                                    <th>SESSION</th>
+                                    <th>HOURS</th>
+                                </tr>
+                                <tr>
+                                    <td>Captive Water: About Myths--Past, Present and Now</td>
+                                    <td>1.25</td>
+                                </tr>
+                                <tr>
+                                    <td>Behind the Scenes: Longwood Gardens' Main Fountain Garden</td>
+                                    <td>1.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Pleasure, People and Other Populations</td>
+                                    <td>2.00</td>
+                                </tr>
+                                <tr>
+                                    <td>American Marvel: Longwood's Legacy in the New World</td>
+                                    <td>1.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Shaping Civic Space: Challenges of the Anthropocene</td>
+                                    <td>2.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Technology, Innovation and the Future</td>
+                                    <td style={{borderBottom: '1px solid black'}}>2.00</td>
+                                </tr>
+                                <tr>
+                                    <td>TOTAL FOR ALL SIX SESSIONS</td>
+                                    <td>10.25</td>
+                                </tr>
+                            </table>
                         </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
