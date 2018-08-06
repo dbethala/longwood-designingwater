@@ -93,7 +93,7 @@ Registration opens May 1
                             </p>
                             <table id="course-credits" style={{width: '100%'}}>
                                 <tr>
-                                    <th>SESSION</th>
+                                    <th style={{textAlign:'left'}} >SESSION</th>
                                     <th>HOURS</th>
                                 </tr>
                                 <tr>
