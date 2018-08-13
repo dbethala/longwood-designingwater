@@ -2,10 +2,12 @@ import React, {Component} from 'react';
 import Header from '../../Header/Header.js';
 import Footer from '../../Footer/Footer.js';
 import Title from '../../Title';
-import '../../../Global Stylesheets/w3.css'
-import '../../../Global Stylesheets/lw01_css_032818mm.css'
-import '../../../Global Stylesheets/Global.css'
-import './Register.css'
+import '../../../Global Stylesheets/w3.css';
+import '../../../Global Stylesheets/lw01_css_032818mm.css';
+import '../../../Global Stylesheets/Global.css';
+import './Register.css';
+import apldLogo from '../../Assets/APLD_logo (002).jpg';
+import lacesLogo from '../../Assets/LACES-Horizontal-2color.jpg';
 
 class Register extends React.Component {
     render() {
@@ -93,7 +95,7 @@ Registration opens May 1
                             </p>
                             <table id="course-credits" style={{width: '100%'}}>
                                 <tr>
-                                    <th>SESSION</th>
+                                    <th style={{textAlign:'left'}} >SESSION</th>
                                     <th>HOURS</th>
                                 </tr>
                                 <tr>
@@ -125,6 +127,26 @@ Registration opens May 1
                                     <td>10.25</td>
                                 </tr>
                             </table>
+                        </div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1 col12"></div>
+                    </div>
+                    <div className="w3-row apld-info-row">
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1"></div>
+                        <div className="w3-col l1 tickets-region" style={{width: 'auto'}}>
+                        <p><br/>Attendees are also eligible for 9.5 CEUs from the Association of Professional Landscape Designers</p>
+                        <img class="apld-logo" src={apldLogo} alt="APLD" style={{width: '25%'}}>
+                        </img>
+                        <img class="laces-logo" src={lacesLogo} alt="LACES" style={{width: '50%'}}>
+                        </img>
                         </div>
                         <div className="w3-col l1"></div>
                         <div className="w3-col l1"></div>
